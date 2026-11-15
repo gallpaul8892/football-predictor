@@ -1,0 +1,31 @@
+name: Backtest
+
+# Re-run after changing weights/settings in config.json to see if accuracy improves.
+on:
+  workflow_dispatch:
+  push:
+    paths: ['config.json', 'scripts/lib/model.mjs']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/backtest.mjs
+      - run: |
+          git config user.name "football-bot"
+          git config user.email "football-bot@users.noreply.github.com"
+          git add data/backtest.json
+          git diff --cached --quiet || git commit -m "Backtest $(date -u +%F)"
+          git pull --rebase --autostash
+          git push

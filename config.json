@@ -1,0 +1,28 @@
+{
+  "historyMonths": 24,
+  "daysAhead": 3,
+  "formGames": 10,
+  "venueFormMode": "lastNAtVenue",
+  "drawMargin": 1,
+  "weights": {
+    "form": 1,
+    "venueForm": 1,
+    "position": 1,
+    "h2h": 1
+  },
+  "overUnderLine": 2.5,
+  "backtestMonths": 12,
+  "requestDelayMs": 400,
+  "leagues": [
+    { "key": "premier-league",         "name": "Premier League",                "country": "England",  "slug": "premier-league" },
+    { "key": "championship",           "name": "Championship",                  "country": "England",  "slug": "championship" },
+    { "key": "league-one",             "name": "League One",                    "country": "England",  "slug": "league-one" },
+    { "key": "league-two",             "name": "League Two",                    "country": "England",  "slug": "league-two" },
+    { "key": "national-league",        "name": "National League",               "country": "England",  "slug": "national-league" },
+    { "key": "national-league-ns",     "name": "National League North / South", "country": "England",  "slug": "national-league-north" },
+    { "key": "scottish-premiership",   "name": "Scottish Premiership",          "country": "Scotland", "slug": "scottish-premiership" },
+    { "key": "scottish-championship",  "name": "Scottish Championship",         "country": "Scotland", "slug": "scottish-championship" },
+    { "key": "scottish-league-one",    "name": "Scottish League One",           "country": "Scotland", "slug": "scottish-league-one" },
+    { "key": "scottish-league-two",    "name": "Scottish League Two",           "country": "Scotland", "slug": "scottish-league-two" }
+  ]
+}

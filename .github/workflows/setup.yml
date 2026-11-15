@@ -1,0 +1,33 @@
+name: Setup (initial run)
+
+# Run once by hand: pulls ~2 years of results for every league, backtests the
+# model, and makes the first set of predictions. Safe to re-run any time.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch history, backtest, first predictions
+        run: node scripts/setup.mjs
+      - name: Commit data
+        run: |
+          git config user.name "football-bot"
+          git config user.email "football-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Setup: initial data $(date -u +%F)"
+          git pull --rebase --autostash
+          git push

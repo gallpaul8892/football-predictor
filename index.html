@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Football Predictor — English & Scottish leagues</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap head">
+    <div>
+      <h1>Football Predictor</h1>
+      <p class="sub" id="meta">Loading…</p>
+    </div>
+    <div class="filters">
+      <select id="league"><option value="">All leagues</option></select>
+      <input id="search" type="search" placeholder="Find a team…">
+    </div>
+  </div>
+  <nav class="wrap tabs" id="tabs">
+    <button data-tab="upcoming" class="on">Upcoming</button>
+    <button data-tab="review">Last 7 days</button>
+    <button data-tab="accuracy">Live accuracy</button>
+    <button data-tab="backtest">Backtest</button>
+    <button data-tab="tables">Tables</button>
+    <button data-tab="runs">Run history</button>
+    <button data-tab="about">How it works</button>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section id="upcoming" class="tab on"></section>
+  <section id="review" class="tab"></section>
+  <section id="accuracy" class="tab"></section>
+  <section id="backtest" class="tab"></section>
+  <section id="tables" class="tab"></section>
+  <section id="runs" class="tab"></section>
+  <section id="about" class="tab"></section>
+</main>
+
+<footer class="wrap">Data: BBC Sport scores &amp; fixtures. Predictions are a points model for fun/analysis — not betting advice.</footer>
+<script src="app.js"></script>
+</body>
+</html>
