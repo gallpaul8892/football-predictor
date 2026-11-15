@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T12:53:13.990Z",
+ "generatedAt": "2026-11-15T13:08:36.358Z",
  "today": "2026-11-15",
  "window": [
   "2026-11-15",
@@ -55,6 +55,26 @@
    "key": "scottish-league-two",
    "name": "Scottish League Two",
    "country": "Scotland"
+  },
+  {
+   "key": "german-bundesliga",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  {
+   "key": "italian-serie-a",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  {
+   "key": "spanish-la-liga",
+   "name": "La Liga",
+   "country": "Spain"
+  },
+  {
+   "key": "portuguese-primeira-liga",
+   "name": "Primeira Liga",
+   "country": "Portugal"
   }
  ],
  "settings": {
@@ -157,7 +177,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-15T12:53:13.987Z"
+   "madeAt": "2026-11-15T13:08:36.355Z"
   },
   {
    "id": "s-nzpnyx2jorci5nqicz5abdas",
@@ -229,7 +249,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-15T12:53:13.987Z"
+   "madeAt": "2026-11-15T13:08:36.355Z"
   },
   {
    "id": "s-omc84eeout8r1czn7yhu77ys",
@@ -305,7 +325,7 @@
     "side": "H",
     "gap": 15
    },
-   "madeAt": "2026-11-15T12:53:13.987Z"
+   "madeAt": "2026-11-15T13:08:36.355Z"
   },
   {
    "id": "s-p8w4pxvdmxlln6blyirme2hg",
@@ -377,7 +397,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-15T12:53:13.987Z"
+   "madeAt": "2026-11-15T13:08:36.355Z"
   },
   {
    "id": "s-pk9z5xpsyrlitj284h6jp638",
@@ -449,7 +469,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-15T12:53:13.988Z"
+   "madeAt": "2026-11-15T13:08:36.355Z"
   }
  ],
  "review": {
