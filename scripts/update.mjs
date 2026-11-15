@@ -6,7 +6,7 @@
 import { pathToFileURL } from 'node:url';
 import { fetchLeague, asResult } from './lib/bbc.mjs';
 import { buildContext, predict, grade, accuracyAll, leagueTable } from './lib/model.mjs';
-import { config, today, addDays, seasonOf, readJSON, writeJSON, listData, loadResults, saveResults, mergeResults, log } from './lib/util.mjs';
+import { config, today, addDays, addMonths, seasonOf, readJSON, writeJSON, listData, loadResults, saveResults, mergeResults, log } from './lib/util.mjs';
 
 const ledgerFile = season => `predictions/${season}.json`;
 
@@ -43,10 +43,17 @@ export async function runUpdate({ skipFetch = false } = {}) {
 
     // Fetch from a week before the last stored result (catches late corrections) or the
     // oldest ungraded prediction, whichever is earlier — capped at 60 days back.
-    const lastDay = results.length ? results.at(-1).ko.slice(0, 10) : addDays(T, -30);
-    const pending = allPreds().filter(p => p.lg === lg.key && !p.result && !p.void).map(p => p.day);
-    let from = [addDays(lastDay, -7), ...pending].sort()[0];
-    if (from < addDays(T, -60)) from = addDays(T, -60);
+    let from;
+    if (!results.length) {
+      // Newly added league: backfill the full history window first.
+      from = addMonths(T, -config.historyMonths);
+      log(`${lg.name}: new league — backfilling ${config.historyMonths} months`);
+    } else {
+      const lastDay = results.at(-1).ko.slice(0, 10);
+      const pending = allPreds().filter(p => p.lg === lg.key && !p.result && !p.void).map(p => p.day);
+      from = [addDays(lastDay, -7), ...pending].sort()[0];
+      if (from < addDays(T, -60)) from = addDays(T, -60);
+    }
 
     log(`${lg.name}: fetching ${from} → ${windowEnd}`);
     let matches;

@@ -36,6 +36,10 @@
     { "key": "scottish-premiership",   "name": "Scottish Premiership",          "country": "Scotland", "slug": "scottish-premiership" },
     { "key": "scottish-championship",  "name": "Scottish Championship",         "country": "Scotland", "slug": "scottish-championship" },
     { "key": "scottish-league-one",    "name": "Scottish League One",           "country": "Scotland", "slug": "scottish-league-one" },
-    { "key": "scottish-league-two",    "name": "Scottish League Two",           "country": "Scotland", "slug": "scottish-league-two" }
+    { "key": "scottish-league-two",    "name": "Scottish League Two",           "country": "Scotland", "slug": "scottish-league-two" },
+    { "key": "german-bundesliga",      "name": "Bundesliga",                    "country": "Germany",  "slug": "german-bundesliga" },
+    { "key": "italian-serie-a",        "name": "Serie A",                       "country": "Italy",    "slug": "italian-serie-a" },
+    { "key": "spanish-la-liga",        "name": "La Liga",                       "country": "Spain",    "slug": "spanish-la-liga" },
+    { "key": "portuguese-primeira-liga", "name": "Primeira Liga",               "country": "Portugal", "slug": "portuguese-primeira-liga" }
   ]
 }

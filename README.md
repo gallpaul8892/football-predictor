@@ -5,7 +5,11 @@ A static GitHub Pages site plus GitHub Actions jobs. The jobs pull scores and fi
 > A browser page on GitHub Pages can't read BBC Sport directly (the browser blocks cross-site requests), so the fetching runs in GitHub Actions and the page shows what the runs saved.
 
 ## Leagues
-Premier League, Championship, League One, League Two, National League, National League North/South · Scottish Premiership, Championship, League One, League Two. Edit `config.json` to add or remove any (the `slug` is the part of the BBC URL, e.g. `bbc.co.uk/sport/football/<slug>/scores-fixtures`).
+- **England:** Premier League, Championship, League One, League Two, National League, National League North/South
+- **Scotland:** Premiership, Championship, League One, League Two
+- **Europe:** German Bundesliga, Italian Serie A, Spanish La Liga, Portuguese Primeira Liga. BBC doesn't have the second tiers for these countries.
+
+If you add a league to `config.json`, the next Update run pulls its 2 years of history by itself. Edit `config.json` to add or remove any (the `slug` is the part of the BBC URL, e.g. `bbc.co.uk/sport/football/<slug>/scores-fixtures`).
 
 ## Getting started
 1. Create a new GitHub repo and push these files to it.
