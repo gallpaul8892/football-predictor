@@ -21,6 +21,7 @@
   <nav class="wrap tabs" id="tabs">
     <button data-tab="upcoming" class="on">Upcoming</button>
     <button data-tab="review">Last 7 days</button>
+    <button data-tab="replay">Replay a date</button>
     <button data-tab="accuracy">Live accuracy</button>
     <button data-tab="backtest">Backtest</button>
     <button data-tab="tables">Tables</button>
@@ -32,6 +33,7 @@
 <main class="wrap">
   <section id="upcoming" class="tab on"></section>
   <section id="review" class="tab"></section>
+  <section id="replay" class="tab"></section>
   <section id="accuracy" class="tab"></section>
   <section id="backtest" class="tab"></section>
   <section id="tables" class="tab"></section>
@@ -41,5 +43,6 @@
 
 <footer class="wrap">Data: BBC Sport scores &amp; fixtures. Predictions are a points model for fun/analysis — not betting advice.</footer>
 <script src="app.js"></script>
+<script type="module" src="replay.js"></script>
 </body>
 </html>

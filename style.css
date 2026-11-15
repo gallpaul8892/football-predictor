@@ -77,3 +77,4 @@ code { background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
   .detail { grid-template-columns: 1fr; }
   .filters { width: 100%; display: grid; grid-template-columns: 1fr 1fr; } .filters > * { min-width: 0; width: 100%; }
 }
+.btn { font: inherit; padding: 7px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--ink); cursor: pointer; }

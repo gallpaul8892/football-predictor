@@ -2,11 +2,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { setConfig } from './model.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 export const DATA = path.join(ROOT, 'data');
 
 export const config = JSON.parse(fs.readFileSync(path.join(ROOT, 'config.json'), 'utf8'));
+setConfig(config);
 
 // ---------- dates ----------
 const ukFmt = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit' });

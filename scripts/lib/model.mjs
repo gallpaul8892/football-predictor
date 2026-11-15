@@ -1,6 +1,14 @@
 // The prediction model: a points system built from recent form, venue form,
 // league position and head-to-head record. Pure functions over stored results.
-import { config, seasonStart } from './util.mjs';
+// No imports so the same file runs in Node and in the browser (Replay tab).
+let config;
+export function setConfig(c) { config = c; }
+export function getConfig() { return config; }
+
+function seasonStart(isoOrYmd) {
+  const y = +isoOrYmd.slice(0, 4), m = +isoOrYmd.slice(5, 7);
+  return `${m >= 7 ? y : y - 1}-07-01`;
+}
 
 /** Build lookup structures from { leagueKey: [results] }. */
 export function buildContext(resultsByLeague) {

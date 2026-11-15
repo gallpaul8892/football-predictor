@@ -39,7 +39,7 @@ function matchCard(p) {
       <span class="team home ${p.pick === 'H' ? 'fav' : ''}"><span class="nm">${esc(p.home.name)}</span><small>${p.home.pos ? ordinal(p.home.pos) : ''} ${form(p.home.form.slice(-5))}</small></span>
       <span class="score"><span class="pts">${p.home.pts} – ${p.away.pts}</span><small>points</small></span>
       <span class="team ${p.pick === 'A' ? 'fav' : ''}"><span class="nm">${esc(p.away.name)}</span><small>${form(p.away.form.slice(-5))} ${p.away.pos ? ordinal(p.away.pos) : ''}</small></span>
-      <span class="pick"><span class="badge ${p.pick}">${esc(pickLabel(p))}</span>${p.thin ? ' <span class="badge thin">little data</span>' : ''}
+      <span class="pick">${p.result ? `<span class="badge ${p.correct ? 'ok' : 'no'}">${p.correct ? '✓' : '✗'} FT ${p.result[0]}–${p.result[1]}</span> ` : ''}<span class="badge ${p.pick}">${esc(pickLabel(p))}</span>${p.thin ? ' <span class="badge thin">little data</span>' : ''}
         <small>margin ${p.margin} · ${p.goals} goals exp. · ${p.over ? 'Over' : 'Under'} ${D.latest.settings.overUnderLine}</small></span>
     </summary>
     <div class="detail"><div><h3>${esc(p.home.name)} (home)</h3>${br(p.home)}</div><div><h3>${esc(p.away.name)} (away)</h3>${br(p.away)}</div>
@@ -195,7 +195,7 @@ function renderAbout() {
   <p class="muted">Not yet included: recent news (injuries, managers) — planned as a later AI step.</p></div>`;
 }
 
-function renderAll() { renderUpcoming(); renderReview(); renderAccuracy(); renderTables(); renderRuns(); renderAbout(); }
+function renderAll() { if ($('#replay').classList.contains('on')) window.renderReplay?.(); renderUpcoming(); renderReview(); renderAccuracy(); renderTables(); renderRuns(); renderAbout(); }
 
 // ---------------- wiring ----------------
 document.addEventListener('click', e => {
@@ -203,7 +203,7 @@ document.addEventListener('click', e => {
   if (t) {
     document.querySelectorAll('#tabs button, .tab').forEach(x => x.classList.remove('on'));
     t.classList.add('on'); $('#' + t.dataset.tab).classList.add('on');
-    history.replaceState(null, '', '#' + t.dataset.tab);
+    if (!location.hash.startsWith('#' + t.dataset.tab)) history.replaceState(null, '', '#' + t.dataset.tab);
   }
   const th = e.target.closest('th[data-key]');
   if (th) {
@@ -225,6 +225,6 @@ $('#search').addEventListener('input', e => { state.q = e.target.value; renderAl
     $('#meta').textContent = `English & Scottish leagues · updated ${new Date(latest.generatedAt).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' })}`;
   } else $('#meta').textContent = 'No data yet';
   renderAll();
-  const h = location.hash.slice(1);
+  const h = location.hash.slice(1).split('=')[0];
   if (h && $(`#tabs button[data-tab="${h}"]`)) $(`#tabs button[data-tab="${h}"]`).click();
 })();

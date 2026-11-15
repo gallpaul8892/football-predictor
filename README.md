@@ -19,6 +19,7 @@ Premier League, Championship, League One, League Two, National League, National 
 |---|---|---|
 | Setup | `scripts/setup.mjs` | Pulls all results for the last `historyMonths` (24), then runs the backtest and an update |
 | Update | `scripts/update.mjs` | Pulls only the new results since the last stored one, grades past predictions, predicts fixtures for today + the next `daysAhead` (3) days, and writes the 7-day review, accuracy, tables and a run log |
+| Replay | `scripts/replay.mjs [date] [days]` | Shows what the model would have predicted on a past date (using only earlier results) vs what happened. The site's **Replay a date** tab does the same in the browser |
 | Backtest | `scripts/backtest.mjs` | Replays the model over the last `backtestMonths` (12) of results, using only data from before each kick-off. Runs on its own when `config.json` changes |
 
 ## The model (`scripts/lib/model.mjs`)
