@@ -5,7 +5,7 @@
 // 4. Write the weekly review, per-team accuracy, league tables and a run log into data/.
 import { pathToFileURL } from 'node:url';
 import { fetchLeague, asResult } from './lib/bbc.mjs';
-import { buildContext, predict, grade, accuracy, leagueTable } from './lib/model.mjs';
+import { buildContext, predict, grade, accuracyAll, leagueTable } from './lib/model.mjs';
 import { config, today, addDays, seasonOf, readJSON, writeJSON, listData, loadResults, saveResults, mergeResults, log } from './lib/util.mjs';
 
 const ledgerFile = season => `predictions/${season}.json`;
@@ -96,19 +96,21 @@ export async function runUpdate({ skipFetch = false } = {}) {
 
   // ---- accuracy ----
   const gradedAll = allPreds().filter(p => p.result && !p.void);
-  const acc = accuracy(gradedAll);
+  const acc = accuracyAll(gradedAll);
   acc.generatedAt = new Date().toISOString();
   writeJSON('accuracy.json', acc);
 
   // ---- review of the previous 7 days ----
   const from7 = addDays(T, -7), to7 = addDays(T, -1);
   const week = gradedAll.filter(p => p.day >= from7 && p.day <= to7).sort((a, b) => a.ko.localeCompare(b.ko));
-  const weekAcc = accuracy(week);
+  const weekAcc = accuracyAll(week);
   const review = {
     from: from7, to: to7,
     summary: weekAcc.overall,
+    tuned: weekAcc.tuned.overall,
+    bankers: weekAcc.bankers.overall,
     byLeague: weekAcc.byLeague,
-    matches: week.map(p => ({ id: p.id, lg: p.lg, day: p.day, home: p.home.name, away: p.away.name, pick: p.pick, margin: p.margin, result: p.result, outcome: p.outcome, correct: p.correct, over: p.over, ouCorrect: p.ouCorrect })),
+    matches: week.map(p => ({ id: p.id, lg: p.lg, day: p.day, home: p.home.name, away: p.away.name, pick: p.pick, margin: p.margin, result: p.result, outcome: p.outcome, correct: p.correct, over: p.over, ouCorrect: p.ouCorrect, tuned: p.tuned && { pick: p.tuned.pick, margin: p.tuned.margin, correct: p.tuned.correct }, banker: p.banker })),
   };
 
   // ---- current league tables ----
@@ -126,10 +128,12 @@ export async function runUpdate({ skipFetch = false } = {}) {
     today: T,
     window: [T, windowEnd],
     leagues: config.leagues.map(({ key, name, country }) => ({ key, name, country })),
-    settings: { formGames: config.formGames, venueFormMode: config.venueFormMode, drawMargin: config.drawMargin, weights: config.weights, overUnderLine: config.overUnderLine },
+    settings: { formGames: config.formGames, venueFormMode: config.venueFormMode, drawMargin: config.drawMargin, weights: config.weights, overUnderLine: config.overUnderLine, tuned: config.tuned, bankers: config.bankers },
     upcoming: allUpcoming,
     review,
     overall: acc.overall,
+    overallTuned: acc.tuned.overall,
+    overallBankers: acc.bankers.overall,
   });
 
   // ---- run log (checked into the repo) ----
@@ -137,8 +141,8 @@ export async function runUpdate({ skipFetch = false } = {}) {
     date: T, at: new Date().toISOString(),
     newResults, graded, predicted: upcoming.length,
     totalResults: Object.values(resultsByLeague).reduce((s, l) => s + l.length, 0),
-    week: { n: review.summary.n, correct: review.summary.correct, pct: review.summary.pct, ouPct: review.summary.ouPct },
-    overall: { n: acc.overall.n, pct: acc.overall.pct, ouPct: acc.overall.ouPct },
+    week: { n: review.summary.n, correct: review.summary.correct, pct: review.summary.pct, ouPct: review.summary.ouPct, tunedPct: review.tuned.pct, bankersN: review.bankers.n, bankersPct: review.bankers.pct },
+    overall: { n: acc.overall.n, pct: acc.overall.pct, ouPct: acc.overall.ouPct, tunedPct: acc.tuned.overall.pct, bankersN: acc.bankers.overall.n, bankersPct: acc.bankers.overall.pct },
   };
   writeJSON(`runs/${T}.json`, { ...run, review, predictions: upcoming });
   const index = readJSON('runs/index.json', []).filter(r => r.date !== T);
@@ -147,7 +151,8 @@ export async function runUpdate({ skipFetch = false } = {}) {
   writeJSON('runs/index.json', index);
 
   log(`\nRun ${T}: ${newResults} new results, ${graded} predictions graded, ${upcoming.length} fixtures predicted.`);
-  log(`Last 7 days: ${review.summary.correct}/${review.summary.n} correct (${review.summary.pct ?? '–'}%). All-time: ${acc.overall.pct ?? '–'}% over ${acc.overall.n}.`);
+  log(`Last 7 days: original ${review.summary.pct ?? '–'}% (${review.summary.n}), tuned ${review.tuned.pct ?? '–'}%, bankers ${review.bankers.pct ?? '–'}% (${review.bankers.n}).`);
+  log(`All-time:    original ${acc.overall.pct ?? '–'}% (${acc.overall.n}), tuned ${acc.tuned.overall.pct ?? '–'}%, bankers ${acc.bankers.overall.pct ?? '–'}% (${acc.bankers.overall.n}).`);
   return run;
 }
 

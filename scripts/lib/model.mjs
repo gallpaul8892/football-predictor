@@ -102,8 +102,8 @@ function goalStats(recent) {
 const formString = recent => recent.map(r => (r.gf > r.ga ? 'W' : r.gf < r.ga ? 'L' : 'D')).join('');
 
 /** Score one side of a fixture. venue = 'H' | 'A'. */
-function scoreSide(ctx, team, opp, venue, lg, ko) {
-  const N = config.formGames, w = config.weights;
+function scoreSide(ctx, team, opp, venue, lg, ko, P = config) {
+  const N = P.formGames, w = P.weights;
   const past = history(ctx, team, ko);
   const recent = past.slice(-N);
 
@@ -111,7 +111,7 @@ function scoreSide(ctx, team, opp, venue, lg, ko) {
   const formWins = recent.filter(won).length;
 
   // 2. +1 per win at this venue (home wins if at home, away wins if away)
-  const venueGames = config.venueFormMode === 'withinLastN'
+  const venueGames = P.venueFormMode === 'withinLastN'
     ? recent.filter(r => r.venue === venue)
     : past.filter(r => r.venue === venue).slice(-N);
   const venueWins = venueGames.filter(won).length;
@@ -127,7 +127,9 @@ function scoreSide(ctx, team, opp, venue, lg, ko) {
   const h2hWins = h2h.filter(won).length;
 
   const breakdown = { form: formWins, venueForm: venueWins, position: placesAbove, h2h: h2hWins };
-  const points = breakdown.form * w.form + breakdown.venueForm * w.venueForm + breakdown.position * w.position + breakdown.h2h * w.h2h;
+  const home = venue === 'H' ? (P.homeBonus || 0) : 0;
+  if (home) breakdown.home = home;
+  const points = breakdown.form * w.form + breakdown.venueForm * w.venueForm + breakdown.position * w.position + breakdown.h2h * w.h2h + home;
 
   return {
     id: team,
@@ -159,6 +161,17 @@ export function predict(ctx, fx) {
   const total = xgH + xgA;
 
   const r2 = x => Math.round(x * 100) / 100;
+
+  // Tuned model (same factors, weights found by backtesting) + Bankers built on it.
+  let tuned, banker;
+  if (config.tuned) {
+    const T = config.tuned;
+    const th = scoreSide(ctx, fx.h, fx.a, 'H', fx.lg, fx.ko, T), ta = scoreSide(ctx, fx.a, fx.h, 'A', fx.lg, fx.ko, T);
+    const td = th.points - ta.points;
+    const tp = td > T.drawMargin ? 'H' : td < -T.drawMargin ? 'A' : 'D';
+    tuned = { pick: tp, margin: r2(Math.abs(td)), pts: [r2(th.points), r2(ta.points)], br: [th.breakdown, ta.breakdown] };
+    if (config.bankers && tp !== 'D' && Math.abs(td) >= config.bankers.minGap) banker = { side: tp, gap: r2(Math.abs(td)) };
+  }
   return {
     id: fx.id, lg: fx.lg, ko: fx.ko, day: fx.day,
     home: { id: home.id, name: home.name, pts: home.points, br: home.breakdown, form: home.form, venue: home.venueRecord, pos: home.pos, gf: r2(home.goals.avgFor), ga: r2(home.goals.avgAgainst) },
@@ -170,13 +183,33 @@ export function predict(ctx, fx) {
     goals: r2(total),
     over: total > config.overUnderLine,
     thin: Math.min(home.gamesUsed, away.gamesUsed) < Math.min(5, config.formGames),
+    tuned,
+    banker,
   };
 }
 
 /** Attach an actual result to a prediction. */
 export function grade(pred, hs, as) {
   const outcome = hs > as ? 'H' : hs < as ? 'A' : 'D';
-  return { ...pred, result: [hs, as], outcome, correct: pred.pick === outcome, ouCorrect: (hs + as > config.overUnderLine) === pred.over };
+  const g = { ...pred, result: [hs, as], outcome, correct: pred.pick === outcome, ouCorrect: (hs + as > config.overUnderLine) === pred.over };
+  if (pred.tuned) g.tuned = { ...pred.tuned, correct: pred.tuned.pick === outcome };
+  if (pred.banker) g.banker = { ...pred.banker, correct: outcome === pred.banker.side || outcome === 'D' };
+  return g;
+}
+
+/** Views of graded predictions for each model, so accuracy() can score them the same way. */
+export const views = {
+  original: list => list,
+  tuned: list => list.filter(p => p.tuned).map(p => ({ ...p, pick: p.tuned.pick, margin: p.tuned.margin, correct: p.tuned.correct })),
+  bankers: list => list.filter(p => p.banker).map(p => ({ ...p, pick: p.banker.side, margin: p.banker.gap, correct: p.banker.correct })),
+};
+
+/** Accuracy for the original model, plus .tuned and .bankers sub-reports. */
+export function accuracyAll(graded) {
+  const out = accuracy(views.original(graded));
+  out.tuned = accuracy(views.tuned(graded));
+  out.bankers = accuracy(views.bankers(graded));
+  return out;
 }
 
 // ---------- accuracy ----------

@@ -10,7 +10,20 @@
     "position": 1,
     "h2h": 1
   },
+  "homeBonus": 0,
   "overUnderLine": 2.5,
+  "tuned": {
+    "_note": "Weights found by backtesting Nov 2025 - Oct 2026 (47.5% vs 44.9% for the original rules)",
+    "formGames": 5,
+    "venueFormMode": "lastNAtVenue",
+    "weights": { "form": 1, "venueForm": 0, "position": 0.5, "h2h": 0 },
+    "homeBonus": 3,
+    "drawMargin": 0
+  },
+  "bankers": {
+    "_note": "Tuned-model favourites with a points gap of at least minGap; call = favourite wins OR draws (~82% in backtest)",
+    "minGap": 8
+  },
   "backtestMonths": 12,
   "requestDelayMs": 400,
   "leagues": [

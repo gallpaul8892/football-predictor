@@ -33,6 +33,13 @@ Each side gets points. More points = predicted winner. A gap of `drawMargin` (1)
 
 Each factor has a weight in `config.json`, so you can tune them and check the backtest.
 
+## Tuned model and Bankers
+Two extra predictions are made for every fixture next to the original rules:
+- **Tuned model**: the same factors, with weights picked by testing every combination against a year of results. It counts wins in the last 5 games, half a point per league place above the opponent and a +3 home bonus, and it never predicts a draw. Backtest: 47.6% vs 45% for the original rules.
+- **★ Bankers**: games where the tuned model's points gap is 8 or more. The call is "favourite wins *or draws*". About 1 game in 5 qualifies, and these were right 81.6% of the time in the backtest (825 games).
+
+All three are tracked separately on the Accuracy, Backtest, Last 7 days and Replay tabs. The settings are under `tuned` and `bankers` in `config.json`.
+
 ## Data files (`data/`)
 - `results/<league>.json`: every stored result, one per line
 - `predictions/<season>.json`: the predictions ledger. Each fixture keeps its last prediction made before kick-off, and the result and grade are added once it's played

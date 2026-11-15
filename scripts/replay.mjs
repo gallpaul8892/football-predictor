@@ -1,7 +1,7 @@
 // REPLAY a past date: what would the model have predicted (using only results from
 // before kick-off) vs what actually happened?
 // Usage: node scripts/replay.mjs [YYYY-MM-DD] [days]   (default: yesterday, 1 day)
-import { buildContext, predict, grade, accuracy } from './lib/model.mjs';
+import { buildContext, predict, grade, accuracyAll } from './lib/model.mjs';
 import { config, today, addDays, ukDate, loadResults } from './lib/util.mjs';
 
 const from = process.argv[2] || addDays(today(), -1);
@@ -27,7 +27,13 @@ const label = p => (p.pick === 'H' ? 'Home' : p.pick === 'A' ? 'Away' : 'Draw');
 let lg = '';
 for (const p of graded) {
   if (p.lg !== lg) { lg = p.lg; console.log(`\n${names[lg]}`); }
-  console.log(`  ${p.correct ? '✓' : '✗'} ${(p.home.name + ' v ' + p.away.name).padEnd(46)} pts ${String(p.home.pts).padStart(2)}-${String(p.away.pts).padEnd(2)}  pick ${label(p).padEnd(4)}  actual ${p.result[0]}-${p.result[1]}  ${p.ouCorrect ? 'O/U ✓' : 'O/U ✗'}`);
+  const tl = p.tuned ? (p.tuned.pick === 'H' ? 'Home' : p.tuned.pick === 'A' ? 'Away' : 'Draw') : '-';
+  const bk = p.banker ? `  BANKER ${p.banker.side === 'H' ? 'home' : 'away'} win/draw ${p.banker.correct ? '✓' : '✗'}` : '';
+  console.log(`  ${(p.home.name + ' v ' + p.away.name).padEnd(44)} ${p.result[0]}-${p.result[1]}  original ${label(p).padEnd(4)} ${p.correct ? '✓' : '✗'}  tuned ${tl.padEnd(4)} ${p.tuned?.correct ? '✓' : '✗'}  O/U ${p.ouCorrect ? '✓' : '✗'}${bk}`);
 }
-const a = accuracy(graded).overall;
-console.log(`\n${from}${days > 1 ? ' → ' + to : ''}: ${a.correct}/${a.n} results correct (${a.pct}%), over/under ${a.ouCorrect}/${a.ouN} (${a.ouPct}%)`);
+const all = accuracyAll(graded), a = all.overall, t = all.tuned.overall, b = all.bankers.overall;
+console.log(`\n${from}${days > 1 ? ' → ' + to : ''}:`);
+console.log(`  original rules  ${a.correct}/${a.n} (${a.pct}%)`);
+console.log(`  tuned model     ${t.correct}/${t.n} (${t.pct}%)`);
+console.log(`  bankers         ${b.correct}/${b.n} (${b.pct ?? '–'}%)  [favourite wins or draws]`);
+console.log(`  over/under      ${a.ouCorrect}/${a.ouN} (${a.ouPct}%)`);

@@ -1,6 +1,6 @@
 // Replay tab: re-runs the prediction model in the browser for any past date, using only
 // results from before each kick-off, and compares it with what actually happened.
-import { setConfig, buildContext, predict, grade, accuracy } from './scripts/lib/model.mjs';
+import { setConfig, buildContext, predict, grade, accuracyAll } from './scripts/lib/model.mjs';
 
 let ctx = null, allResults = null, loading = null;
 const el = document.getElementById('replay');
@@ -43,10 +43,12 @@ window.renderReplay = async function () {
     }
   const list = filterPreds(graded).sort((a, b) => a.lg.localeCompare(b.lg) || a.ko.localeCompare(b.ko));
   if (!list.length) return shell(`<div class="empty">No results stored for ${fmtDay(chosen)}${state.league || state.q ? ' with this filter' : ''}.</div>`);
-  const a = accuracy(list).overall;
+  const all = accuracyAll(list), a = all.overall, t = all.tuned.overall, b = all.bankers.overall;
   let html = `<div class="stats">
-    <div class="stat"><b>${a.pct}%</b><span>results correct (${a.correct}/${a.n})</span></div>
-    <div class="stat"><b>${a.ouPct}%</b><span>over/under correct (${a.ouCorrect}/${a.ouN})</span></div></div>`;
+    <div class="stat"><b>${a.pct}%</b><span>original rules (${a.correct}/${a.n})</span></div>
+    <div class="stat"><b>${t.pct ?? '–'}%</b><span>tuned model (${t.correct}/${t.n})</span></div>
+    <div class="stat"><b>${b.n ? b.pct + '%' : '–'}</b><span>★ bankers (${b.correct}/${b.n})</span></div>
+    <div class="stat"><b>${a.ouPct}%</b><span>over/under (${a.ouCorrect}/${a.ouN})</span></div></div>`;
   let lg = '';
   for (const p of list) {
     if (p.lg !== lg) { lg = p.lg; html += `<div class="lgname">${esc(LG[lg]?.name || lg)}</div>`; }
