@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T12:38:57.204Z",
+ "generatedAt": "2026-11-15T12:40:01.996Z",
  "today": "2026-11-15",
  "window": [
   "2026-11-15",
@@ -69,7 +69,253 @@
   },
   "overUnderLine": 2.5
  },
- "upcoming": [],
+ "upcoming": [
+  {
+   "id": "s-mfbgsduwxk2lmcrmtgrofmz8",
+   "lg": "national-league-ns",
+   "ko": "2026-11-17T19:45:00Z",
+   "day": "2026-11-17",
+   "home": {
+    "id": "ak5dt76kb6ops1gue1xtxqspg",
+    "name": "Bedford Town",
+    "pts": 15,
+    "br": {
+     "form": 6,
+     "venueForm": 5,
+     "position": 3,
+     "h2h": 1
+    },
+    "form": "WWWWLDLWWL",
+    "venue": "WDDLWWWDWL",
+    "pos": 10,
+    "gf": 1.2,
+    "ga": 1
+   },
+   "away": {
+    "id": "chorley",
+    "name": "Chorley",
+    "pts": 7,
+    "br": {
+     "form": 4,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "DLWLWWLWLL",
+    "venue": "LLDLWDLLWL",
+    "pos": 13,
+    "gf": 1.7,
+    "ga": 1.9
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 8,
+   "xg": [
+    1.55,
+    1.35
+   ],
+   "goals": 2.9,
+   "over": true,
+   "thin": false,
+   "madeAt": "2026-11-15T12:40:01.994Z"
+  },
+  {
+   "id": "s-nzpnyx2jorci5nqicz5abdas",
+   "lg": "national-league-ns",
+   "ko": "2026-11-17T19:45:00Z",
+   "day": "2026-11-17",
+   "home": {
+    "id": "oxford-city",
+    "name": "Oxford City",
+    "pts": 12,
+    "br": {
+     "form": 5,
+     "venueForm": 5,
+     "position": 1,
+     "h2h": 1
+    },
+    "form": "WWLWDWDWLD",
+    "venue": "WWLWDLWDWL",
+    "pos": 3,
+    "gf": 1.8,
+    "ga": 0.7
+   },
+   "away": {
+    "id": "macclesfield-town",
+    "name": "Macclesfield",
+    "pts": 11,
+    "br": {
+     "form": 6,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "WWWLDDWWLW",
+    "venue": "WLLLWDWLDW",
+    "pos": 4,
+    "gf": 1.8,
+    "ga": 1
+   },
+   "h2hPlayed": 2,
+   "pick": "D",
+   "margin": 1,
+   "xg": [
+    1.4,
+    1.25
+   ],
+   "goals": 2.65,
+   "over": true,
+   "thin": false,
+   "madeAt": "2026-11-15T12:40:01.994Z"
+  },
+  {
+   "id": "s-omc84eeout8r1czn7yhu77ys",
+   "lg": "national-league-ns",
+   "ko": "2026-11-17T19:45:00Z",
+   "day": "2026-11-17",
+   "home": {
+    "id": "south-shields",
+    "name": "South Shields",
+    "pts": 31,
+    "br": {
+     "form": 7,
+     "venueForm": 6,
+     "position": 18,
+     "h2h": 0
+    },
+    "form": "WWLWLLWWWW",
+    "venue": "DWLWDDWWWW",
+    "pos": 1,
+    "gf": 2.4,
+    "ga": 1.7
+   },
+   "away": {
+    "id": "1e0ypoakip3j8mypq2ltkk3w",
+    "name": "Harborough Town",
+    "pts": 2,
+    "br": {
+     "form": 2,
+     "venueForm": 0,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LWLLDLWDLD",
+    "venue": "DDLLLLD",
+    "pos": 19,
+    "gf": 0.6,
+    "ga": 1.3
+   },
+   "h2hPlayed": 0,
+   "pick": "H",
+   "margin": 29,
+   "xg": [
+    1.85,
+    1.15
+   ],
+   "goals": 3,
+   "over": true,
+   "thin": false,
+   "madeAt": "2026-11-15T12:40:01.994Z"
+  },
+  {
+   "id": "s-p8w4pxvdmxlln6blyirme2hg",
+   "lg": "national-league-ns",
+   "ko": "2026-11-17T19:45:00Z",
+   "day": "2026-11-17",
+   "home": {
+    "id": "epp5e0tdrfg221sjkvhtza1y7",
+    "name": "Spalding United",
+    "pts": 11,
+    "br": {
+     "form": 4,
+     "venueForm": 4,
+     "position": 3,
+     "h2h": 0
+    },
+    "form": "DWWWLLLDWL",
+    "venue": "LDWWWDW",
+    "pos": 12,
+    "gf": 1.5,
+    "ga": 1.4
+   },
+   "away": {
+    "id": "azomsqg7on2zlrav2rju7h1xr",
+    "name": "Hebburn Town",
+    "pts": 2,
+    "br": {
+     "form": 1,
+     "venueForm": 1,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LDLWDLLDDL",
+    "venue": "DWLLDDL",
+    "pos": 15,
+    "gf": 0.9,
+    "ga": 2.3
+   },
+   "h2hPlayed": 0,
+   "pick": "H",
+   "margin": 9,
+   "xg": [
+    1.9,
+    1.15
+   ],
+   "goals": 3.05,
+   "over": true,
+   "thin": false,
+   "madeAt": "2026-11-15T12:40:01.994Z"
+  },
+  {
+   "id": "s-pk9z5xpsyrlitj284h6jp638",
+   "lg": "national-league-ns",
+   "ko": "2026-11-17T19:45:00Z",
+   "day": "2026-11-17",
+   "home": {
+    "id": "spennymoor-town",
+    "name": "Spennymoor Town",
+    "pts": 3,
+    "br": {
+     "form": 1,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "DLLDDLLLWL",
+    "venue": "DLDWLDLDLW",
+    "pos": 24,
+    "gf": 0.9,
+    "ga": 1.7
+   },
+   "away": {
+    "id": "chester",
+    "name": "Chester",
+    "pts": 28,
+    "br": {
+     "form": 4,
+     "venueForm": 5,
+     "position": 16,
+     "h2h": 3
+    },
+    "form": "LDLLWWLWLW",
+    "venue": "WWLWWDDLLW",
+    "pos": 8,
+    "gf": 1.1,
+    "ga": 1.2
+   },
+   "h2hPlayed": 3,
+   "pick": "A",
+   "margin": 25,
+   "xg": [
+    1.05,
+    1.4
+   ],
+   "goals": 2.45,
+   "over": false,
+   "thin": false,
+   "madeAt": "2026-11-15T12:40:01.994Z"
+  }
+ ],
  "review": {
   "from": "2026-11-08",
   "to": "2026-11-14",
