@@ -1,0 +1,34 @@
+{
+ "date": "2026-11-15",
+ "at": "2026-11-15T12:38:57.204Z",
+ "newResults": 0,
+ "graded": 0,
+ "predicted": 0,
+ "totalResults": 8064,
+ "week": {
+  "n": 0,
+  "correct": 0,
+  "pct": null,
+  "ouPct": null
+ },
+ "overall": {
+  "n": 0,
+  "pct": null,
+  "ouPct": null
+ },
+ "review": {
+  "from": "2026-11-08",
+  "to": "2026-11-14",
+  "summary": {
+   "n": 0,
+   "correct": 0,
+   "ouN": 0,
+   "ouCorrect": 0,
+   "pct": null,
+   "ouPct": null
+  },
+  "byLeague": {},
+  "matches": []
+ },
+ "predictions": []
+}

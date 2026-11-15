@@ -1,0 +1,95 @@
+{
+ "generatedAt": "2026-11-15T12:38:57.204Z",
+ "today": "2026-11-15",
+ "window": [
+  "2026-11-15",
+  "2026-11-18"
+ ],
+ "leagues": [
+  {
+   "key": "premier-league",
+   "name": "Premier League",
+   "country": "England"
+  },
+  {
+   "key": "championship",
+   "name": "Championship",
+   "country": "England"
+  },
+  {
+   "key": "league-one",
+   "name": "League One",
+   "country": "England"
+  },
+  {
+   "key": "league-two",
+   "name": "League Two",
+   "country": "England"
+  },
+  {
+   "key": "national-league",
+   "name": "National League",
+   "country": "England"
+  },
+  {
+   "key": "national-league-ns",
+   "name": "National League North / South",
+   "country": "England"
+  },
+  {
+   "key": "scottish-premiership",
+   "name": "Scottish Premiership",
+   "country": "Scotland"
+  },
+  {
+   "key": "scottish-championship",
+   "name": "Scottish Championship",
+   "country": "Scotland"
+  },
+  {
+   "key": "scottish-league-one",
+   "name": "Scottish League One",
+   "country": "Scotland"
+  },
+  {
+   "key": "scottish-league-two",
+   "name": "Scottish League Two",
+   "country": "Scotland"
+  }
+ ],
+ "settings": {
+  "formGames": 10,
+  "venueFormMode": "lastNAtVenue",
+  "drawMargin": 1,
+  "weights": {
+   "form": 1,
+   "venueForm": 1,
+   "position": 1,
+   "h2h": 1
+  },
+  "overUnderLine": 2.5
+ },
+ "upcoming": [],
+ "review": {
+  "from": "2026-11-08",
+  "to": "2026-11-14",
+  "summary": {
+   "n": 0,
+   "correct": 0,
+   "ouN": 0,
+   "ouCorrect": 0,
+   "pct": null,
+   "ouPct": null
+  },
+  "byLeague": {},
+  "matches": []
+ },
+ "overall": {
+  "n": 0,
+  "correct": 0,
+  "ouN": 0,
+  "ouCorrect": 0,
+  "pct": null,
+  "ouPct": null
+ }
+}
