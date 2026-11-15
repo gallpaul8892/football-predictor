@@ -82,3 +82,21 @@ code { background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
 .bankers { margin: 8px 0 18px; }
 .bankers h3 { color: #7a5a00; }
 .pick small b { color: var(--ink); }
+/* nav links + content pages */
+.tabs a { color: var(--muted); padding: 8px 12px; border-bottom: 3px solid transparent; text-decoration: none; white-space: nowrap; }
+.tabs a.on { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+.tabs a:hover, .tabs button:hover { color: var(--ink); }
+h1 a.home { color: inherit; text-decoration: none; }
+a { color: var(--accent); }
+footer a { color: var(--muted); }
+.page { max-width: 780px; padding-bottom: 30px; }
+.page h2 { font-size: 26px; margin-top: 28px; }
+.page h3 { margin-top: 28px; }
+.page p, .page li { line-height: 1.65; }
+.lead { font-size: 17px; }
+.facts { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); }
+.facts th, .facts td { text-align: left; vertical-align: top; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.facts th { width: 170px; white-space: nowrap; }
+.facts tr:last-child th, .facts tr:last-child td { border-bottom: 0; }
+.example { background: var(--accent-soft); border-radius: var(--radius); padding: 14px 16px; margin: 14px 0; line-height: 1.6; }
+@media (max-width: 720px) { .facts th { width: auto; white-space: normal; } }

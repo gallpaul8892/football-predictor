@@ -224,7 +224,7 @@ function renderAbout() {
   <p class="muted">Not yet included: recent news (injuries, managers) — planned as a later AI step.</p></div>`;
 }
 
-function renderAll() { if ($('#replay').classList.contains('on')) window.renderReplay?.(); renderUpcoming(); renderReview(); renderAccuracy(); renderTables(); renderRuns(); renderAbout(); }
+function renderAll() { if ($('#replay').classList.contains('on')) window.renderReplay?.(); renderUpcoming(); renderReview(); renderAccuracy(); renderTables(); renderRuns(); }
 
 // ---------------- wiring ----------------
 document.addEventListener('click', e => {

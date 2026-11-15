@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How the model works — Football Predictor</title>
+<meta name="description" content="How Football Predictor rates every match: recent form, home and away form, league position and head-to-head, plus how accuracy is measured.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap head">
+    <div><h1><a href="./" class="home">Football Predictor</a></h1><p class="sub">English, Scottish &amp; European leagues</p></div>
+  </div>
+  <nav class="wrap tabs">
+    <a href="./">Predictions</a>
+    <a href="how-it-works.html" class="on">How the model works</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap page">
+  <h2>How the model works</h2>
+  <p class="lead">Every match gets a score for each team, built from things anyone can check: how they've been playing, where they sit in the table, and how they've done against this opponent before. The team with the higher score is the predicted winner. There's no hidden magic and no bookmaker odds involved. It's a transparent points system, and the site tracks openly how often it's right.</p>
+
+  <h3>Where the data comes from</h3>
+  <p>Results and fixtures come from BBC Sport's scores and fixtures pages. When the site was set up it collected around two years of results for each league. Since then, a scheduled job runs twice a day: in the morning it predicts the next few days of fixtures, and late in the evening it collects the day's results and marks earlier predictions right or wrong. Everything the job produces is saved, so the full history of predictions can be checked.</p>
+  <p>League tables are worked out from those stored results rather than copied from anywhere, so they won't include points deductions.</p>
+
+  <h3>The original rules</h3>
+  <p>These are the rules the project started with. Each team earns points for:</p>
+  <table class="facts">
+    <tr><th>Recent form</th><td>+1 for every win in their last 10 league games.</td></tr>
+    <tr><th>Home or away form</th><td>+1 for every win in their last 10 games at the same venue. The home side is judged on home games and the away side on away games, because plenty of teams are strong at home and poor on the road.</td></tr>
+    <tr><th>League position</th><td>+1 for every place they sit above their opponent this season.</td></tr>
+    <tr><th>Head-to-head</th><td>+1 for every previous win against this opponent in the stored results.</td></tr>
+  </table>
+  <p>If the two totals are within one point of each other, the prediction is a draw.</p>
+
+  <div class="example">
+    <b>Example.</b> A home side has won 6 of its last 10, 4 of its last 10 at home, sits 5 places above its opponent and has beaten them twice before: 6 + 4 + 5 + 2 = <b>17</b>. The away side has won 3 of its last 10, 1 of its last 10 away, isn't above the opponent and has one previous win: 3 + 1 + 0 + 1 = <b>5</b>. The gap is 12, so it's a home win, and a fairly confident one.
+  </div>
+
+  <h3>The tuned model</h3>
+  <p>Once a year of results was stored, every reasonable combination of weights was tested against it, to see which version of the rules would have been right most often. Each match was predicted using only results from before kick-off. The best version turned out simpler than the original:</p>
+  <ul>
+    <li>Only the last <b>5</b> games count for form. Recent form matters more than form from two months ago.</li>
+    <li>Each league place above the opponent is worth <b>half</b> a point.</li>
+    <li>The home team gets a flat <b>+3</b>. Home advantage was the single biggest factor in the data.</li>
+    <li>Home/away form and head-to-head stopped adding anything once those three were in.</li>
+    <li>It never predicts a draw. Around a quarter of matches end level, but the data gave no reliable way to spot which ones.</li>
+  </ul>
+  <p>Both versions run side by side on every fixture, so you can see which one does better week by week.</p>
+
+  <h3>Strong favourites ("Bankers")</h3>
+  <p>When the tuned model gives one team a lead of 8 points or more, the match is flagged as a strong favourite. For these, the call is that the favourite <i>won't lose</i>: they win or draw. That's a much narrower question than picking the exact result, and it's the area where a simple model can be right most of the time. Roughly one match in five qualifies.</p>
+
+  <h3>Goals</h3>
+  <p>Each side's expected goals is the average of its own scoring rate and the opponent's conceding rate over the last 10 games. Add the two together and you get the match total. Above 2.5 is marked <b>Over</b>, below is <b>Under</b>.</p>
+
+  <h3>How accuracy is measured</h3>
+  <p>Three separate records are kept:</p>
+  <ul>
+    <li><b>Live accuracy</b>: every prediction the site actually published before kick-off, graded once the result came in. This is the honest scorecard, and it grows every week.</li>
+    <li><b>Backtest</b>: the model replayed over the past year, with each match predicted using only information available before it was played. This gives a fair read on the model from day one.</li>
+    <li><b>Replay a date</b>: pick any past day and see what the model would have said next to what happened.</li>
+  </ul>
+  <p>It's worth comparing against the simplest possible guess: "the home team wins" is right about 44% of the time. A model that can't beat that isn't adding much.</p>
+
+  <h3>Current numbers</h3>
+  <div id="live-numbers" class="stats"><div class="stat"><b>…</b><span>loading</span></div></div>
+
+  <h3>What it doesn't know</h3>
+  <ul>
+    <li><b>Team news.</b> Injuries, suspensions, a new manager or a cup game in midweek don't show up in results until after the fact.</li>
+    <li><b>Draws.</b> They're common and hard to predict for any model.</li>
+    <li><b>Early-season games.</b> With only a few games played, the table and form figures mean less. These matches are labelled "little data".</li>
+    <li><b>Luck.</b> Football is low-scoring, so one deflection can flip a result. Even professional models are wrong on a large share of matches.</li>
+  </ul>
+  <p class="muted">The predictions are statistics, shared for interest and discussion. They aren't betting advice.</p>
+</main>
+
+<footer class="wrap"><a href="./">Predictions</a> · <a href="how-it-works.html">How the model works</a> · <a href="about.html">About</a><br>Data: BBC Sport scores &amp; fixtures.</footer>
+
+<script>
+(async () => {
+  const el = document.getElementById('live-numbers');
+  const get = async p => { try { const r = await fetch('data/' + p + '?v=' + Date.now()); return r.ok ? r.json() : null; } catch { return null; } };
+  const [bt, acc] = await Promise.all([get('backtest.json'), get('accuracy.json')]);
+  const pct = v => (v === null || v === undefined ? '–' : v + '%');
+  const card = (v, t) => `<div class="stat"><b>${v}</b><span>${t}</span></div>`;
+  if (!bt) { el.innerHTML = card('–', 'no data yet'); return; }
+  el.innerHTML =
+    card(pct(bt.overall?.pct), `original rules, backtest (${bt.overall?.n ?? 0} games)`) +
+    card(pct(bt.tuned?.overall?.pct), 'tuned model, backtest') +
+    card(pct(bt.bankers?.overall?.pct), `strong favourites win or draw (${bt.bankers?.overall?.n ?? 0} games)`) +
+    card(pct(acc?.overall?.pct), `live record so far (${acc?.overall?.n ?? 0} games)`);
+})();
+</script>
+</body>
+</html>
