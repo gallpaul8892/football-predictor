@@ -33,7 +33,7 @@ export function addMonths(ymd, n) {
   return d.toISOString().slice(0, 10);
 }
 
-function lastDayOfMonth(ymd) {
+export function monthEnd(ymd) {
   const d = new Date(ymd.slice(0, 7) + '-01T12:00:00Z');
   d.setUTCMonth(d.getUTCMonth() + 1);
   d.setUTCDate(0);
@@ -45,7 +45,7 @@ export function monthChunks(start, end) {
   const out = [];
   let s = start;
   while (s <= end) {
-    const e = lastDayOfMonth(s) < end ? lastDayOfMonth(s) : end;
+    const e = monthEnd(s) < end ? monthEnd(s) : end;
     out.push([s, e]);
     s = addDays(e, 1);
   }

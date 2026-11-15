@@ -1,6 +1,6 @@
 // Fetches scores & fixtures from the JSON feed that powers
 // https://www.bbc.co.uk/sport/football/<league>/scores-fixtures/<YYYY-MM>
-import { config, monthChunks, sleep, today, ukDate } from './util.mjs';
+import { config, monthChunks, monthEnd, sleep, today, ukDate } from './util.mjs';
 
 const BASE = 'https://web-cdn.api.bbci.co.uk/wc-poll-data/container/sport-data-scores-fixtures';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
@@ -26,12 +26,17 @@ async function getJSON(url, tries = 4) {
 
 /** Raw BBC events for one league between two dates (any span; split by month internally). */
 export async function fetchEvents(slug, start, end) {
+  // The feed rejects (HTTP 400) many partial-month ranges, so always ask for whole
+  // calendar months and keep only the days we want.
   const events = [];
   for (const [s, e] of monthChunks(start, end)) {
-    const json = await getJSON(feedUrl(slug, s, e));
+    const json = await getJSON(feedUrl(slug, s.slice(0, 8) + '01', monthEnd(s)));
     for (const g of json.eventGroups || [])
       for (const sg of g.secondaryGroups || [])
-        events.push(...(sg.events || []));
+        for (const ev of sg.events || []) {
+          const day = ukDate(ev.startDateTime || ev.date?.iso || s);
+          if (day >= s && day <= e) events.push(ev);
+        }
     await sleep(+(process.env.REQUEST_DELAY_MS ?? config.requestDelayMs));
   }
   return events;
