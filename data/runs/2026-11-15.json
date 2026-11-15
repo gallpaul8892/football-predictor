@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "at": "2026-11-15T12:40:01.997Z",
+ "at": "2026-11-15T12:53:13.990Z",
  "newResults": 0,
  "graded": 0,
  "predicted": 5,
@@ -9,17 +9,39 @@
   "n": 0,
   "correct": 0,
   "pct": null,
-  "ouPct": null
+  "ouPct": null,
+  "tunedPct": null,
+  "bankersN": 0,
+  "bankersPct": null
  },
  "overall": {
   "n": 0,
   "pct": null,
-  "ouPct": null
+  "ouPct": null,
+  "tunedPct": null,
+  "bankersN": 0,
+  "bankersPct": null
  },
  "review": {
   "from": "2026-11-08",
   "to": "2026-11-14",
   "summary": {
+   "n": 0,
+   "correct": 0,
+   "ouN": 0,
+   "ouCorrect": 0,
+   "pct": null,
+   "ouPct": null
+  },
+  "tuned": {
+   "n": 0,
+   "correct": 0,
+   "ouN": 0,
+   "ouCorrect": 0,
+   "pct": null,
+   "ouPct": null
+  },
+  "bankers": {
    "n": 0,
    "correct": 0,
    "ouN": 0,
@@ -78,7 +100,30 @@
    "goals": 2.9,
    "over": true,
    "thin": false,
-   "madeAt": "2026-11-15T12:40:01.994Z"
+   "tuned": {
+    "pick": "H",
+    "margin": 4.5,
+    "pts": [
+     6.5,
+     2
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 3,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-15T12:53:13.987Z"
   },
   {
    "id": "s-nzpnyx2jorci5nqicz5abdas",
@@ -127,7 +172,30 @@
    "goals": 2.65,
    "over": true,
    "thin": false,
-   "madeAt": "2026-11-15T12:40:01.994Z"
+   "tuned": {
+    "pick": "H",
+    "margin": 2.5,
+    "pts": [
+     5.5,
+     3
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 1,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-15T12:53:13.987Z"
   },
   {
    "id": "s-omc84eeout8r1czn7yhu77ys",
@@ -176,7 +244,34 @@
    "goals": 3,
    "over": true,
    "thin": false,
-   "madeAt": "2026-11-15T12:40:01.994Z"
+   "tuned": {
+    "pick": "H",
+    "margin": 15,
+    "pts": [
+     16,
+     1
+    ],
+    "br": [
+     {
+      "form": 4,
+      "venueForm": 4,
+      "position": 18,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 15
+   },
+   "madeAt": "2026-11-15T12:53:13.987Z"
   },
   {
    "id": "s-p8w4pxvdmxlln6blyirme2hg",
@@ -225,7 +320,30 @@
    "goals": 3.05,
    "over": true,
    "thin": false,
-   "madeAt": "2026-11-15T12:40:01.994Z"
+   "tuned": {
+    "pick": "H",
+    "margin": 5.5,
+    "pts": [
+     5.5,
+     0
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 4,
+      "position": 3,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 0,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-15T12:53:13.987Z"
   },
   {
    "id": "s-pk9z5xpsyrlitj284h6jp638",
@@ -274,7 +392,30 @@
    "goals": 2.45,
    "over": false,
    "thin": false,
-   "madeAt": "2026-11-15T12:40:01.994Z"
+   "tuned": {
+    "pick": "A",
+    "margin": 7,
+    "pts": [
+     4,
+     11
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 1,
+      "position": 16,
+      "h2h": 3
+     }
+    ]
+   },
+   "madeAt": "2026-11-15T12:53:13.988Z"
   }
  ]
 }

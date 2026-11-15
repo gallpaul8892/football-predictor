@@ -17,5 +17,45 @@
  "byMargin": {},
  "byWeek": [],
  "byTeam": {},
- "generatedAt": "2026-11-15T12:40:01.995Z"
+ "tuned": {
+  "overall": {
+   "n": 0,
+   "correct": 0,
+   "ouN": 0,
+   "ouCorrect": 0,
+   "pct": null,
+   "ouPct": null
+  },
+  "actualDist": {
+   "H": 0,
+   "D": 0,
+   "A": 0
+  },
+  "byLeague": {},
+  "byPick": {},
+  "byMargin": {},
+  "byWeek": [],
+  "byTeam": {}
+ },
+ "bankers": {
+  "overall": {
+   "n": 0,
+   "correct": 0,
+   "ouN": 0,
+   "ouCorrect": 0,
+   "pct": null,
+   "ouPct": null
+  },
+  "actualDist": {
+   "H": 0,
+   "D": 0,
+   "A": 0
+  },
+  "byLeague": {},
+  "byPick": {},
+  "byMargin": {},
+  "byWeek": [],
+  "byTeam": {}
+ },
+ "generatedAt": "2026-11-15T12:53:13.988Z"
 }
