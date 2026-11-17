@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-16T22:51:36.347Z",
- "today": "2026-11-16",
+ "generatedAt": "2026-11-17T07:27:30.893Z",
+ "today": "2026-11-17",
  "window": [
-  "2026-11-16",
-  "2026-11-19"
+  "2026-11-17",
+  "2026-11-20"
  ],
  "leagues": [
   {
@@ -177,7 +177,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-16T22:51:36.343Z"
+   "madeAt": "2026-11-17T07:27:30.887Z"
   },
   {
    "id": "s-nzpnyx2jorci5nqicz5abdas",
@@ -249,7 +249,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-16T22:51:36.343Z"
+   "madeAt": "2026-11-17T07:27:30.887Z"
   },
   {
    "id": "s-omc84eeout8r1czn7yhu77ys",
@@ -325,7 +325,7 @@
     "side": "H",
     "gap": 15
    },
-   "madeAt": "2026-11-16T22:51:36.343Z"
+   "madeAt": "2026-11-17T07:27:30.888Z"
   },
   {
    "id": "s-p8w4pxvdmxlln6blyirme2hg",
@@ -397,7 +397,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-16T22:51:36.344Z"
+   "madeAt": "2026-11-17T07:27:30.888Z"
   },
   {
    "id": "s-pk9z5xpsyrlitj284h6jp638",
@@ -469,12 +469,376 @@
      }
     ]
    },
-   "madeAt": "2026-11-16T22:51:36.344Z"
+   "madeAt": "2026-11-17T07:27:30.888Z"
+  },
+  {
+   "id": "s-392t25jcqfq7zr22jof8qlkpg",
+   "lg": "scottish-championship",
+   "ko": "2026-11-20T19:30:00Z",
+   "day": "2026-11-20",
+   "home": {
+    "id": "inverness-caledonian-thistle",
+    "name": "Inverness CT",
+    "pts": 12,
+    "br": {
+     "form": 5,
+     "venueForm": 5,
+     "position": 1,
+     "h2h": 1
+    },
+    "form": "WDWWLWWLDL",
+    "venue": "DWWDDLWWWD",
+    "pos": 6,
+    "gf": 1.8,
+    "ga": 1.4
+   },
+   "away": {
+    "id": "ayr-united",
+    "name": "Ayr United",
+    "pts": 6,
+    "br": {
+     "form": 4,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LLWLWDLWLW",
+    "venue": "DLLLDLLWWL",
+    "pos": 7,
+    "gf": 1.3,
+    "ga": 1.5
+   },
+   "h2hPlayed": 1,
+   "pick": "H",
+   "margin": 6,
+   "xg": [
+    1.65,
+    1.35
+   ],
+   "goals": 3,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 3.5,
+    "pts": [
+     5.5,
+     2
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 1,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-17T07:27:30.888Z"
+  },
+  {
+   "id": "s-5rwr0a7gofe2vvqeal3kkp7h0",
+   "lg": "german-bundesliga",
+   "ko": "2026-11-20T19:30:00Z",
+   "day": "2026-11-20",
+   "home": {
+    "id": "bayern-munich",
+    "name": "Bayern Munich",
+    "pts": 31,
+    "br": {
+     "form": 7,
+     "venueForm": 8,
+     "position": 14,
+     "h2h": 2
+    },
+    "form": "WWDWWDWWDW",
+    "venue": "WWWWDWWWWD",
+    "pos": 1,
+    "gf": 3.4,
+    "ga": 1
+   },
+   "away": {
+    "id": "koeln",
+    "name": "Köln",
+    "pts": 2,
+    "br": {
+     "form": 2,
+     "venueForm": 0,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LWLDLWLDDL",
+    "venue": "LDDDDLLLLD",
+    "pos": 15,
+    "gf": 1.1,
+    "ga": 1.9
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 29,
+   "xg": [
+    2.65,
+    1.05
+   ],
+   "goals": 3.7,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 12,
+    "pts": [
+     13,
+     1
+    ],
+    "br": [
+     {
+      "form": 3,
+      "venueForm": 4,
+      "position": 14,
+      "h2h": 2,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 12
+   },
+   "madeAt": "2026-11-17T07:27:30.888Z"
+  },
+  {
+   "id": "s-8qd5zu5zarju4v6b1djwrtams",
+   "lg": "national-league",
+   "ko": "2026-11-20T19:45:00Z",
+   "day": "2026-11-20",
+   "home": {
+    "id": "southend-united",
+    "name": "Southend United",
+    "pts": 11,
+    "br": {
+     "form": 5,
+     "venueForm": 6,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "WWLDWWDDLW",
+    "venue": "DWWLWWLWDW",
+    "pos": 3,
+    "gf": 2.6,
+    "ga": 1.8
+   },
+   "away": {
+    "id": "boreham-wood",
+    "name": "Boreham Wood",
+    "pts": 20,
+    "br": {
+     "form": 9,
+     "venueForm": 8,
+     "position": 2,
+     "h2h": 1
+    },
+    "form": "WWWWWWWWWD",
+    "venue": "WWWWDWWWWD",
+    "pos": 1,
+    "gf": 2.9,
+    "ga": 1
+   },
+   "h2hPlayed": 2,
+   "pick": "A",
+   "margin": 9,
+   "xg": [
+    1.8,
+    2.35
+   ],
+   "goals": 4.15,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "D",
+    "margin": 0,
+    "pts": [
+     5,
+     5
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 4,
+      "venueForm": 4,
+      "position": 2,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-17T07:27:30.888Z"
+  },
+  {
+   "id": "s-21mfhrhzm4c87r2vzqwn0dedw",
+   "lg": "league-one",
+   "ko": "2026-11-20T20:00:00Z",
+   "day": "2026-11-20",
+   "home": {
+    "id": "barnsley",
+    "name": "Barnsley",
+    "pts": 2,
+    "br": {
+     "form": 1,
+     "venueForm": 1,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "WLLDLLLLDL",
+    "venue": "LLDLLWLDLD",
+    "pos": 23,
+    "gf": 1,
+    "ga": 2.2
+   },
+   "away": {
+    "id": "sheffield-wednesday",
+    "name": "Sheffield Wednesday",
+    "pts": 24,
+    "br": {
+     "form": 3,
+     "venueForm": 3,
+     "position": 18,
+     "h2h": 0
+    },
+    "form": "WDDDWLLDDW",
+    "venue": "LDLLWWWDLL",
+    "pos": 5,
+    "gf": 1.4,
+    "ga": 0.9
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 22,
+   "xg": [
+    0.95,
+    1.8
+   ],
+   "goals": 2.75,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 7,
+    "pts": [
+     3,
+     10
+    ],
+    "br": [
+     {
+      "form": 0,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 18,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-17T07:27:30.889Z"
+  },
+  {
+   "id": "s-828rogo7p3et735q5pmlh2tck",
+   "lg": "spanish-la-liga",
+   "ko": "2026-11-20T20:00:00Z",
+   "day": "2026-11-20",
+   "home": {
+    "id": "athletic-bilbao",
+    "name": "Athletic Club",
+    "pts": 14,
+    "br": {
+     "form": 4,
+     "venueForm": 4,
+     "position": 6,
+     "h2h": 0
+    },
+    "form": "LWWDDDLWWD",
+    "venue": "LWLDLWDDWW",
+    "pos": 7,
+    "gf": 1.4,
+    "ga": 0.8
+   },
+   "away": {
+    "id": "espanyol",
+    "name": "Espanyol",
+    "pts": 7,
+    "br": {
+     "form": 2,
+     "venueForm": 3,
+     "position": 0,
+     "h2h": 2
+    },
+    "form": "LDWLLDLLWD",
+    "venue": "LLLWLWLDLW",
+    "pos": 13,
+    "gf": 0.9,
+    "ga": 1.2
+   },
+   "h2hPlayed": 3,
+   "pick": "H",
+   "margin": 7,
+   "xg": [
+    1.3,
+    0.85
+   ],
+   "goals": 2.15,
+   "over": false,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 7,
+    "pts": [
+     8,
+     1
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 6,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 2
+     }
+    ]
+   },
+   "madeAt": "2026-11-17T07:27:30.889Z"
   }
  ],
  "review": {
-  "from": "2026-11-09",
-  "to": "2026-11-15",
+  "from": "2026-11-10",
+  "to": "2026-11-16",
   "summary": {
    "n": 0,
    "correct": 0,
