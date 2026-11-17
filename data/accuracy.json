@@ -1,41 +1,381 @@
 {
  "overall": {
-  "n": 0,
-  "correct": 0,
-  "ouN": 0,
-  "ouCorrect": 0,
-  "pct": null,
-  "ouPct": null
+  "n": 4,
+  "correct": 1,
+  "ouN": 4,
+  "ouCorrect": 2,
+  "pct": 25,
+  "ouPct": 50
  },
  "actualDist": {
   "H": 0,
-  "D": 0,
-  "A": 0
+  "D": 1,
+  "A": 3
  },
- "byLeague": {},
- "byPick": {},
- "byMargin": {},
- "byWeek": [],
- "byTeam": {},
+ "byLeague": {
+  "national-league-ns": {
+   "n": 4,
+   "correct": 1,
+   "ouN": 4,
+   "ouCorrect": 2,
+   "pct": 25,
+   "ouPct": 50
+  }
+ },
+ "byPick": {
+  "H": {
+   "n": 2,
+   "correct": 0,
+   "ouN": 2,
+   "ouCorrect": 1,
+   "pct": 0,
+   "ouPct": 50
+  },
+  "D": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "pct": 0,
+   "ouPct": 100
+  },
+  "A": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "pct": 100,
+   "ouPct": 0
+  }
+ },
+ "byMargin": {
+  "7-10": {
+   "n": 2,
+   "correct": 0,
+   "ouN": 2,
+   "ouCorrect": 1,
+   "pct": 0,
+   "ouPct": 50
+  },
+  "0-1": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "pct": 0,
+   "ouPct": 100
+  },
+  "11+": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "pct": 100,
+   "ouPct": 0
+  }
+ },
+ "byWeek": [
+  {
+   "week": "2026-11-16",
+   "n": 4,
+   "correct": 1,
+   "ouN": 4,
+   "ouCorrect": 2,
+   "pct": 25,
+   "ouPct": 50
+  }
+ ],
+ "byTeam": {
+  "ak5dt76kb6ops1gue1xtxqspg": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Bedford Town",
+   "lg": "national-league-ns",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": 0
+  },
+  "chorley": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Chorley",
+   "lg": "national-league-ns",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "oxford-city": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Oxford City",
+   "lg": "national-league-ns",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "macclesfield-town": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Macclesfield",
+   "lg": "national-league-ns",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "epp5e0tdrfg221sjkvhtza1y7": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Spalding United",
+   "lg": "national-league-ns",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": 0
+  },
+  "azomsqg7on2zlrav2rju7h1xr": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Hebburn Town",
+   "lg": "national-league-ns",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "spennymoor-town": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Spennymoor Town",
+   "lg": "national-league-ns",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "chester": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Chester",
+   "lg": "national-league-ns",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 0,
+   "backedPct": 100
+  }
+ },
  "tuned": {
   "overall": {
-   "n": 0,
-   "correct": 0,
-   "ouN": 0,
-   "ouCorrect": 0,
-   "pct": null,
-   "ouPct": null
+   "n": 4,
+   "correct": 1,
+   "ouN": 4,
+   "ouCorrect": 2,
+   "pct": 25,
+   "ouPct": 50
   },
   "actualDist": {
    "H": 0,
-   "D": 0,
-   "A": 0
+   "D": 1,
+   "A": 3
   },
-  "byLeague": {},
-  "byPick": {},
-  "byMargin": {},
-  "byWeek": [],
-  "byTeam": {}
+  "byLeague": {
+   "national-league-ns": {
+    "n": 4,
+    "correct": 1,
+    "ouN": 4,
+    "ouCorrect": 2,
+    "pct": 25,
+    "ouPct": 50
+   }
+  },
+  "byPick": {
+   "H": {
+    "n": 3,
+    "correct": 0,
+    "ouN": 3,
+    "ouCorrect": 2,
+    "pct": 0,
+    "ouPct": 66.7
+   },
+   "A": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "pct": 100,
+    "ouPct": 0
+   }
+  },
+  "byMargin": {
+   "4-6": {
+    "n": 2,
+    "correct": 0,
+    "ouN": 2,
+    "ouCorrect": 1,
+    "pct": 0,
+    "ouPct": 50
+   },
+   "2-3": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "pct": 0,
+    "ouPct": 100
+   },
+   "7-10": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "pct": 100,
+    "ouPct": 0
+   }
+  },
+  "byWeek": [
+   {
+    "week": "2026-11-16",
+    "n": 4,
+    "correct": 1,
+    "ouN": 4,
+    "ouCorrect": 2,
+    "pct": 25,
+    "ouPct": 50
+   }
+  ],
+  "byTeam": {
+   "ak5dt76kb6ops1gue1xtxqspg": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Bedford Town",
+    "lg": "national-league-ns",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": 0
+   },
+   "chorley": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Chorley",
+    "lg": "national-league-ns",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "oxford-city": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Oxford City",
+    "lg": "national-league-ns",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": 0
+   },
+   "macclesfield-town": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Macclesfield",
+    "lg": "national-league-ns",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "epp5e0tdrfg221sjkvhtza1y7": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Spalding United",
+    "lg": "national-league-ns",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": 0
+   },
+   "azomsqg7on2zlrav2rju7h1xr": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Hebburn Town",
+    "lg": "national-league-ns",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "spennymoor-town": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Spennymoor Town",
+    "lg": "national-league-ns",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "chester": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Chester",
+    "lg": "national-league-ns",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": 100
+   }
+  }
  },
  "bankers": {
   "overall": {
@@ -57,5 +397,5 @@
   "byWeek": [],
   "byTeam": {}
  },
- "generatedAt": "2026-11-17T07:27:30.890Z"
+ "generatedAt": "2026-11-17T22:51:46.446Z"
 }
