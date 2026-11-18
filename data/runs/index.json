@@ -1,5 +1,6 @@
 [
 {"date":"2026-11-15","at":"2026-11-15T22:52:03.185Z","newResults":0,"graded":0,"predicted":5,"totalResults":10862,"week":{"n":0,"correct":0,"pct":null,"ouPct":null,"tunedPct":null,"bankersN":0,"bankersPct":null},"overall":{"n":0,"pct":null,"ouPct":null,"tunedPct":null,"bankersN":0,"bankersPct":null}},
 {"date":"2026-11-16","at":"2026-11-16T22:51:36.347Z","newResults":0,"graded":0,"predicted":5,"totalResults":10862,"week":{"n":0,"correct":0,"pct":null,"ouPct":null,"tunedPct":null,"bankersN":0,"bankersPct":null},"overall":{"n":0,"pct":null,"ouPct":null,"tunedPct":null,"bankersN":0,"bankersPct":null}},
-{"date":"2026-11-17","at":"2026-11-17T22:51:46.448Z","newResults":4,"graded":4,"predicted":5,"totalResults":10866,"week":{"n":0,"correct":0,"pct":null,"ouPct":null,"tunedPct":null,"bankersN":0,"bankersPct":null},"overall":{"n":4,"pct":25,"ouPct":50,"tunedPct":25,"bankersN":0,"bankersPct":null}}
+{"date":"2026-11-17","at":"2026-11-17T22:51:46.448Z","newResults":4,"graded":4,"predicted":5,"totalResults":10866,"week":{"n":0,"correct":0,"pct":null,"ouPct":null,"tunedPct":null,"bankersN":0,"bankersPct":null},"overall":{"n":4,"pct":25,"ouPct":50,"tunedPct":25,"bankersN":0,"bankersPct":null}},
+{"date":"2026-11-18","at":"2026-11-18T07:27:09.783Z","newResults":0,"graded":0,"predicted":103,"totalResults":10866,"week":{"n":4,"correct":1,"pct":25,"ouPct":50,"tunedPct":25,"bankersN":0,"bankersPct":null},"overall":{"n":4,"pct":25,"ouPct":50,"tunedPct":25,"bankersN":0,"bankersPct":null}}
 ]
