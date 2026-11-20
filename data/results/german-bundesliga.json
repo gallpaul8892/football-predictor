@@ -622,5 +622,6 @@
 {"id":"s-5ptc0qr6l7wpspwgm1l2gp3is","ko":"2026-11-07T17:30:00Z","h":"vfb-stuttgart","hn":"Stuttgart","a":"werder-bremen","an":"Werder Bremen","hs":1,"as":0},
 {"id":"s-5rb8fupe92s7ekvq36rfr9tsk","ko":"2026-11-08T14:30:00Z","h":"koeln","hn":"Köln","a":"bayer-leverkusen","an":"Bayer 04 Leverkusen","hs":1,"as":2},
 {"id":"s-5qexqlxlivrmnakj06jcofvo4","ko":"2026-11-08T16:30:00Z","h":"freiburg","hn":"Freiburg","a":"union-berlin","an":"Union Berlin","hs":2,"as":0},
-{"id":"s-5q48nanu047b6u7aos32d4e8k","ko":"2026-11-08T18:30:00Z","h":"hoffenheim","hn":"Hoffenheim","a":"fc-schalke","an":"Schalke 04","hs":2,"as":1}
+{"id":"s-5q48nanu047b6u7aos32d4e8k","ko":"2026-11-08T18:30:00Z","h":"hoffenheim","hn":"Hoffenheim","a":"fc-schalke","an":"Schalke 04","hs":2,"as":1},
+{"id":"s-5rwr0a7gofe2vvqeal3kkp7h0","ko":"2026-11-20T19:30:00Z","h":"bayern-munich","hn":"Bayern Munich","a":"koeln","an":"Köln","hs":1,"as":1}
 ]

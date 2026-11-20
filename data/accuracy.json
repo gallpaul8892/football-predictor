@@ -1,16 +1,16 @@
 {
  "overall": {
-  "n": 4,
-  "correct": 1,
-  "ouN": 4,
-  "ouCorrect": 2,
-  "pct": 25,
-  "ouPct": 50
+  "n": 9,
+  "correct": 3,
+  "ouN": 9,
+  "ouCorrect": 5,
+  "pct": 33.3,
+  "ouPct": 55.6
  },
  "actualDist": {
   "H": 0,
-  "D": 1,
-  "A": 3
+  "D": 3,
+  "A": 6
  },
  "byLeague": {
   "national-league-ns": {
@@ -20,16 +20,56 @@
    "ouCorrect": 2,
    "pct": 25,
    "ouPct": 50
+  },
+  "scottish-championship": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "pct": 0,
+   "ouPct": 0
+  },
+  "german-bundesliga": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "pct": 0,
+   "ouPct": 0
+  },
+  "national-league": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "pct": 100,
+   "ouPct": 100
+  },
+  "league-one": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "pct": 100,
+   "ouPct": 100
+  },
+  "spanish-la-liga": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "pct": 0,
+   "ouPct": 100
   }
  },
  "byPick": {
   "H": {
-   "n": 2,
+   "n": 5,
    "correct": 0,
-   "ouN": 2,
-   "ouCorrect": 1,
+   "ouN": 5,
+   "ouCorrect": 2,
    "pct": 0,
-   "ouPct": 50
+   "ouPct": 40
   },
   "D": {
    "n": 1,
@@ -40,22 +80,22 @@
    "ouPct": 100
   },
   "A": {
-   "n": 1,
-   "correct": 1,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "n": 3,
+   "correct": 3,
+   "ouN": 3,
+   "ouCorrect": 2,
    "pct": 100,
-   "ouPct": 0
+   "ouPct": 66.7
   }
  },
  "byMargin": {
   "7-10": {
-   "n": 2,
-   "correct": 0,
-   "ouN": 2,
-   "ouCorrect": 1,
-   "pct": 0,
-   "ouPct": 50
+   "n": 4,
+   "correct": 1,
+   "ouN": 4,
+   "ouCorrect": 3,
+   "pct": 25,
+   "ouPct": 75
   },
   "0-1": {
    "n": 1,
@@ -66,23 +106,31 @@
    "ouPct": 100
   },
   "11+": {
+   "n": 3,
+   "correct": 2,
+   "ouN": 3,
+   "ouCorrect": 1,
+   "pct": 66.7,
+   "ouPct": 33.3
+  },
+  "4-6": {
    "n": 1,
-   "correct": 1,
+   "correct": 0,
    "ouN": 1,
    "ouCorrect": 0,
-   "pct": 100,
+   "pct": 0,
    "ouPct": 0
   }
  },
  "byWeek": [
   {
    "week": "2026-11-16",
-   "n": 4,
-   "correct": 1,
-   "ouN": 4,
-   "ouCorrect": 2,
-   "pct": 25,
-   "ouPct": 50
+   "n": 9,
+   "correct": 3,
+   "ouN": 9,
+   "ouCorrect": 5,
+   "pct": 33.3,
+   "ouPct": 55.6
   }
  ],
  "byTeam": {
@@ -189,21 +237,151 @@
    "pct": 100,
    "ouPct": 0,
    "backedPct": 100
+  },
+  "inverness-caledonian-thistle": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Inverness CT",
+   "lg": "scottish-championship",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": 0
+  },
+  "ayr-united": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Ayr United",
+   "lg": "scottish-championship",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "bayern-munich": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Bayern Munich",
+   "lg": "german-bundesliga",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": 0
+  },
+  "koeln": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Köln",
+   "lg": "german-bundesliga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "southend-united": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Southend United",
+   "lg": "national-league",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "boreham-wood": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Boreham Wood",
+   "lg": "national-league",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": 100
+  },
+  "barnsley": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Barnsley",
+   "lg": "league-one",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "sheffield-wednesday": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Sheffield Wednesday",
+   "lg": "league-one",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": 100
+  },
+  "athletic-bilbao": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Athletic Club",
+   "lg": "spanish-la-liga",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": 0
+  },
+  "espanyol": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Espanyol",
+   "lg": "spanish-la-liga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": null
   }
  },
  "tuned": {
   "overall": {
-   "n": 4,
-   "correct": 1,
-   "ouN": 4,
-   "ouCorrect": 2,
-   "pct": 25,
-   "ouPct": 50
+   "n": 9,
+   "correct": 2,
+   "ouN": 9,
+   "ouCorrect": 5,
+   "pct": 22.2,
+   "ouPct": 55.6
   },
   "actualDist": {
    "H": 0,
-   "D": 1,
-   "A": 3
+   "D": 3,
+   "A": 6
   },
   "byLeague": {
    "national-league-ns": {
@@ -213,34 +391,82 @@
     "ouCorrect": 2,
     "pct": 25,
     "ouPct": 50
+   },
+   "scottish-championship": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "pct": 0,
+    "ouPct": 0
+   },
+   "german-bundesliga": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "pct": 0,
+    "ouPct": 0
+   },
+   "national-league": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "pct": 0,
+    "ouPct": 100
+   },
+   "league-one": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "pct": 100,
+    "ouPct": 100
+   },
+   "spanish-la-liga": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "pct": 0,
+    "ouPct": 100
    }
   },
   "byPick": {
    "H": {
-    "n": 3,
+    "n": 6,
     "correct": 0,
-    "ouN": 3,
-    "ouCorrect": 2,
+    "ouN": 6,
+    "ouCorrect": 3,
     "pct": 0,
-    "ouPct": 66.7
+    "ouPct": 50
    },
    "A": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
+    "ouCorrect": 1,
     "pct": 100,
-    "ouPct": 0
+    "ouPct": 50
+   },
+   "D": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "pct": 0,
+    "ouPct": 100
    }
   },
   "byMargin": {
    "4-6": {
-    "n": 2,
+    "n": 3,
     "correct": 0,
-    "ouN": 2,
+    "ouN": 3,
     "ouCorrect": 1,
     "pct": 0,
-    "ouPct": 50
+    "ouPct": 33.3
    },
    "2-3": {
     "n": 1,
@@ -251,23 +477,39 @@
     "ouPct": 100
    },
    "7-10": {
+    "n": 3,
+    "correct": 2,
+    "ouN": 3,
+    "ouCorrect": 2,
+    "pct": 66.7,
+    "ouPct": 66.7
+   },
+   "11+": {
     "n": 1,
-    "correct": 1,
+    "correct": 0,
     "ouN": 1,
     "ouCorrect": 0,
-    "pct": 100,
+    "pct": 0,
     "ouPct": 0
+   },
+   "0-1": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "pct": 0,
+    "ouPct": 100
    }
   },
   "byWeek": [
    {
     "week": "2026-11-16",
-    "n": 4,
-    "correct": 1,
-    "ouN": 4,
-    "ouCorrect": 2,
-    "pct": 25,
-    "ouPct": 50
+    "n": 9,
+    "correct": 2,
+    "ouN": 9,
+    "ouCorrect": 5,
+    "pct": 22.2,
+    "ouPct": 55.6
    }
   ],
   "byTeam": {
@@ -374,28 +616,222 @@
     "pct": 100,
     "ouPct": 0,
     "backedPct": 100
+   },
+   "inverness-caledonian-thistle": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Inverness CT",
+    "lg": "scottish-championship",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": 0
+   },
+   "ayr-united": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Ayr United",
+    "lg": "scottish-championship",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "bayern-munich": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Bayern Munich",
+    "lg": "german-bundesliga",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": 0
+   },
+   "koeln": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Köln",
+    "lg": "german-bundesliga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "southend-united": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Southend United",
+    "lg": "national-league",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "boreham-wood": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Boreham Wood",
+    "lg": "national-league",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "barnsley": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Barnsley",
+    "lg": "league-one",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "sheffield-wednesday": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Sheffield Wednesday",
+    "lg": "league-one",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "athletic-bilbao": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Athletic Club",
+    "lg": "spanish-la-liga",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": 0
+   },
+   "espanyol": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Espanyol",
+    "lg": "spanish-la-liga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
    }
   }
  },
  "bankers": {
   "overall": {
-   "n": 0,
-   "correct": 0,
-   "ouN": 0,
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
    "ouCorrect": 0,
-   "pct": null,
-   "ouPct": null
+   "pct": 100,
+   "ouPct": 0
   },
   "actualDist": {
    "H": 0,
-   "D": 0,
+   "D": 1,
    "A": 0
   },
-  "byLeague": {},
-  "byPick": {},
-  "byMargin": {},
-  "byWeek": [],
-  "byTeam": {}
+  "byLeague": {
+   "german-bundesliga": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "pct": 100,
+    "ouPct": 0
+   }
+  },
+  "byPick": {
+   "H": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "pct": 100,
+    "ouPct": 0
+   }
+  },
+  "byMargin": {
+   "11+": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "pct": 100,
+    "ouPct": 0
+   }
+  },
+  "byWeek": [
+   {
+    "week": "2026-11-16",
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "pct": 100,
+    "ouPct": 0
+   }
+  ],
+  "byTeam": {
+   "bayern-munich": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Bayern Munich",
+    "lg": "german-bundesliga",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": 100
+   },
+   "koeln": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Köln",
+    "lg": "german-bundesliga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": null
+   }
+  }
  },
- "generatedAt": "2026-11-20T07:27:44.153Z"
+ "generatedAt": "2026-11-20T22:51:28.064Z"
 }
