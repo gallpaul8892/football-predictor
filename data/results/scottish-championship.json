@@ -389,5 +389,8 @@
 {"id":"s-37k08z31m3kh4t1jvb46yvo5w","ko":"2026-11-14T15:00:00Z","h":"livingston","hn":"Livingston","a":"greenock-morton","an":"Greenock Morton","hs":2,"as":0},
 {"id":"s-37v068518uljc6wg2dz8a2p78","ko":"2026-11-14T15:00:00Z","h":"partick-thistle","hn":"Partick Thistle","a":"inverness-caledonian-thistle","an":"Inverness CT","hs":3,"as":2},
 {"id":"s-385vknxsfkles44rq6ghedgd0","ko":"2026-11-14T15:00:00Z","h":"stenhousemuir","hn":"Stenhousemuir","a":"queens-park","an":"Queen's Park","hs":2,"as":0},
-{"id":"s-392t25jcqfq7zr22jof8qlkpg","ko":"2026-11-20T19:30:00Z","h":"inverness-caledonian-thistle","hn":"Inverness CT","a":"ayr-united","an":"Ayr United","hs":0,"as":0}
+{"id":"s-392t25jcqfq7zr22jof8qlkpg","ko":"2026-11-20T19:30:00Z","h":"inverness-caledonian-thistle","hn":"Inverness CT","a":"ayr-united","an":"Ayr United","hs":0,"as":0},
+{"id":"s-38gvzj4lezt2oblxnal8rqhhw","ko":"2026-11-21T15:00:00Z","h":"arbroath","hn":"Arbroath","a":"stenhousemuir","an":"Stenhousemuir","hs":2,"as":1},
+{"id":"s-39dq3i87bfrqbacxcray19tec","ko":"2026-11-21T15:00:00Z","h":"queens-park","hn":"Queen's Park","a":"livingston","an":"Livingston","hs":1,"as":4},
+{"id":"s-39oo2nrho4umbkp4jn1w54npw","ko":"2026-11-21T15:00:00Z","h":"raith-rovers","hn":"Raith Rovers","a":"partick-thistle","an":"Partick Thistle","hs":0,"as":2}
 ]

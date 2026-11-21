@@ -389,5 +389,10 @@
 {"id":"s-3duoiqnpp93ep08xektssvhg4","ko":"2026-11-14T15:00:00Z","h":"cove-rangers","hn":"Cove Rangers","a":"montrose","an":"Montrose","hs":3,"as":0},
 {"id":"s-3e7iu39auhnhzd9l1xvq9y39w","ko":"2026-11-14T15:00:00Z","h":"east-fife","hn":"East Fife","a":"peterhead","an":"Peterhead","hs":1,"as":0},
 {"id":"s-3ekf5kzmze7ayu6tmmhfb6kus","ko":"2026-11-14T15:00:00Z","h":"east-kilbride","hn":"East Kilbride","a":"alloa-athletic","an":"Alloa Athletic","hs":4,"as":1},
-{"id":"s-3ex8wvjpry4ref08rvh3nlvkk","ko":"2026-11-14T17:30:00Z","h":"hamilton-academical","hn":"Hamilton Academical","a":"ross-county","an":"Ross County","hs":1,"as":2}
+{"id":"s-3ex8wvjpry4ref08rvh3nlvkk","ko":"2026-11-14T17:30:00Z","h":"hamilton-academical","hn":"Hamilton Academical","a":"ross-county","an":"Ross County","hs":1,"as":2},
+{"id":"s-3fa3m2shthycu0l37yi5u74t0","ko":"2026-11-21T15:00:00Z","h":"east-fife","hn":"East Fife","a":"airdrieonians","an":"Airdrieonians","hs":0,"as":2},
+{"id":"s-3g02k236647xenes5cb0kg5xw","ko":"2026-11-21T15:00:00Z","h":"peterhead","hn":"Peterhead","a":"east-kilbride","an":"East Kilbride","hs":1,"as":0},
+{"id":"s-3gcuo18tr13js1f54ih1qsefo","ko":"2026-11-21T15:00:00Z","h":"queen-of-the-south","hn":"Queen of the South","a":"hamilton-academical","an":"Hamilton Academical","hs":1,"as":3},
+{"id":"s-3gpp307opk3q6yj3t59dv77ro","ko":"2026-11-21T15:00:00Z","h":"ross-county","hn":"Ross County","a":"cove-rangers","an":"Cove Rangers","hs":5,"as":1},
+{"id":"s-3fn9vuwxhlttoy2m4o96fxmac","ko":"2026-11-21T17:30:00Z","h":"montrose","hn":"Montrose","a":"alloa-athletic","an":"Alloa Athletic","hs":1,"as":1}
 ]

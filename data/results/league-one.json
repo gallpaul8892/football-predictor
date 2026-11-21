@@ -1121,5 +1121,16 @@
 {"id":"s-200h11k390xii4rfhj5kaucr8","ko":"2026-11-14T15:00:00Z","h":"sheffield-wednesday","hn":"Sheffield Wednesday","a":"plymouth-argyle","an":"Plymouth Argyle","hs":3,"as":0},
 {"id":"s-20no23gsije9mw3p35f5otwk4","ko":"2026-11-14T15:00:00Z","h":"stockport-county","hn":"Stockport County","a":"reading","an":"Reading","hs":3,"as":1},
 {"id":"s-20z9qbojtyqixlhptd432bdas","ko":"2026-11-14T15:00:00Z","h":"wigan-athletic","hn":"Wigan Athletic","a":"barnsley","an":"Barnsley","hs":2,"as":1},
-{"id":"s-21mfhrhzm4c87r2vzqwn0dedw","ko":"2026-11-20T20:00:00Z","h":"barnsley","hn":"Barnsley","a":"sheffield-wednesday","an":"Sheffield Wednesday","hs":1,"as":2}
+{"id":"s-21mfhrhzm4c87r2vzqwn0dedw","ko":"2026-11-20T20:00:00Z","h":"barnsley","hn":"Barnsley","a":"sheffield-wednesday","an":"Sheffield Wednesday","hs":1,"as":2},
+{"id":"s-21xvigebj5a0qxsmhfe561n9w","ko":"2026-11-21T12:30:00Z","h":"blackpool","hn":"Blackpool","a":"wigan-athletic","an":"Wigan Athletic","hs":1,"as":2},
+{"id":"s-256jf66p76fqt9npjdqnsx34k","ko":"2026-11-21T12:30:00Z","h":"reading","hn":"Reading","a":"bromley","an":"Bromley","hs":0,"as":1},
+{"id":"s-229f8eh98pz4t4x16jyeoi13o","ko":"2026-11-21T15:00:00Z","h":"bradford-city","hn":"Bradford City","a":"doncaster-rovers","an":"Doncaster Rovers","hs":2,"as":2},
+{"id":"s-22l1gfk89i0jpp9zfywx6ac5w","ko":"2026-11-21T15:00:00Z","h":"burton-albion","hn":"Burton Albion","a":"luton-town","an":"Luton Town","hs":1,"as":2},
+{"id":"s-22wjc4tb1sq7vs1ihqmt0vcpg","ko":"2026-11-21T15:00:00Z","h":"cambridge-united","hn":"Cambridge United","a":"stockport-county","an":"Stockport County","hs":0,"as":3},
+{"id":"s-238nx6cbbs2szep5us88a40lw","ko":"2026-11-21T15:00:00Z","h":"huddersfield-town","hn":"Huddersfield Town","a":"leicester-city","an":"Leicester City","hs":0,"as":1},
+{"id":"s-23k4m4k70z6s7anfrovtl4aac","ko":"2026-11-21T15:00:00Z","h":"leyton-orient","hn":"Leyton Orient","a":"afc-wimbledon","an":"AFC Wimbledon","hs":4,"as":1},
+{"id":"s-23vowljgp65izqnjrwnaaj5sk","ko":"2026-11-21T15:00:00Z","h":"mansfield-town","hn":"Mansfield Town","a":"milton-keynes-dons","an":"MK Dons","hs":1,"as":1},
+{"id":"s-247qao4o1w2hpxkiyws7tbnro","ko":"2026-11-21T15:00:00Z","h":"notts-county","hn":"Notts County","a":"stevenage","an":"Stevenage","hs":0,"as":1},
+{"id":"s-24jek9z9iy15j4kpdr11gh7v8","ko":"2026-11-21T15:00:00Z","h":"oxford-united","hn":"Oxford United","a":"wycombe-wanderers","an":"Wycombe Wanderers","hs":4,"as":3},
+{"id":"s-24uyvy9u49esco8yahzquyuqc","ko":"2026-11-21T15:00:00Z","h":"plymouth-argyle","hn":"Plymouth Argyle","a":"peterborough-united","an":"Peterborough United","hs":0,"as":2}
 ]

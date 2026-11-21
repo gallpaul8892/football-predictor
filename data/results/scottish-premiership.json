@@ -467,5 +467,11 @@
 {"id":"s-2atxmzm10r5iw2jjj17wizhn8","ko":"2026-11-07T17:45:00Z","h":"aberdeen","hn":"Aberdeen","a":"hibernian","an":"Hibernian","hs":0,"as":4},
 {"id":"s-2c7n1v1mavlh8868znxr24s9g","ko":"2026-11-07T20:00:00Z","h":"st-mirren","hn":"St. Mirren","a":"rangers","an":"Rangers","hs":0,"as":2},
 {"id":"s-2ck9fqa5w8d0ad1hduobsza50","ko":"2026-11-08T15:00:00Z","h":"heart-of-midlothian","hn":"Heart of Midlothian","a":"falkirk","an":"Falkirk","hs":2,"as":5},
-{"id":"s-2b6b5cykbxdleorug6flogk5w","ko":"2026-11-08T16:00:00Z","h":"celtic","hn":"Celtic","a":"kilmarnock","an":"Kilmarnock","hs":1,"as":0}
+{"id":"s-2b6b5cykbxdleorug6flogk5w","ko":"2026-11-08T16:00:00Z","h":"celtic","hn":"Celtic","a":"kilmarnock","an":"Kilmarnock","hs":1,"as":0},
+{"id":"s-2cwt1n1mp15cj0m86eoe9l9uc","ko":"2026-11-21T15:00:00Z","h":"celtic","hn":"Celtic","a":"st-mirren","an":"St. Mirren","hs":4,"as":1},
+{"id":"s-2dm1g94brnl3528q3s6deh89g","ko":"2026-11-21T15:00:00Z","h":"falkirk","hn":"Falkirk","a":"st-johnstone","an":"St. Johnstone","hs":2,"as":1},
+{"id":"s-2dyh03tl3q32aah2kzmx8g4d0","ko":"2026-11-21T15:00:00Z","h":"hibernian","hn":"Hibernian","a":"dundee-united","an":"Dundee United","hs":0,"as":4},
+{"id":"s-2eaxzfulcqfthzayy7y70d82c","ko":"2026-11-21T15:00:00Z","h":"kilmarnock","hn":"Kilmarnock","a":"aberdeen","an":"Aberdeen","hs":2,"as":4},
+{"id":"s-2d9hnjeqbej0xmgl8hiqb86j8","ko":"2026-11-21T17:45:00Z","h":"dundee","hn":"Dundee","a":"heart-of-midlothian","an":"Heart of Midlothian","hs":0,"as":8},
+{"id":"s-2enm6isg849gfaiysg7stlams","ko":"2026-11-21T20:00:00Z","h":"motherwell","hn":"Motherwell","a":"rangers","an":"Rangers","hs":1,"as":2}
 ]

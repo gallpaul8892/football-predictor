@@ -768,5 +768,9 @@
 {"id":"s-7z1xzbxop724lmq0f804245ck","ko":"2026-11-08T17:30:00Z","h":"celta-vigo","hn":"Celta Vigo","a":"levante","an":"Levante","hs":0,"as":0},
 {"id":"s-81lw4j8yzrfoumreiu63ofac4","ko":"2026-11-08T17:30:00Z","h":"villarreal","hn":"Villarreal","a":"getafe","an":"Getafe","hs":2,"as":0},
 {"id":"s-7yqixnu51vdqc6c3pds48v5lg","ko":"2026-11-08T20:00:00Z","h":"atletico-madrid","hn":"Atlético Madrid","a":"barcelona","an":"Barcelona","hs":1,"as":2},
-{"id":"s-828rogo7p3et735q5pmlh2tck","ko":"2026-11-20T20:00:00Z","h":"athletic-bilbao","hn":"Athletic Club","a":"espanyol","an":"Espanyol","hs":0,"as":1}
+{"id":"s-828rogo7p3et735q5pmlh2tck","ko":"2026-11-20T20:00:00Z","h":"athletic-bilbao","hn":"Athletic Club","a":"espanyol","an":"Espanyol","hs":0,"as":1},
+{"id":"s-81xbpprcjc9id9n8tygyxavbo","ko":"2026-11-21T13:00:00Z","h":"deportivo-alaves","hn":"Alavés","a":"deportivo-de-la-coruna","an":"Deportivo de A Coruña","hs":3,"as":1},
+{"id":"s-845l819xjrwnukitg0q3a8c9g","ko":"2026-11-21T15:15:00Z","h":"rayo-vallecano","hn":"Rayo Vallecano","a":"valencia","an":"Valencia","hs":0,"as":1},
+{"id":"s-84snfg3o35m7xy7adjsq7mrys","ko":"2026-11-21T17:30:00Z","h":"sevilla","hn":"Sevilla","a":"real-betis","an":"Real Betis","hs":1,"as":1},
+{"id":"s-84h4m9b9g3tqib17j8nocr9qs","ko":"2026-11-21T20:00:00Z","h":"real-madrid","hn":"Real Madrid","a":"celta-vigo","an":"Celta Vigo","hs":2,"as":1}
 ]
