@@ -1,10 +1,10 @@
 {
  "date": "2026-11-22",
- "at": "2026-11-22T07:26:09.514Z",
- "newResults": 0,
- "graded": 0,
- "predicted": 61,
- "totalResults": 10967,
+ "at": "2026-11-22T22:51:52.072Z",
+ "newResults": 14,
+ "graded": 14,
+ "predicted": 47,
+ "totalResults": 10981,
  "week": {
   "n": 105,
   "correct": 57,
@@ -15,12 +15,12 @@
   "bankersPct": 85.2
  },
  "overall": {
-  "n": 105,
-  "pct": 54.3,
-  "ouPct": 51.4,
-  "tunedPct": 52.4,
-  "bankersN": 27,
-  "bankersPct": 85.2
+  "n": 119,
+  "pct": 54.6,
+  "ouPct": 52.9,
+  "tunedPct": 53.8,
+  "bankersN": 31,
+  "bankersPct": 87.1
  },
  "review": {
   "from": "2026-11-15",
@@ -2605,1030 +2605,6 @@
  },
  "predictions": [
   {
-   "id": "s-7swd2xv6gei68ddws82y8ku8k",
-   "lg": "italian-serie-a",
-   "ko": "2026-11-22T11:30:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "juventus",
-    "name": "Juventus",
-    "pts": 21,
-    "br": {
-     "form": 4,
-     "venueForm": 5,
-     "position": 11,
-     "h2h": 1
-    },
-    "form": "WDLWDLWLWD",
-    "venue": "DWWDLWDWLW",
-    "pos": 8,
-    "gf": 1.4,
-    "ga": 1.2
-   },
-   "away": {
-    "id": "venezia",
-    "name": "Venezia",
-    "pts": 2,
-    "br": {
-     "form": 2,
-     "venueForm": 0,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "LLLLLWLLLW",
-    "venue": "DDDDLLLLLL",
-    "pos": 19,
-    "gf": 0.8,
-    "ga": 1.9
-   },
-   "h2hPlayed": 2,
-   "pick": "H",
-   "margin": 19,
-   "xg": [
-    1.65,
-    1
-   ],
-   "goals": 2.65,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 8.5,
-    "pts": [
-     10.5,
-     2
-    ],
-    "br": [
-     {
-      "form": 2,
-      "venueForm": 3,
-      "position": 11,
-      "h2h": 1,
-      "home": 3
-     },
-     {
-      "form": 2,
-      "venueForm": 0,
-      "position": 0,
-      "h2h": 0
-     }
-    ]
-   },
-   "banker": {
-    "side": "H",
-    "gap": 8.5
-   },
-   "madeAt": "2026-11-22T07:26:09.499Z"
-  },
-  {
-   "id": "s-21hsq00fm42okqrvh9j8s5250",
-   "lg": "championship",
-   "ko": "2026-11-22T12:00:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "burnley",
-    "name": "Burnley",
-    "pts": 2,
-    "br": {
-     "form": 1,
-     "venueForm": 0,
-     "position": 0,
-     "h2h": 1
-    },
-    "form": "DLDWDLLDDL",
-    "venue": "LDDDDLDDLD",
-    "pos": 22,
-    "gf": 1.6,
-    "ga": 1.9
-   },
-   "away": {
-    "id": "blackburn-rovers",
-    "name": "Blackburn Rovers",
-    "pts": 16,
-    "br": {
-     "form": 5,
-     "venueForm": 2,
-     "position": 9,
-     "h2h": 0
-    },
-    "form": "LWDWWLWLLW",
-    "venue": "DLWDDLDWLL",
-    "pos": 13,
-    "gf": 1.6,
-    "ga": 1.6
-   },
-   "h2hPlayed": 1,
-   "pick": "A",
-   "margin": 14,
-   "xg": [
-    1.6,
-    1.75
-   ],
-   "goals": 3.35,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 3.5,
-    "pts": [
-     3,
-     6.5
-    ],
-    "br": [
-     {
-      "form": 0,
-      "venueForm": 0,
-      "position": 0,
-      "h2h": 1,
-      "home": 3
-     },
-     {
-      "form": 2,
-      "venueForm": 1,
-      "position": 9,
-      "h2h": 0
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.499Z"
-  },
-  {
-   "id": "s-82k5i1q9r1t13h6d9s5jwh34k",
-   "lg": "spanish-la-liga",
-   "ko": "2026-11-22T13:00:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "barcelona",
-    "name": "Barcelona",
-    "pts": 28,
-    "br": {
-     "form": 9,
-     "venueForm": 9,
-     "position": 8,
-     "h2h": 2
-    },
-    "form": "WWWWWWWLWW",
-    "venue": "WWWWWWWWLW",
-    "pos": 1,
-    "gf": 4.1,
-    "ga": 1.3
-   },
-   "away": {
-    "id": "villarreal",
-    "name": "Villarreal",
-    "pts": 8,
-    "br": {
-     "form": 4,
-     "venueForm": 3,
-     "position": 0,
-     "h2h": 1
-    },
-    "form": "LLLWWLDWLW",
-    "venue": "WDDLDDLWLW",
-    "pos": 9,
-    "gf": 1.3,
-    "ga": 1.1
-   },
-   "h2hPlayed": 3,
-   "pick": "H",
-   "margin": 20,
-   "xg": [
-    2.6,
-    1.3
-   ],
-   "goals": 3.9,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 9,
-    "pts": [
-     11,
-     2
-    ],
-    "br": [
-     {
-      "form": 4,
-      "venueForm": 4,
-      "position": 8,
-      "h2h": 2,
-      "home": 3
-     },
-     {
-      "form": 2,
-      "venueForm": 2,
-      "position": 0,
-      "h2h": 1
-     }
-    ]
-   },
-   "banker": {
-    "side": "H",
-    "gap": 9
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-4wfi4qj9ndn19vvw8gc5e71n8",
-   "lg": "premier-league",
-   "ko": "2026-11-22T14:00:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "hull-city",
-    "name": "Hull City",
-    "pts": 5,
-    "br": {
-     "form": 2,
-     "venueForm": 3,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "WWDDLDLDDL",
-    "venue": "DDWDWWDDDD",
-    "pos": 14,
-    "gf": 1.1,
-    "ga": 1.1
-   },
-   "away": {
-    "id": "brighton-and-hove-albion",
-    "name": "Brighton & Hove Albion",
-    "pts": 24,
-    "br": {
-     "form": 7,
-     "venueForm": 5,
-     "position": 12,
-     "h2h": 0
-    },
-    "form": "WLDWWWWLWW",
-    "venue": "WWDLLLWWLW",
-    "pos": 2,
-    "gf": 2.6,
-    "ga": 0.7
-   },
-   "h2hPlayed": 0,
-   "pick": "A",
-   "margin": 19,
-   "xg": [
-    0.9,
-    1.85
-   ],
-   "goals": 2.75,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 7,
-    "pts": [
-     3,
-     10
-    ],
-    "br": [
-     {
-      "form": 0,
-      "venueForm": 1,
-      "position": 0,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 4,
-      "venueForm": 3,
-      "position": 12,
-      "h2h": 0
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-7sahe5933q71mpt2juyiafwus",
-   "lg": "italian-serie-a",
-   "ko": "2026-11-22T14:00:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "bologna",
-    "name": "Bologna",
-    "pts": 20,
-    "br": {
-     "form": 5,
-     "venueForm": 2,
-     "position": 11,
-     "h2h": 2
-    },
-    "form": "LDLDWLWWWW",
-    "venue": "LWLDDLDDLW",
-    "pos": 9,
-    "gf": 1.6,
-    "ga": 1.3
-   },
-   "away": {
-    "id": "udinese",
-    "name": "Udinese",
-    "pts": 5,
-    "br": {
-     "form": 1,
-     "venueForm": 4,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "WLLLLLLDLL",
-    "venue": "WWDWLWLLDL",
-    "pos": 20,
-    "gf": 1.1,
-    "ga": 2.4
-   },
-   "h2hPlayed": 3,
-   "pick": "H",
-   "margin": 15,
-   "xg": [
-    2,
-    1.2
-   ],
-   "goals": 3.2,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 12.5,
-    "pts": [
-     12.5,
-     0
-    ],
-    "br": [
-     {
-      "form": 4,
-      "venueForm": 1,
-      "position": 11,
-      "h2h": 2,
-      "home": 3
-     },
-     {
-      "form": 0,
-      "venueForm": 1,
-      "position": 0,
-      "h2h": 0
-     }
-    ]
-   },
-   "banker": {
-    "side": "H",
-    "gap": 12.5
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-7uqldjza8udrm8ujbwlaqov84",
-   "lg": "italian-serie-a",
-   "ko": "2026-11-22T14:00:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "sassuolo",
-    "name": "Sassuolo",
-    "pts": 7,
-    "br": {
-     "form": 2,
-     "venueForm": 5,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "WDWLDLLLLL",
-    "venue": "LWWWLWWDLL",
-    "pos": 17,
-    "gf": 1.5,
-    "ga": 2.7
-   },
-   "away": {
-    "id": "genoa",
-    "name": "Genoa",
-    "pts": 13,
-    "br": {
-     "form": 4,
-     "venueForm": 3,
-     "position": 4,
-     "h2h": 2
-    },
-    "form": "LLDLWLWWWL",
-    "venue": "WLWDDLLLLW",
-    "pos": 13,
-    "gf": 1.1,
-    "ga": 1.4
-   },
-   "h2hPlayed": 2,
-   "pick": "A",
-   "margin": 6,
-   "xg": [
-    1.45,
-    1.9
-   ],
-   "goals": 3.35,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 2,
-    "pts": [
-     3,
-     5
-    ],
-    "br": [
-     {
-      "form": 0,
-      "venueForm": 2,
-      "position": 0,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 3,
-      "venueForm": 1,
-      "position": 4,
-      "h2h": 2
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-5st5hmskji7x1cb7jqohck4yc",
-   "lg": "german-bundesliga",
-   "ko": "2026-11-22T14:30:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "augsburg",
-    "name": "Augsburg",
-    "pts": 5,
-    "br": {
-     "form": 2,
-     "venueForm": 3,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "LWWDLDLDLL",
-    "venue": "WLDDWWDDDL",
-    "pos": 15,
-    "gf": 2,
-    "ga": 2.4
-   },
-   "away": {
-    "id": "mainz",
-    "name": "Mainz 05",
-    "pts": 16,
-    "br": {
-     "form": 4,
-     "venueForm": 7,
-     "position": 3,
-     "h2h": 2
-    },
-    "form": "WDWLWLWLLL",
-    "venue": "DWWDWWWWWL",
-    "pos": 12,
-    "gf": 2,
-    "ga": 1.9
-   },
-   "h2hPlayed": 3,
-   "pick": "A",
-   "margin": 11,
-   "xg": [
-    1.95,
-    2.2
-   ],
-   "goals": 4.15,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 0.5,
-    "pts": [
-     3,
-     2.5
-    ],
-    "br": [
-     {
-      "form": 0,
-      "venueForm": 1,
-      "position": 0,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 1,
-      "venueForm": 4,
-      "position": 3,
-      "h2h": 2
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-83u0icd3b8doe95t75ypcp1xw",
-   "lg": "spanish-la-liga",
-   "ko": "2026-11-22T15:15:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "racing-santander",
-    "name": "Racing de Santander",
-    "pts": 7,
-    "br": {
-     "form": 4,
-     "venueForm": 3,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "WLWLLDLWLW",
-    "venue": "DWWDWL",
-    "pos": 12,
-    "gf": 1.5,
-    "ga": 2.7
-   },
-   "away": {
-    "id": "real-sociedad",
-    "name": "Real Sociedad",
-    "pts": 17,
-    "br": {
-     "form": 7,
-     "venueForm": 3,
-     "position": 7,
-     "h2h": 0
-    },
-    "form": "WDWLWWWWLW",
-    "venue": "DLDDLLWWWL",
-    "pos": 5,
-    "gf": 2,
-    "ga": 1.5
-   },
-   "h2hPlayed": 0,
-   "pick": "A",
-   "margin": 10,
-   "xg": [
-    1.5,
-    2.35
-   ],
-   "goals": 3.85,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 2.5,
-    "pts": [
-     5,
-     7.5
-    ],
-    "br": [
-     {
-      "form": 2,
-      "venueForm": 3,
-      "position": 0,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 4,
-      "venueForm": 3,
-      "position": 7,
-      "h2h": 0
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-4wrsp64aq5fpx9pq0b76gdlhw",
-   "lg": "premier-league",
-   "ko": "2026-11-22T16:30:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "liverpool",
-    "name": "Liverpool",
-    "pts": 22,
-    "br": {
-     "form": 5,
-     "venueForm": 3,
-     "position": 14,
-     "h2h": 0
-    },
-    "form": "DDWDWLWWLW",
-    "venue": "DWWDDDDLWL",
-    "pos": 5,
-    "gf": 1.4,
-    "ga": 1
-   },
-   "away": {
-    "id": "manchester-united",
-    "name": "Manchester United",
-    "pts": 5,
-    "br": {
-     "form": 1,
-     "venueForm": 2,
-     "position": 0,
-     "h2h": 2
-    },
-    "form": "LWDLDDDLLD",
-    "venue": "LDWDWLDDDL",
-    "pos": 19,
-    "gf": 1.4,
-    "ga": 1.9
-   },
-   "h2hPlayed": 3,
-   "pick": "H",
-   "margin": 17,
-   "xg": [
-    1.65,
-    1.2
-   ],
-   "goals": 2.85,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 13,
-    "pts": [
-     13,
-     0
-    ],
-    "br": [
-     {
-      "form": 3,
-      "venueForm": 1,
-      "position": 14,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 0,
-      "venueForm": 0,
-      "position": 0,
-      "h2h": 2
-     }
-    ]
-   },
-   "banker": {
-    "side": "H",
-    "gap": 13
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-5tpbezn2g2z3wkvhxuykmyexg",
-   "lg": "german-bundesliga",
-   "ko": "2026-11-22T16:30:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "werder-bremen",
-    "name": "Werder Bremen",
-    "pts": 15,
-    "br": {
-     "form": 4,
-     "venueForm": 5,
-     "position": 5,
-     "h2h": 1
-    },
-    "form": "LLWDWDDWWL",
-    "venue": "WLLWLLWWDW",
-    "pos": 6,
-    "gf": 1.7,
-    "ga": 1.7
-   },
-   "away": {
-    "id": "hamburg",
-    "name": "Hamburger SV",
-    "pts": 7,
-    "br": {
-     "form": 4,
-     "venueForm": 2,
-     "position": 0,
-     "h2h": 1
-    },
-    "form": "DLLLWWWLLW",
-    "venue": "LLLWDLLWLL",
-    "pos": 11,
-    "gf": 1.1,
-    "ga": 2.1
-   },
-   "h2hPlayed": 2,
-   "pick": "H",
-   "margin": 8,
-   "xg": [
-    1.9,
-    1.4
-   ],
-   "goals": 3.3,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 4.5,
-    "pts": [
-     7.5,
-     3
-    ],
-    "br": [
-     {
-      "form": 2,
-      "venueForm": 3,
-      "position": 5,
-      "h2h": 1,
-      "home": 3
-     },
-     {
-      "form": 3,
-      "venueForm": 1,
-      "position": 0,
-      "h2h": 1
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-7tihhdch6myqobao6oexk4gt0",
-   "lg": "italian-serie-a",
-   "ko": "2026-11-22T17:00:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "milan",
-    "name": "AC Milan",
-    "pts": 12,
-    "br": {
-     "form": 6,
-     "venueForm": 5,
-     "position": 1,
-     "h2h": 0
-    },
-    "form": "WDDWDWWLWW",
-    "venue": "WLDLLWWWLW",
-    "pos": 5,
-    "gf": 2.1,
-    "ga": 1.2
-   },
-   "away": {
-    "id": "frosinone",
-    "name": "Frosinone",
-    "pts": 7,
-    "br": {
-     "form": 6,
-     "venueForm": 1,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "WWDWLWDWWL",
-    "venue": "WDLDL",
-    "pos": 6,
-    "gf": 2.4,
-    "ga": 1.4
-   },
-   "h2hPlayed": 0,
-   "pick": "H",
-   "margin": 5,
-   "xg": [
-    1.75,
-    1.8
-   ],
-   "goals": 3.55,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 4.5,
-    "pts": [
-     7.5,
-     3
-    ],
-    "br": [
-     {
-      "form": 4,
-      "venueForm": 4,
-      "position": 1,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 3,
-      "venueForm": 1,
-      "position": 0,
-      "h2h": 0
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-83ihhupbrznxj8emnypfelhjo",
-   "lg": "spanish-la-liga",
-   "ko": "2026-11-22T17:30:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "osasuna",
-    "name": "Osasuna",
-    "pts": 9,
-    "br": {
-     "form": 2,
-     "venueForm": 3,
-     "position": 4,
-     "h2h": 0
-    },
-    "form": "WLLLDLWLLD",
-    "venue": "WLLLDWLDWD",
-    "pos": 16,
-    "gf": 1,
-    "ga": 2.2
-   },
-   "away": {
-    "id": "malaga",
-    "name": "Málaga",
-    "pts": 0,
-    "br": {
-     "form": 0,
-     "venueForm": 0,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "LDDLLDLDLL",
-    "venue": "LLDLDL",
-    "pos": 20,
-    "gf": 0.8,
-    "ga": 2
-   },
-   "h2hPlayed": 0,
-   "pick": "H",
-   "margin": 9,
-   "xg": [
-    1.5,
-    1.5
-   ],
-   "goals": 3,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 6,
-    "pts": [
-     6,
-     0
-    ],
-    "br": [
-     {
-      "form": 1,
-      "venueForm": 2,
-      "position": 4,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 0,
-      "venueForm": 0,
-      "position": 0,
-      "h2h": 0
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-7rzitakki3g6g7m9yj4totn2s",
-   "lg": "italian-serie-a",
-   "ko": "2026-11-22T19:45:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "atalanta",
-    "name": "Atalanta",
-    "pts": 7,
-    "br": {
-     "form": 3,
-     "venueForm": 4,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "WLLLWLDDLW",
-    "venue": "WLDLWWLWDL",
-    "pos": 11,
-    "gf": 1.5,
-    "ga": 1.9
-   },
-   "away": {
-    "id": "inter-milan",
-    "name": "Inter Milan",
-    "pts": 23,
-    "br": {
-     "form": 8,
-     "venueForm": 5,
-     "position": 8,
-     "h2h": 2
-    },
-    "form": "WWWDWWWWLW",
-    "venue": "DWDWDWDWWL",
-    "pos": 3,
-    "gf": 2.4,
-    "ga": 1.2
-   },
-   "h2hPlayed": 3,
-   "pick": "A",
-   "margin": 16,
-   "xg": [
-    1.35,
-    2.15
-   ],
-   "goals": 3.5,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 4,
-    "pts": [
-     4,
-     8
-    ],
-    "br": [
-     {
-      "form": 1,
-      "venueForm": 2,
-      "position": 0,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 4,
-      "venueForm": 3,
-      "position": 8,
-      "h2h": 2
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
-   "id": "s-82vk3mqrxovp5nbu31vtpmvis",
-   "lg": "spanish-la-liga",
-   "ko": "2026-11-22T20:00:00Z",
-   "day": "2026-11-22",
-   "home": {
-    "id": "getafe",
-    "name": "Getafe",
-    "pts": 8,
-    "br": {
-     "form": 2,
-     "venueForm": 5,
-     "position": 0,
-     "h2h": 1
-    },
-    "form": "LDDLWLDLWL",
-    "venue": "LLWWWDDWDW",
-    "pos": 15,
-    "gf": 0.7,
-    "ga": 1.5
-   },
-   "away": {
-    "id": "atletico-madrid",
-    "name": "Atlético Madrid",
-    "pts": 30,
-    "br": {
-     "form": 8,
-     "venueForm": 7,
-     "position": 12,
-     "h2h": 3
-    },
-    "form": "WLWWWWWWWL",
-    "venue": "LWWLWLWWWW",
-    "pos": 3,
-    "gf": 1.9,
-    "ga": 0.8
-   },
-   "h2hPlayed": 4,
-   "pick": "A",
-   "margin": 22,
-   "xg": [
-    0.75,
-    1.7
-   ],
-   "goals": 2.45,
-   "over": false,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 6,
-    "pts": [
-     4,
-     10
-    ],
-    "br": [
-     {
-      "form": 1,
-      "venueForm": 2,
-      "position": 0,
-      "h2h": 1,
-      "home": 3
-     },
-     {
-      "form": 4,
-      "venueForm": 4,
-      "position": 12,
-      "h2h": 3
-     }
-    ]
-   },
-   "madeAt": "2026-11-22T07:26:09.500Z"
-  },
-  {
    "id": "s-7tto7hbwd8o4wifwovvhbk1zo",
    "lg": "italian-serie-a",
    "ko": "2026-11-23T19:45:00Z",
@@ -3698,7 +2674,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.501Z"
+   "madeAt": "2026-11-22T22:51:52.055Z"
   },
   {
    "id": "s-4veowc3ye0ziovl62553c2g44",
@@ -3770,7 +2746,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.501Z"
+   "madeAt": "2026-11-22T22:51:52.055Z"
   },
   {
    "id": "s-8371uo2o7j0j4yx1kkf9r9yj8",
@@ -3842,7 +2818,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.501Z"
+   "madeAt": "2026-11-22T22:51:52.055Z"
   },
   {
    "id": "s-250gu0j3wbmzavuqzp8uzdr84",
@@ -3914,7 +2890,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.501Z"
+   "madeAt": "2026-11-22T22:51:52.056Z"
   },
   {
    "id": "s-25bz7amwvix020zushuf7szkk",
@@ -3990,7 +2966,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-22T07:26:09.501Z"
+   "madeAt": "2026-11-22T22:51:52.056Z"
   },
   {
    "id": "s-25ngorl71zrsysmgo3fchdmvo",
@@ -4062,7 +3038,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.501Z"
+   "madeAt": "2026-11-22T22:51:52.056Z"
   },
   {
    "id": "s-25zllz5wnb4l9uessoj14n2tw",
@@ -4138,7 +3114,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.056Z"
   },
   {
    "id": "s-26bae77ghh6n7oc4bp1816m1g",
@@ -4210,7 +3186,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.056Z"
   },
   {
    "id": "s-26myffs29boggsidvbgfbaj2s",
@@ -4282,7 +3258,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.056Z"
   },
   {
    "id": "s-26yfoc76twkb86xtdb04pyqz8",
@@ -4354,7 +3330,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.056Z"
   },
   {
    "id": "s-1b84ssfs4fj66tesx8h682kus",
@@ -4426,7 +3402,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-16qdwf025flh3uils5440ror8",
@@ -4502,7 +3478,7 @@
     "side": "H",
     "gap": 13
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-1bjtz4xv34lc2oqypdy6on4es",
@@ -4574,7 +3550,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-19mbfu0i36ub7zhxxizn0bqc4",
@@ -4646,7 +3622,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-19egxpgnsarp66shee8a1ghlg",
@@ -4722,7 +3698,7 @@
     "side": "A",
     "gap": 8
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-1aq318y0y4ghaebyg06ezd89g",
@@ -4794,7 +3770,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.502Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-8uo80c1xuhpi6j5z6sz3rj7ys",
@@ -4866,7 +3842,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-8uzu5k7nqmincxzks76a5iec4",
@@ -4938,7 +3914,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-8vbeuhlm16972hno4bjo20aac",
@@ -5014,7 +3990,7 @@
     "side": "H",
     "gap": 15.5
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-8vmzpq859e7msuow2v6bem6tw",
@@ -5086,7 +4062,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-8vym2s16eb0exqn3mn7qgmadw",
@@ -5158,7 +4134,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-8uciwtjin8w5ly2evul4t1mok",
@@ -5230,7 +4206,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-8wa8wbfkt9f4ghka3s62if5zo",
@@ -5302,7 +4278,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.057Z"
   },
   {
    "id": "s-8wlqswwj4p6tr3wlmnpgj8sno",
@@ -5374,7 +4350,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-8wxg52pysbtc7786f2z2zccno",
@@ -5446,7 +4422,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-18u3jf19fow11426p3mj6vw2c",
@@ -5518,7 +4494,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-195e8a8epmzz5zmr8hem0kg0k",
@@ -5590,7 +4566,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-19gl59xte6tb3407xad61cmj8",
@@ -5662,7 +4638,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-19rsneb1reekicd6gd5pqnnro",
@@ -5734,7 +4710,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-1a31gn69x2mmpu8pqn0a3t4b8",
@@ -5810,7 +4786,7 @@
     "side": "A",
     "gap": 8
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-1aeajirlyorios0sf0j4bmmfo",
@@ -5882,7 +4858,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-1apkq7k7uneizcnfu0v2jyk9g",
@@ -5958,7 +4934,7 @@
     "side": "H",
     "gap": 9.5
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-1b0r5hi886s7f0801lg3rncic",
@@ -6030,7 +5006,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-1bc328a0nv2it194iina79vdg",
@@ -6102,7 +5078,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.503Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-1bna58rmgzk0eaipvtodzhtec",
@@ -6174,7 +5150,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-1byejmp1hqynxy44quiog57o4",
@@ -6246,7 +5222,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-1ca0nw2pj7h9savjx449b87bo",
@@ -6322,7 +5298,7 @@
     "side": "H",
     "gap": 11.5
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-29fl3qsqjct3iiy6p7piaszro",
@@ -6394,7 +5370,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-279vnyh7eyct41vaitpwbrg9g",
@@ -6470,7 +5446,7 @@
     "side": "H",
     "gap": 15.5
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-2ah8iq89ollxlr0cbowv8b2ms",
@@ -6542,7 +5518,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.058Z"
   },
   {
    "id": "s-8x97rjlkq2m6o6za43bfz6mfo",
@@ -6618,7 +5594,7 @@
     "side": "H",
     "gap": 10.5
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.059Z"
   },
   {
    "id": "s-27leit0dj4zrf0b2qz2gdwyz8",
@@ -6690,7 +5666,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.059Z"
   },
   {
    "id": "s-27ww8sd01vsfavqddu16puej8",
@@ -6707,11 +5683,11 @@
      "position": 0,
      "h2h": 0
     },
-    "form": "DLDWDLLDDL",
-    "venue": "LDDDDLDDLD",
+    "form": "LDWDLLDDLD",
+    "venue": "DDDDLDDLDD",
     "pos": 22,
-    "gf": 1.6,
-    "ga": 1.9
+    "gf": 1.7,
+    "ga": 2
    },
    "away": {
     "id": "birmingham-city",
@@ -6733,10 +5709,10 @@
    "pick": "A",
    "margin": 27,
    "xg": [
-    1.15,
-    1.95
+    1.2,
+    2
    ],
-   "goals": 3.1,
+   "goals": 3.2,
    "over": true,
    "thin": false,
    "tuned": {
@@ -6766,7 +5742,7 @@
     "side": "A",
     "gap": 8.5
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.059Z"
   },
   {
    "id": "s-28jqnrtuba31i43dbk9f5kb2s",
@@ -6799,10 +5775,10 @@
      "position": 8,
      "h2h": 2
     },
-    "form": "LWDWWLWLLW",
-    "venue": "DLWDDLDWLL",
+    "form": "WDWWLWLLWD",
+    "venue": "LWDDLDWLLD",
     "pos": 13,
-    "gf": 1.6,
+    "gf": 1.7,
     "ga": 1.6
    },
    "h2hPlayed": 3,
@@ -6810,9 +5786,9 @@
    "margin": 11,
    "xg": [
     1.15,
-    1.8
+    1.85
    ],
-   "goals": 2.95,
+   "goals": 3,
    "over": true,
    "thin": false,
    "tuned": {
@@ -6838,7 +5814,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.059Z"
   },
   {
    "id": "s-8xku76v0jzjffbk4nnu9d33mc",
@@ -6914,7 +5890,7 @@
     "side": "H",
     "gap": 11
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.059Z"
   },
   {
    "id": "s-8xwfdne8tr0nkxa7g4klezhn8",
@@ -6986,7 +5962,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.059Z"
   },
   {
    "id": "s-2889qsx5zl31936o3pmbyqal0",
@@ -7062,7 +6038,7 @@
     "side": "H",
     "gap": 13
    },
-   "madeAt": "2026-11-22T07:26:09.504Z"
+   "madeAt": "2026-11-22T22:51:52.060Z"
   }
  ]
 }

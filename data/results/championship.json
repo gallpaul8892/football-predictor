@@ -1159,5 +1159,6 @@
 {"id":"s-23q9j616pmkfd4lcc3r38wufo","ko":"2026-11-21T15:00:00Z","h":"stoke-city","hn":"Stoke City","a":"birmingham-city","an":"Birmingham City","hs":1,"as":0},
 {"id":"s-241pfybjj843xpa80fdtcmlg4","ko":"2026-11-21T15:00:00Z","h":"swansea-city","hn":"Swansea City","a":"west-bromwich-albion","an":"West Bromwich Albion","hs":2,"as":2},
 {"id":"s-24dae9gzlcfpoe5zxkp5di0wk","ko":"2026-11-21T15:00:00Z","h":"west-ham-united","hn":"West Ham United","a":"preston-north-end","an":"Preston North End","hs":1,"as":1},
-{"id":"s-24ovzm7bglb71fja1qunaisd0","ko":"2026-11-21T15:00:00Z","h":"wolverhampton-wanderers","hn":"Wolverhampton Wanderers","a":"charlton-athletic","an":"Charlton Athletic","hs":2,"as":1}
+{"id":"s-24ovzm7bglb71fja1qunaisd0","ko":"2026-11-21T15:00:00Z","h":"wolverhampton-wanderers","hn":"Wolverhampton Wanderers","a":"charlton-athletic","an":"Charlton Athletic","hs":2,"as":1},
+{"id":"s-21hsq00fm42okqrvh9j8s5250","ko":"2026-11-22T12:00:00Z","h":"burnley","hn":"Burnley","a":"blackburn-rovers","an":"Blackburn Rovers","hs":2,"as":2}
 ]

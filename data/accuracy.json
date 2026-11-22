@@ -1,16 +1,16 @@
 {
  "overall": {
-  "n": 105,
-  "correct": 57,
-  "ouN": 105,
-  "ouCorrect": 54,
-  "pct": 54.3,
-  "ouPct": 51.4
+  "n": 119,
+  "correct": 65,
+  "ouN": 119,
+  "ouCorrect": 63,
+  "pct": 54.6,
+  "ouPct": 52.9
  },
  "actualDist": {
-  "H": 44,
-  "D": 24,
-  "A": 37
+  "H": 53,
+  "D": 27,
+  "A": 39
  },
  "byLeague": {
   "national-league-ns": {
@@ -30,12 +30,12 @@
    "ouPct": 50
   },
   "german-bundesliga": {
-   "n": 7,
-   "correct": 4,
-   "ouN": 7,
-   "ouCorrect": 2,
-   "pct": 57.1,
-   "ouPct": 28.6
+   "n": 9,
+   "correct": 5,
+   "ouN": 9,
+   "ouCorrect": 4,
+   "pct": 55.6,
+   "ouPct": 44.4
   },
   "national-league": {
    "n": 12,
@@ -54,20 +54,20 @@
    "ouPct": 41.7
   },
   "spanish-la-liga": {
-   "n": 5,
-   "correct": 1,
-   "ouN": 5,
-   "ouCorrect": 2,
-   "pct": 20,
-   "ouPct": 40
+   "n": 9,
+   "correct": 4,
+   "ouN": 9,
+   "ouCorrect": 4,
+   "pct": 44.4,
+   "ouPct": 44.4
   },
   "championship": {
-   "n": 11,
+   "n": 12,
    "correct": 8,
-   "ouN": 11,
-   "ouCorrect": 3,
-   "pct": 72.7,
-   "ouPct": 27.3
+   "ouN": 12,
+   "ouCorrect": 4,
+   "pct": 66.7,
+   "ouPct": 33.3
   },
   "league-two": {
    "n": 12,
@@ -78,20 +78,20 @@
    "ouPct": 58.3
   },
   "premier-league": {
-   "n": 7,
-   "correct": 3,
-   "ouN": 7,
-   "ouCorrect": 2,
-   "pct": 42.9,
-   "ouPct": 28.6
+   "n": 9,
+   "correct": 4,
+   "ouN": 9,
+   "ouCorrect": 3,
+   "pct": 44.4,
+   "ouPct": 33.3
   },
   "italian-serie-a": {
-   "n": 4,
-   "correct": 4,
-   "ouN": 4,
-   "ouCorrect": 3,
-   "pct": 100,
-   "ouPct": 75
+   "n": 9,
+   "correct": 7,
+   "ouN": 9,
+   "ouCorrect": 6,
+   "pct": 77.8,
+   "ouPct": 66.7
   },
   "scottish-premiership": {
    "n": 6,
@@ -120,12 +120,12 @@
  },
  "byPick": {
   "H": {
-   "n": 53,
-   "correct": 32,
-   "ouN": 53,
-   "ouCorrect": 24,
-   "pct": 60.4,
-   "ouPct": 45.3
+   "n": 60,
+   "correct": 38,
+   "ouN": 60,
+   "ouCorrect": 29,
+   "pct": 63.3,
+   "ouPct": 48.3
   },
   "D": {
    "n": 11,
@@ -136,22 +136,22 @@
    "ouPct": 54.5
   },
   "A": {
-   "n": 41,
-   "correct": 22,
-   "ouN": 41,
-   "ouCorrect": 24,
-   "pct": 53.7,
-   "ouPct": 58.5
+   "n": 48,
+   "correct": 24,
+   "ouN": 48,
+   "ouCorrect": 28,
+   "pct": 50,
+   "ouPct": 58.3
   }
  },
  "byMargin": {
   "7-10": {
-   "n": 18,
-   "correct": 8,
-   "ouN": 18,
-   "ouCorrect": 10,
-   "pct": 44.4,
-   "ouPct": 55.6
+   "n": 21,
+   "correct": 10,
+   "ouN": 21,
+   "ouCorrect": 12,
+   "pct": 47.6,
+   "ouPct": 57.1
   },
   "0-1": {
    "n": 11,
@@ -162,20 +162,20 @@
    "ouPct": 54.5
   },
   "11+": {
-   "n": 46,
-   "correct": 29,
-   "ouN": 46,
-   "ouCorrect": 23,
-   "pct": 63,
-   "ouPct": 50
+   "n": 55,
+   "correct": 33,
+   "ouN": 55,
+   "ouCorrect": 29,
+   "pct": 60,
+   "ouPct": 52.7
   },
   "4-6": {
-   "n": 20,
-   "correct": 11,
-   "ouN": 20,
-   "ouCorrect": 13,
-   "pct": 55,
-   "ouPct": 65
+   "n": 22,
+   "correct": 13,
+   "ouN": 22,
+   "ouCorrect": 14,
+   "pct": 59.1,
+   "ouPct": 63.6
   },
   "2-3": {
    "n": 10,
@@ -189,12 +189,12 @@
  "byWeek": [
   {
    "week": "2026-11-16",
-   "n": 105,
-   "correct": 57,
-   "ouN": 105,
-   "ouCorrect": 54,
-   "pct": 54.3,
-   "ouPct": 51.4
+   "n": 119,
+   "correct": 65,
+   "ouN": 119,
+   "ouCorrect": 63,
+   "pct": 54.6,
+   "ouPct": 52.9
   }
  ],
  "byTeam": {
@@ -2823,21 +2823,385 @@
    "pct": 100,
    "ouPct": 0,
    "backedPct": null
+  },
+  "juventus": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Juventus",
+   "lg": "italian-serie-a",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": 100
+  },
+  "venezia": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Venezia",
+   "lg": "italian-serie-a",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "burnley": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Burnley",
+   "lg": "championship",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "blackburn-rovers": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Blackburn Rovers",
+   "lg": "championship",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": 0
+  },
+  "barcelona": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Barcelona",
+   "lg": "spanish-la-liga",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": 100
+  },
+  "villarreal": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Villarreal",
+   "lg": "spanish-la-liga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "hull-city": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Hull City",
+   "lg": "premier-league",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "brighton-and-hove-albion": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Brighton & Hove Albion",
+   "lg": "premier-league",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": 0
+  },
+  "bologna": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Bologna",
+   "lg": "italian-serie-a",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": 0
+  },
+  "udinese": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Udinese",
+   "lg": "italian-serie-a",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "sassuolo": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Sassuolo",
+   "lg": "italian-serie-a",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "genoa": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Genoa",
+   "lg": "italian-serie-a",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 0,
+   "backedPct": 100
+  },
+  "augsburg": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Augsburg",
+   "lg": "german-bundesliga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "mainz": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Mainz 05",
+   "lg": "german-bundesliga",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": 0
+  },
+  "racing-santander": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Racing de Santander",
+   "lg": "spanish-la-liga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "real-sociedad": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Real Sociedad",
+   "lg": "spanish-la-liga",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": 0
+  },
+  "liverpool": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Liverpool",
+   "lg": "premier-league",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": 100
+  },
+  "manchester-united": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Manchester United",
+   "lg": "premier-league",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "werder-bremen": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Werder Bremen",
+   "lg": "german-bundesliga",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": 100
+  },
+  "hamburg": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Hamburger SV",
+   "lg": "german-bundesliga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "milan": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "AC Milan",
+   "lg": "italian-serie-a",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": 100
+  },
+  "frosinone": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Frosinone",
+   "lg": "italian-serie-a",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "osasuna": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Osasuna",
+   "lg": "spanish-la-liga",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 0,
+   "backedPct": 100
+  },
+  "malaga": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Málaga",
+   "lg": "spanish-la-liga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "atalanta": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Atalanta",
+   "lg": "italian-serie-a",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "inter-milan": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Inter Milan",
+   "lg": "italian-serie-a",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": 0
+  },
+  "getafe": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Getafe",
+   "lg": "spanish-la-liga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "atletico-madrid": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Atlético Madrid",
+   "lg": "spanish-la-liga",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 0,
+   "backedPct": 100
   }
  },
  "tuned": {
   "overall": {
-   "n": 105,
-   "correct": 55,
-   "ouN": 105,
-   "ouCorrect": 54,
-   "pct": 52.4,
-   "ouPct": 51.4
+   "n": 119,
+   "correct": 64,
+   "ouN": 119,
+   "ouCorrect": 63,
+   "pct": 53.8,
+   "ouPct": 52.9
   },
   "actualDist": {
-   "H": 44,
-   "D": 24,
-   "A": 37
+   "H": 53,
+   "D": 27,
+   "A": 39
   },
   "byLeague": {
    "national-league-ns": {
@@ -2857,12 +3221,12 @@
     "ouPct": 50
    },
    "german-bundesliga": {
-    "n": 7,
-    "correct": 4,
-    "ouN": 7,
-    "ouCorrect": 2,
-    "pct": 57.1,
-    "ouPct": 28.6
+    "n": 9,
+    "correct": 6,
+    "ouN": 9,
+    "ouCorrect": 4,
+    "pct": 66.7,
+    "ouPct": 44.4
    },
    "national-league": {
     "n": 12,
@@ -2881,20 +3245,20 @@
     "ouPct": 41.7
    },
    "spanish-la-liga": {
-    "n": 5,
-    "correct": 2,
-    "ouN": 5,
-    "ouCorrect": 2,
-    "pct": 40,
-    "ouPct": 40
+    "n": 9,
+    "correct": 5,
+    "ouN": 9,
+    "ouCorrect": 4,
+    "pct": 55.6,
+    "ouPct": 44.4
    },
    "championship": {
-    "n": 11,
+    "n": 12,
     "correct": 8,
-    "ouN": 11,
-    "ouCorrect": 3,
-    "pct": 72.7,
-    "ouPct": 27.3
+    "ouN": 12,
+    "ouCorrect": 4,
+    "pct": 66.7,
+    "ouPct": 33.3
    },
    "league-two": {
     "n": 12,
@@ -2905,20 +3269,20 @@
     "ouPct": 58.3
    },
    "premier-league": {
-    "n": 7,
-    "correct": 3,
-    "ouN": 7,
-    "ouCorrect": 2,
-    "pct": 42.9,
-    "ouPct": 28.6
+    "n": 9,
+    "correct": 4,
+    "ouN": 9,
+    "ouCorrect": 3,
+    "pct": 44.4,
+    "ouPct": 33.3
    },
    "italian-serie-a": {
-    "n": 4,
-    "correct": 4,
-    "ouN": 4,
-    "ouCorrect": 3,
-    "pct": 100,
-    "ouPct": 75
+    "n": 9,
+    "correct": 7,
+    "ouN": 9,
+    "ouCorrect": 6,
+    "pct": 77.8,
+    "ouPct": 66.7
    },
    "scottish-premiership": {
     "n": 6,
@@ -2947,20 +3311,20 @@
   },
   "byPick": {
    "H": {
-    "n": 71,
-    "correct": 39,
-    "ouN": 71,
-    "ouCorrect": 34,
-    "pct": 54.9,
-    "ouPct": 47.9
+    "n": 79,
+    "correct": 46,
+    "ouN": 79,
+    "ouCorrect": 40,
+    "pct": 58.2,
+    "ouPct": 50.6
    },
    "A": {
-    "n": 27,
-    "correct": 15,
-    "ouN": 27,
-    "ouCorrect": 15,
-    "pct": 55.6,
-    "ouPct": 55.6
+    "n": 33,
+    "correct": 17,
+    "ouN": 33,
+    "ouCorrect": 18,
+    "pct": 51.5,
+    "ouPct": 54.5
    },
    "D": {
     "n": 7,
@@ -2973,55 +3337,55 @@
   },
   "byMargin": {
    "4-6": {
-    "n": 24,
-    "correct": 12,
-    "ouN": 24,
-    "ouCorrect": 12,
-    "pct": 50,
-    "ouPct": 50
+    "n": 30,
+    "correct": 16,
+    "ouN": 30,
+    "ouCorrect": 16,
+    "pct": 53.3,
+    "ouPct": 53.3
    },
    "2-3": {
-    "n": 23,
-    "correct": 11,
-    "ouN": 23,
-    "ouCorrect": 11,
-    "pct": 47.8,
-    "ouPct": 47.8
+    "n": 25,
+    "correct": 12,
+    "ouN": 25,
+    "ouCorrect": 12,
+    "pct": 48,
+    "ouPct": 48
    },
    "7-10": {
-    "n": 25,
-    "correct": 17,
-    "ouN": 25,
-    "ouCorrect": 15,
-    "pct": 68,
-    "ouPct": 60
+    "n": 28,
+    "correct": 19,
+    "ouN": 28,
+    "ouCorrect": 17,
+    "pct": 67.9,
+    "ouPct": 60.7
    },
    "11+": {
-    "n": 13,
-    "correct": 8,
-    "ouN": 13,
-    "ouCorrect": 2,
-    "pct": 61.5,
-    "ouPct": 15.4
+    "n": 15,
+    "correct": 9,
+    "ouN": 15,
+    "ouCorrect": 3,
+    "pct": 60,
+    "ouPct": 20
    },
    "0-1": {
-    "n": 20,
-    "correct": 7,
-    "ouN": 20,
-    "ouCorrect": 14,
-    "pct": 35,
-    "ouPct": 70
+    "n": 21,
+    "correct": 8,
+    "ouN": 21,
+    "ouCorrect": 15,
+    "pct": 38.1,
+    "ouPct": 71.4
    }
   },
   "byWeek": [
    {
     "week": "2026-11-16",
-    "n": 105,
-    "correct": 55,
-    "ouN": 105,
-    "ouCorrect": 54,
-    "pct": 52.4,
-    "ouPct": 51.4
+    "n": 119,
+    "correct": 64,
+    "ouN": 119,
+    "ouCorrect": 63,
+    "pct": 53.8,
+    "ouPct": 52.9
    }
   ],
   "byTeam": {
@@ -5650,21 +6014,385 @@
     "pct": 100,
     "ouPct": 0,
     "backedPct": null
+   },
+   "juventus": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Juventus",
+    "lg": "italian-serie-a",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "venezia": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Venezia",
+    "lg": "italian-serie-a",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "burnley": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Burnley",
+    "lg": "championship",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "blackburn-rovers": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Blackburn Rovers",
+    "lg": "championship",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": 0
+   },
+   "barcelona": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Barcelona",
+    "lg": "spanish-la-liga",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "villarreal": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Villarreal",
+    "lg": "spanish-la-liga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "hull-city": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Hull City",
+    "lg": "premier-league",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "brighton-and-hove-albion": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Brighton & Hove Albion",
+    "lg": "premier-league",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": 0
+   },
+   "bologna": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Bologna",
+    "lg": "italian-serie-a",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": 0
+   },
+   "udinese": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Udinese",
+    "lg": "italian-serie-a",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "sassuolo": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Sassuolo",
+    "lg": "italian-serie-a",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "genoa": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Genoa",
+    "lg": "italian-serie-a",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": 100
+   },
+   "augsburg": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Augsburg",
+    "lg": "german-bundesliga",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "mainz": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Mainz 05",
+    "lg": "german-bundesliga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "racing-santander": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Racing de Santander",
+    "lg": "spanish-la-liga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "real-sociedad": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Real Sociedad",
+    "lg": "spanish-la-liga",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": 0
+   },
+   "liverpool": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Liverpool",
+    "lg": "premier-league",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "manchester-united": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Manchester United",
+    "lg": "premier-league",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "werder-bremen": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Werder Bremen",
+    "lg": "german-bundesliga",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "hamburg": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Hamburger SV",
+    "lg": "german-bundesliga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "milan": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "AC Milan",
+    "lg": "italian-serie-a",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "frosinone": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Frosinone",
+    "lg": "italian-serie-a",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "osasuna": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Osasuna",
+    "lg": "spanish-la-liga",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": 100
+   },
+   "malaga": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Málaga",
+    "lg": "spanish-la-liga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "atalanta": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Atalanta",
+    "lg": "italian-serie-a",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "inter-milan": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Inter Milan",
+    "lg": "italian-serie-a",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": 0
+   },
+   "getafe": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Getafe",
+    "lg": "spanish-la-liga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "atletico-madrid": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Atlético Madrid",
+    "lg": "spanish-la-liga",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": 100
    }
   }
  },
  "bankers": {
   "overall": {
-   "n": 27,
-   "correct": 23,
-   "ouN": 27,
-   "ouCorrect": 11,
-   "pct": 85.2,
-   "ouPct": 40.7
+   "n": 31,
+   "correct": 27,
+   "ouN": 31,
+   "ouCorrect": 14,
+   "pct": 87.1,
+   "ouPct": 45.2
   },
   "actualDist": {
-   "H": 17,
-   "D": 6,
+   "H": 20,
+   "D": 7,
    "A": 4
   },
   "byLeague": {
@@ -5693,20 +6421,20 @@
     "ouPct": 20
    },
    "premier-league": {
-    "n": 3,
-    "correct": 3,
-    "ouN": 3,
-    "ouCorrect": 0,
+    "n": 4,
+    "correct": 4,
+    "ouN": 4,
+    "ouCorrect": 1,
     "pct": 100,
-    "ouPct": 0
+    "ouPct": 25
    },
    "italian-serie-a": {
-    "n": 2,
-    "correct": 2,
-    "ouN": 2,
-    "ouCorrect": 2,
+    "n": 4,
+    "correct": 4,
+    "ouN": 4,
+    "ouCorrect": 3,
     "pct": 100,
-    "ouPct": 100
+    "ouPct": 75
    },
    "national-league-ns": {
     "n": 2,
@@ -5741,51 +6469,51 @@
     "ouPct": 50
    },
    "spanish-la-liga": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
+    "ouCorrect": 1,
     "pct": 100,
-    "ouPct": 0
+    "ouPct": 50
    }
   },
   "byPick": {
    "H": {
-    "n": 27,
-    "correct": 23,
-    "ouN": 27,
-    "ouCorrect": 11,
-    "pct": 85.2,
-    "ouPct": 40.7
+    "n": 31,
+    "correct": 27,
+    "ouN": 31,
+    "ouCorrect": 14,
+    "pct": 87.1,
+    "ouPct": 45.2
    }
   },
   "byMargin": {
    "11+": {
-    "n": 13,
-    "correct": 11,
-    "ouN": 13,
-    "ouCorrect": 2,
-    "pct": 84.6,
-    "ouPct": 15.4
+    "n": 15,
+    "correct": 13,
+    "ouN": 15,
+    "ouCorrect": 3,
+    "pct": 86.7,
+    "ouPct": 20
    },
    "7-10": {
-    "n": 14,
-    "correct": 12,
-    "ouN": 14,
-    "ouCorrect": 9,
-    "pct": 85.7,
-    "ouPct": 64.3
+    "n": 16,
+    "correct": 14,
+    "ouN": 16,
+    "ouCorrect": 11,
+    "pct": 87.5,
+    "ouPct": 68.8
    }
   },
   "byWeek": [
    {
     "week": "2026-11-16",
-    "n": 27,
-    "correct": 23,
-    "ouN": 27,
-    "ouCorrect": 11,
-    "pct": 85.2,
-    "ouPct": 40.7
+    "n": 31,
+    "correct": 27,
+    "ouN": 31,
+    "ouCorrect": 14,
+    "pct": 87.1,
+    "ouPct": 45.2
    }
   ],
   "byTeam": {
@@ -6490,8 +7218,112 @@
     "pct": 100,
     "ouPct": 0,
     "backedPct": null
+   },
+   "juventus": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Juventus",
+    "lg": "italian-serie-a",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "venezia": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Venezia",
+    "lg": "italian-serie-a",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "barcelona": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Barcelona",
+    "lg": "spanish-la-liga",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "villarreal": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Villarreal",
+    "lg": "spanish-la-liga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "bologna": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Bologna",
+    "lg": "italian-serie-a",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": 100
+   },
+   "udinese": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Udinese",
+    "lg": "italian-serie-a",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "liverpool": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Liverpool",
+    "lg": "premier-league",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "manchester-united": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Manchester United",
+    "lg": "premier-league",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
    }
   }
  },
- "generatedAt": "2026-11-22T07:26:09.509Z"
+ "generatedAt": "2026-11-22T22:51:52.065Z"
 }

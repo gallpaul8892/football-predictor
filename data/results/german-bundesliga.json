@@ -629,5 +629,7 @@
 {"id":"s-5t3vdlpenned32s3k1jy1p6hg","ko":"2026-11-21T14:30:00Z","h":"union-berlin","hn":"Union Berlin","a":"leipzig","an":"RB Leipzig","hs":1,"as":5},
 {"id":"s-5ten2u8osh2anmgsgwjibph5g","ko":"2026-11-21T14:30:00Z","h":"borussia-moenchengladbach","hn":"Borussia M'gladbach","a":"borussia-dortmund","an":"Borussia Dortmund","hs":0,"as":1},
 {"id":"s-5uatqueaql0bpvzjlt75bfehg","ko":"2026-11-21T14:30:00Z","h":"elversberg","hn":"Elversberg","a":"freiburg","an":"Freiburg","hs":0,"as":1},
-{"id":"s-5u01js1oahg9tz8f4ulkxadxw","ko":"2026-11-21T17:30:00Z","h":"fc-schalke","hn":"Schalke 04","a":"vfb-stuttgart","an":"Stuttgart","hs":0,"as":0}
+{"id":"s-5u01js1oahg9tz8f4ulkxadxw","ko":"2026-11-21T17:30:00Z","h":"fc-schalke","hn":"Schalke 04","a":"vfb-stuttgart","an":"Stuttgart","hs":0,"as":0},
+{"id":"s-5st5hmskji7x1cb7jqohck4yc","ko":"2026-11-22T14:30:00Z","h":"augsburg","hn":"Augsburg","a":"mainz","an":"Mainz 05","hs":3,"as":1},
+{"id":"s-5tpbezn2g2z3wkvhxuykmyexg","ko":"2026-11-22T16:30:00Z","h":"werder-bremen","hn":"Werder Bremen","a":"hamburg","an":"Hamburger SV","hs":4,"as":0}
 ]

@@ -773,5 +773,10 @@
 {"id":"s-7slh2mb2oy5cktk2p3idytrf8","ko":"2026-11-21T14:00:00Z","h":"como","hn":"Como","a":"cagliari","an":"Cagliari","hs":2,"as":0},
 {"id":"s-7t7dad29wkbka6b74ejateo0k","ko":"2026-11-21T14:00:00Z","h":"lazio","hn":"Lazio","a":"lecce","an":"Lecce","hs":3,"as":0},
 {"id":"s-7uflfa840rmsf62f96jle3z10","ko":"2026-11-21T17:00:00Z","h":"parma","hn":"Parma","a":"roma","an":"Roma","hs":1,"as":5},
-{"id":"s-7u4njj5vzsore9tx3o4flknpw","ko":"2026-11-21T19:45:00Z","h":"napoli","hn":"Napoli","a":"torino","an":"Torino","hs":1,"as":0}
+{"id":"s-7u4njj5vzsore9tx3o4flknpw","ko":"2026-11-21T19:45:00Z","h":"napoli","hn":"Napoli","a":"torino","an":"Torino","hs":1,"as":0},
+{"id":"s-7swd2xv6gei68ddws82y8ku8k","ko":"2026-11-22T11:30:00Z","h":"juventus","hn":"Juventus","a":"venezia","an":"Venezia","hs":4,"as":0},
+{"id":"s-7sahe5933q71mpt2juyiafwus","ko":"2026-11-22T14:00:00Z","h":"bologna","hn":"Bologna","a":"udinese","an":"Udinese","hs":1,"as":1},
+{"id":"s-7uqldjza8udrm8ujbwlaqov84","ko":"2026-11-22T14:00:00Z","h":"sassuolo","hn":"Sassuolo","a":"genoa","an":"Genoa","hs":0,"as":2},
+{"id":"s-7tihhdch6myqobao6oexk4gt0","ko":"2026-11-22T17:00:00Z","h":"milan","hn":"AC Milan","a":"frosinone","an":"Frosinone","hs":5,"as":1},
+{"id":"s-7rzitakki3g6g7m9yj4totn2s","ko":"2026-11-22T19:45:00Z","h":"atalanta","hn":"Atalanta","a":"inter-milan","an":"Inter Milan","hs":4,"as":4}
 ]

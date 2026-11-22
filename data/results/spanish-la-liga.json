@@ -772,5 +772,9 @@
 {"id":"s-81xbpprcjc9id9n8tygyxavbo","ko":"2026-11-21T13:00:00Z","h":"deportivo-alaves","hn":"Alavés","a":"deportivo-de-la-coruna","an":"Deportivo de A Coruña","hs":3,"as":1},
 {"id":"s-845l819xjrwnukitg0q3a8c9g","ko":"2026-11-21T15:15:00Z","h":"rayo-vallecano","hn":"Rayo Vallecano","a":"valencia","an":"Valencia","hs":0,"as":1},
 {"id":"s-84snfg3o35m7xy7adjsq7mrys","ko":"2026-11-21T17:30:00Z","h":"sevilla","hn":"Sevilla","a":"real-betis","an":"Real Betis","hs":1,"as":1},
-{"id":"s-84h4m9b9g3tqib17j8nocr9qs","ko":"2026-11-21T20:00:00Z","h":"real-madrid","hn":"Real Madrid","a":"celta-vigo","an":"Celta Vigo","hs":2,"as":1}
+{"id":"s-84h4m9b9g3tqib17j8nocr9qs","ko":"2026-11-21T20:00:00Z","h":"real-madrid","hn":"Real Madrid","a":"celta-vigo","an":"Celta Vigo","hs":2,"as":1},
+{"id":"s-82k5i1q9r1t13h6d9s5jwh34k","ko":"2026-11-22T13:00:00Z","h":"barcelona","hn":"Barcelona","a":"villarreal","an":"Villarreal","hs":3,"as":2},
+{"id":"s-83u0icd3b8doe95t75ypcp1xw","ko":"2026-11-22T15:15:00Z","h":"racing-santander","hn":"Racing de Santander","a":"real-sociedad","an":"Real Sociedad","hs":3,"as":2},
+{"id":"s-83ihhupbrznxj8emnypfelhjo","ko":"2026-11-22T17:30:00Z","h":"osasuna","hn":"Osasuna","a":"malaga","an":"Málaga","hs":1,"as":0},
+{"id":"s-82vk3mqrxovp5nbu31vtpmvis","ko":"2026-11-22T20:00:00Z","h":"getafe","hn":"Getafe","a":"atletico-madrid","an":"Atlético Madrid","hs":0,"as":3}
 ]
