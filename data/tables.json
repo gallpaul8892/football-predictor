@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "generatedAt": "2026-11-23T07:29:02.274Z",
+ "generatedAt": "2026-11-23T22:51:59.407Z",
  "tables": {
   "premier-league": [
    {
@@ -79,6 +79,21 @@
     "name": "Bournemouth"
    },
    {
+    "team": "brentford",
+    "P": 11,
+    "W": 4,
+    "D": 5,
+    "L": 2,
+    "GF": 20,
+    "GA": 11,
+    "GD": 9,
+    "Pts": 17,
+    "pos": 6,
+    "divisionSize": 20,
+    "div": 1,
+    "name": "Brentford"
+   },
+   {
     "team": "leeds-united",
     "P": 11,
     "W": 4,
@@ -88,25 +103,10 @@
     "GA": 9,
     "GD": 5,
     "Pts": 17,
-    "pos": 6,
-    "divisionSize": 20,
-    "div": 1,
-    "name": "Leeds United"
-   },
-   {
-    "team": "everton",
-    "P": 10,
-    "W": 4,
-    "D": 4,
-    "L": 2,
-    "GF": 12,
-    "GA": 10,
-    "GD": 2,
-    "Pts": 16,
     "pos": 7,
     "divisionSize": 20,
     "div": 1,
-    "name": "Everton"
+    "name": "Leeds United"
    },
    {
     "team": "chelsea",
@@ -124,6 +124,21 @@
     "name": "Chelsea"
    },
    {
+    "team": "everton",
+    "P": 11,
+    "W": 4,
+    "D": 4,
+    "L": 3,
+    "GF": 12,
+    "GA": 14,
+    "GD": -2,
+    "Pts": 16,
+    "pos": 9,
+    "divisionSize": 20,
+    "div": 1,
+    "name": "Everton"
+   },
+   {
     "team": "tottenham-hotspur",
     "P": 11,
     "W": 4,
@@ -133,25 +148,10 @@
     "GA": 11,
     "GD": 1,
     "Pts": 15,
-    "pos": 9,
-    "divisionSize": 20,
-    "div": 1,
-    "name": "Tottenham Hotspur"
-   },
-   {
-    "team": "brentford",
-    "P": 10,
-    "W": 3,
-    "D": 5,
-    "L": 2,
-    "GF": 16,
-    "GA": 11,
-    "GD": 5,
-    "Pts": 14,
     "pos": 10,
     "divisionSize": 20,
     "div": 1,
-    "name": "Brentford"
+    "name": "Tottenham Hotspur"
    },
    {
     "team": "hull-city",
@@ -3221,6 +3221,21 @@
     "name": "Torino"
    },
    {
+    "team": "monza",
+    "P": 12,
+    "W": 3,
+    "D": 1,
+    "L": 8,
+    "GF": 20,
+    "GA": 25,
+    "GD": -5,
+    "Pts": 10,
+    "pos": 14,
+    "divisionSize": 20,
+    "div": 1,
+    "name": "Monza"
+   },
+   {
     "team": "lecce",
     "P": 12,
     "W": 3,
@@ -3230,22 +3245,22 @@
     "GA": 25,
     "GD": -13,
     "Pts": 10,
-    "pos": 14,
+    "pos": 15,
     "divisionSize": 20,
     "div": 1,
     "name": "Lecce"
    },
    {
     "team": "fiorentina",
-    "P": 11,
+    "P": 12,
     "W": 2,
     "D": 3,
-    "L": 6,
+    "L": 7,
     "GF": 17,
-    "GA": 25,
-    "GD": -8,
+    "GA": 28,
+    "GD": -11,
     "Pts": 9,
-    "pos": 15,
+    "pos": 16,
     "divisionSize": 20,
     "div": 1,
     "name": "Fiorentina"
@@ -3260,7 +3275,7 @@
     "GA": 22,
     "GD": -12,
     "Pts": 8,
-    "pos": 16,
+    "pos": 17,
     "divisionSize": 20,
     "div": 1,
     "name": "Parma"
@@ -3275,25 +3290,10 @@
     "GA": 31,
     "GD": -15,
     "Pts": 8,
-    "pos": 17,
-    "divisionSize": 20,
-    "div": 1,
-    "name": "Sassuolo"
-   },
-   {
-    "team": "monza",
-    "P": 11,
-    "W": 2,
-    "D": 1,
-    "L": 8,
-    "GF": 17,
-    "GA": 25,
-    "GD": -8,
-    "Pts": 7,
     "pos": 18,
     "divisionSize": 20,
     "div": 1,
-    "name": "Monza"
+    "name": "Sassuolo"
    },
    {
     "team": "udinese",
@@ -3538,6 +3538,21 @@
     "name": "Celta Vigo"
    },
    {
+    "team": "levante",
+    "P": 13,
+    "W": 2,
+    "D": 6,
+    "L": 5,
+    "GF": 17,
+    "GA": 22,
+    "GD": -5,
+    "Pts": 12,
+    "pos": 15,
+    "divisionSize": 20,
+    "div": 1,
+    "name": "Levante"
+   },
+   {
     "team": "rayo-vallecano",
     "P": 12,
     "W": 3,
@@ -3547,7 +3562,7 @@
     "GA": 22,
     "GD": -7,
     "Pts": 12,
-    "pos": 15,
+    "pos": 16,
     "divisionSize": 20,
     "div": 1,
     "name": "Rayo Vallecano"
@@ -3562,7 +3577,7 @@
     "GA": 20,
     "GD": -11,
     "Pts": 12,
-    "pos": 16,
+    "pos": 17,
     "divisionSize": 20,
     "div": 1,
     "name": "Valencia"
@@ -3577,36 +3592,21 @@
     "GA": 21,
     "GD": -13,
     "Pts": 12,
-    "pos": 17,
+    "pos": 18,
     "divisionSize": 20,
     "div": 1,
     "name": "Getafe"
    },
    {
-    "team": "levante",
-    "P": 12,
+    "team": "elche",
+    "P": 13,
     "W": 2,
     "D": 5,
-    "L": 5,
-    "GF": 16,
-    "GA": 21,
-    "GD": -5,
-    "Pts": 11,
-    "pos": 18,
-    "divisionSize": 20,
-    "div": 1,
-    "name": "Levante"
-   },
-   {
-    "team": "elche",
-    "P": 12,
-    "W": 2,
-    "D": 4,
     "L": 6,
-    "GF": 14,
-    "GA": 20,
+    "GF": 15,
+    "GA": 21,
     "GD": -6,
-    "Pts": 10,
+    "Pts": 11,
     "pos": 19,
     "divisionSize": 20,
     "div": 1,

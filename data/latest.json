@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T07:29:02.277Z",
+ "generatedAt": "2026-11-23T22:51:59.407Z",
  "today": "2026-11-23",
  "window": [
   "2026-11-23",
@@ -108,222 +108,6 @@
  },
  "upcoming": [
   {
-   "id": "s-7tto7hbwd8o4wifwovvhbk1zo",
-   "lg": "italian-serie-a",
-   "ko": "2026-11-23T19:45:00Z",
-   "day": "2026-11-23",
-   "home": {
-    "id": "monza",
-    "name": "Monza",
-    "pts": 5,
-    "br": {
-     "form": 2,
-     "venueForm": 2,
-     "position": 0,
-     "h2h": 1
-    },
-    "form": "LDLWLWLLLL",
-    "venue": "DLLLLLWWLL",
-    "pos": 18,
-    "gf": 1.6,
-    "ga": 2.1
-   },
-   "away": {
-    "id": "fiorentina",
-    "name": "Fiorentina",
-    "pts": 10,
-    "br": {
-     "form": 2,
-     "venueForm": 5,
-     "position": 3,
-     "h2h": 0
-    },
-    "form": "LLWDLLLDWD",
-    "venue": "WWDLWLWLLW",
-    "pos": 15,
-    "gf": 1.7,
-    "ga": 2.1
-   },
-   "h2hPlayed": 1,
-   "pick": "A",
-   "margin": 5,
-   "xg": [
-    1.85,
-    1.9
-   ],
-   "goals": 3.75,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 1.5,
-    "pts": [
-     4,
-     2.5
-    ],
-    "br": [
-     {
-      "form": 1,
-      "venueForm": 2,
-      "position": 0,
-      "h2h": 1,
-      "home": 3
-     },
-     {
-      "form": 1,
-      "venueForm": 2,
-      "position": 3,
-      "h2h": 0
-     }
-    ]
-   },
-   "madeAt": "2026-11-23T07:29:02.261Z"
-  },
-  {
-   "id": "s-4veowc3ye0ziovl62553c2g44",
-   "lg": "premier-league",
-   "ko": "2026-11-23T20:00:00Z",
-   "day": "2026-11-23",
-   "home": {
-    "id": "brentford",
-    "name": "Brentford",
-    "pts": 8,
-    "br": {
-     "form": 3,
-     "venueForm": 4,
-     "position": 0,
-     "h2h": 1
-    },
-    "form": "WDDDWDLDWL",
-    "venue": "DDDWDWDWLW",
-    "pos": 10,
-    "gf": 1.6,
-    "ga": 1.1
-   },
-   "away": {
-    "id": "everton",
-    "name": "Everton",
-    "pts": 8,
-    "br": {
-     "form": 4,
-     "venueForm": 1,
-     "position": 3,
-     "h2h": 0
-    },
-    "form": "WDDDWDLLWW",
-    "venue": "LDLDLDDDLW",
-    "pos": 7,
-    "gf": 1.2,
-    "ga": 1
-   },
-   "h2hPlayed": 4,
-   "pick": "D",
-   "margin": 0,
-   "xg": [
-    1.3,
-    1.15
-   ],
-   "goals": 2.45,
-   "over": false,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 0.5,
-    "pts": [
-     4,
-     3.5
-    ],
-    "br": [
-     {
-      "form": 1,
-      "venueForm": 3,
-      "position": 0,
-      "h2h": 1,
-      "home": 3
-     },
-     {
-      "form": 2,
-      "venueForm": 1,
-      "position": 3,
-      "h2h": 0
-     }
-    ]
-   },
-   "madeAt": "2026-11-23T07:29:02.261Z"
-  },
-  {
-   "id": "s-8371uo2o7j0j4yx1kkf9r9yj8",
-   "lg": "spanish-la-liga",
-   "ko": "2026-11-23T20:00:00Z",
-   "day": "2026-11-23",
-   "home": {
-    "id": "levante",
-    "name": "Levante",
-    "pts": 11,
-    "br": {
-     "form": 2,
-     "venueForm": 7,
-     "position": 1,
-     "h2h": 1
-    },
-    "form": "WDLLDDWLLD",
-    "venue": "WWWWWWLDWL",
-    "pos": 18,
-    "gf": 1.6,
-    "ga": 1.8
-   },
-   "away": {
-    "id": "elche",
-    "name": "Elche",
-    "pts": 6,
-    "br": {
-     "form": 2,
-     "venueForm": 3,
-     "position": 0,
-     "h2h": 1
-    },
-    "form": "LLDLWDDWLL",
-    "venue": "WLLDDLDWDW",
-    "pos": 19,
-    "gf": 1.3,
-    "ga": 1.4
-   },
-   "h2hPlayed": 2,
-   "pick": "H",
-   "margin": 5,
-   "xg": [
-    1.5,
-    1.55
-   ],
-   "goals": 3.05,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 3.5,
-    "pts": [
-     4.5,
-     1
-    ],
-    "br": [
-     {
-      "form": 1,
-      "venueForm": 2,
-      "position": 1,
-      "h2h": 1,
-      "home": 3
-     },
-     {
-      "form": 1,
-      "venueForm": 2,
-      "position": 0,
-      "h2h": 1
-     }
-    ]
-   },
-   "madeAt": "2026-11-23T07:29:02.262Z"
-  },
-  {
    "id": "s-16qdwf025flh3uils5440ror8",
    "lg": "league-one",
    "ko": "2026-11-24T19:45:00Z",
@@ -397,7 +181,7 @@
     "side": "H",
     "gap": 13
    },
-   "madeAt": "2026-11-23T07:29:02.263Z"
+   "madeAt": "2026-11-23T22:51:59.395Z"
   },
   {
    "id": "s-18u3jf19fow11426p3mj6vw2c",
@@ -469,7 +253,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-195e8a8epmzz5zmr8hem0kg0k",
@@ -541,7 +325,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-19egxpgnsarp66shee8a1ghlg",
@@ -617,7 +401,7 @@
     "side": "A",
     "gap": 8
    },
-   "madeAt": "2026-11-23T07:29:02.263Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-19gl59xte6tb3407xad61cmj8",
@@ -689,7 +473,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-19mbfu0i36ub7zhxxizn0bqc4",
@@ -761,7 +545,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.263Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-19rsneb1reekicd6gd5pqnnro",
@@ -833,7 +617,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-1a31gn69x2mmpu8pqn0a3t4b8",
@@ -909,7 +693,7 @@
     "side": "A",
     "gap": 8
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-1aeajirlyorios0sf0j4bmmfo",
@@ -981,7 +765,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-1apkq7k7uneizcnfu0v2jyk9g",
@@ -1057,7 +841,7 @@
     "side": "H",
     "gap": 9.5
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-1aq318y0y4ghaebyg06ezd89g",
@@ -1129,7 +913,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.263Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-1b0r5hi886s7f0801lg3rncic",
@@ -1201,7 +985,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-1b84ssfs4fj66tesx8h682kus",
@@ -1273,7 +1057,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.263Z"
+   "madeAt": "2026-11-23T22:51:59.395Z"
   },
   {
    "id": "s-1bc328a0nv2it194iina79vdg",
@@ -1345,7 +1129,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-1bjtz4xv34lc2oqypdy6on4es",
@@ -1417,7 +1201,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.263Z"
+   "madeAt": "2026-11-23T22:51:59.395Z"
   },
   {
    "id": "s-1bna58rmgzk0eaipvtodzhtec",
@@ -1489,7 +1273,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-1byejmp1hqynxy44quiog57o4",
@@ -1561,7 +1345,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-1ca0nw2pj7h9savjx449b87bo",
@@ -1637,7 +1421,7 @@
     "side": "H",
     "gap": 11.5
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-250gu0j3wbmzavuqzp8uzdr84",
@@ -1709,7 +1493,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.262Z"
+   "madeAt": "2026-11-23T22:51:59.394Z"
   },
   {
    "id": "s-25bz7amwvix020zushuf7szkk",
@@ -1785,7 +1569,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-23T07:29:02.262Z"
+   "madeAt": "2026-11-23T22:51:59.395Z"
   },
   {
    "id": "s-25ngorl71zrsysmgo3fchdmvo",
@@ -1857,7 +1641,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.262Z"
+   "madeAt": "2026-11-23T22:51:59.395Z"
   },
   {
    "id": "s-25zllz5wnb4l9uessoj14n2tw",
@@ -1933,7 +1717,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-23T07:29:02.262Z"
+   "madeAt": "2026-11-23T22:51:59.395Z"
   },
   {
    "id": "s-26bae77ghh6n7oc4bp1816m1g",
@@ -2005,7 +1789,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.262Z"
+   "madeAt": "2026-11-23T22:51:59.395Z"
   },
   {
    "id": "s-26myffs29boggsidvbgfbaj2s",
@@ -2077,7 +1861,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.262Z"
+   "madeAt": "2026-11-23T22:51:59.395Z"
   },
   {
    "id": "s-26yfoc76twkb86xtdb04pyqz8",
@@ -2149,7 +1933,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.262Z"
+   "madeAt": "2026-11-23T22:51:59.395Z"
   },
   {
    "id": "s-29fl3qsqjct3iiy6p7piaszro",
@@ -2221,7 +2005,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-8uciwtjin8w5ly2evul4t1mok",
@@ -2293,7 +2077,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-8uo80c1xuhpi6j5z6sz3rj7ys",
@@ -2365,7 +2149,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.263Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-8uzu5k7nqmincxzks76a5iec4",
@@ -2437,7 +2221,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.263Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-8vbeuhlm16972hno4bjo20aac",
@@ -2513,7 +2297,7 @@
     "side": "H",
     "gap": 15.5
    },
-   "madeAt": "2026-11-23T07:29:02.263Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-8vmzpq859e7msuow2v6bem6tw",
@@ -2585,7 +2369,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-8vym2s16eb0exqn3mn7qgmadw",
@@ -2657,7 +2441,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-8wa8wbfkt9f4ghka3s62if5zo",
@@ -2729,7 +2513,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-8wlqswwj4p6tr3wlmnpgj8sno",
@@ -2801,7 +2585,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-8wxg52pysbtc7786f2z2zccno",
@@ -2873,7 +2657,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.264Z"
+   "madeAt": "2026-11-23T22:51:59.396Z"
   },
   {
    "id": "s-279vnyh7eyct41vaitpwbrg9g",
@@ -2949,7 +2733,7 @@
     "side": "H",
     "gap": 15.5
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-2ah8iq89ollxlr0cbowv8b2ms",
@@ -3021,7 +2805,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-8x97rjlkq2m6o6za43bfz6mfo",
@@ -3097,7 +2881,7 @@
     "side": "H",
     "gap": 10.5
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-27leit0dj4zrf0b2qz2gdwyz8",
@@ -3169,7 +2953,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-27ww8sd01vsfavqddu16puej8",
@@ -3245,7 +3029,7 @@
     "side": "A",
     "gap": 8.5
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-28jqnrtuba31i43dbk9f5kb2s",
@@ -3317,7 +3101,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-8xku76v0jzjffbk4nnu9d33mc",
@@ -3393,7 +3177,7 @@
     "side": "H",
     "gap": 11
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-8xwfdne8tr0nkxa7g4klezhn8",
@@ -3465,7 +3249,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-2889qsx5zl31936o3pmbyqal0",
@@ -3541,7 +3325,7 @@
     "side": "H",
     "gap": 13
    },
-   "madeAt": "2026-11-23T07:29:02.265Z"
+   "madeAt": "2026-11-23T22:51:59.397Z"
   },
   {
    "id": "s-26594lu9y7n4rw0yj0eojj2fo",
@@ -3617,7 +3401,7 @@
     "side": "A",
     "gap": 8
    },
-   "madeAt": "2026-11-23T07:29:02.266Z"
+   "madeAt": "2026-11-23T22:51:59.398Z"
   }
  ],
  "review": {
@@ -6530,20 +6314,20 @@
   ]
  },
  "overall": {
-  "n": 119,
+  "n": 122,
   "correct": 65,
-  "ouN": 119,
-  "ouCorrect": 63,
-  "pct": 54.6,
-  "ouPct": 52.9
+  "ouN": 122,
+  "ouCorrect": 64,
+  "pct": 53.3,
+  "ouPct": 52.5
  },
  "overallTuned": {
-  "n": 119,
-  "correct": 64,
-  "ouN": 119,
-  "ouCorrect": 63,
-  "pct": 53.8,
-  "ouPct": 52.9
+  "n": 122,
+  "correct": 66,
+  "ouN": 122,
+  "ouCorrect": 64,
+  "pct": 54.1,
+  "ouPct": 52.5
  },
  "overallBankers": {
   "n": 31,

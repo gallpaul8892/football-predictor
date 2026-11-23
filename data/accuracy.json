@@ -1,15 +1,15 @@
 {
  "overall": {
-  "n": 119,
+  "n": 122,
   "correct": 65,
-  "ouN": 119,
-  "ouCorrect": 63,
-  "pct": 54.6,
-  "ouPct": 52.9
+  "ouN": 122,
+  "ouCorrect": 64,
+  "pct": 53.3,
+  "ouPct": 52.5
  },
  "actualDist": {
-  "H": 53,
-  "D": 27,
+  "H": 55,
+  "D": 28,
   "A": 39
  },
  "byLeague": {
@@ -54,12 +54,12 @@
    "ouPct": 41.7
   },
   "spanish-la-liga": {
-   "n": 9,
+   "n": 10,
    "correct": 4,
-   "ouN": 9,
+   "ouN": 10,
    "ouCorrect": 4,
-   "pct": 44.4,
-   "ouPct": 44.4
+   "pct": 40,
+   "ouPct": 40
   },
   "championship": {
    "n": 12,
@@ -78,20 +78,20 @@
    "ouPct": 58.3
   },
   "premier-league": {
-   "n": 9,
+   "n": 10,
    "correct": 4,
-   "ouN": 9,
+   "ouN": 10,
    "ouCorrect": 3,
-   "pct": 44.4,
-   "ouPct": 33.3
+   "pct": 40,
+   "ouPct": 30
   },
   "italian-serie-a": {
-   "n": 9,
+   "n": 10,
    "correct": 7,
-   "ouN": 9,
-   "ouCorrect": 6,
-   "pct": 77.8,
-   "ouPct": 66.7
+   "ouN": 10,
+   "ouCorrect": 7,
+   "pct": 70,
+   "ouPct": 70
   },
   "scottish-premiership": {
    "n": 6,
@@ -120,28 +120,28 @@
  },
  "byPick": {
   "H": {
-   "n": 60,
+   "n": 61,
    "correct": 38,
-   "ouN": 60,
+   "ouN": 61,
    "ouCorrect": 29,
-   "pct": 63.3,
-   "ouPct": 48.3
+   "pct": 62.3,
+   "ouPct": 47.5
   },
   "D": {
-   "n": 11,
+   "n": 12,
    "correct": 3,
-   "ouN": 11,
+   "ouN": 12,
    "ouCorrect": 6,
-   "pct": 27.3,
-   "ouPct": 54.5
+   "pct": 25,
+   "ouPct": 50
   },
   "A": {
-   "n": 48,
+   "n": 49,
    "correct": 24,
-   "ouN": 48,
-   "ouCorrect": 28,
-   "pct": 50,
-   "ouPct": 58.3
+   "ouN": 49,
+   "ouCorrect": 29,
+   "pct": 49,
+   "ouPct": 59.2
   }
  },
  "byMargin": {
@@ -154,12 +154,12 @@
    "ouPct": 57.1
   },
   "0-1": {
-   "n": 11,
+   "n": 12,
    "correct": 3,
-   "ouN": 11,
+   "ouN": 12,
    "ouCorrect": 6,
-   "pct": 27.3,
-   "ouPct": 54.5
+   "pct": 25,
+   "ouPct": 50
   },
   "11+": {
    "n": 55,
@@ -170,12 +170,12 @@
    "ouPct": 52.7
   },
   "4-6": {
-   "n": 22,
+   "n": 24,
    "correct": 13,
-   "ouN": 22,
-   "ouCorrect": 14,
-   "pct": 59.1,
-   "ouPct": 63.6
+   "ouN": 24,
+   "ouCorrect": 15,
+   "pct": 54.2,
+   "ouPct": 62.5
   },
   "2-3": {
    "n": 10,
@@ -195,6 +195,15 @@
    "ouCorrect": 63,
    "pct": 54.6,
    "ouPct": 52.9
+  },
+  {
+   "week": "2026-11-23",
+   "n": 3,
+   "correct": 0,
+   "ouN": 3,
+   "ouCorrect": 1,
+   "pct": 0,
+   "ouPct": 33.3
   }
  ],
  "byTeam": {
@@ -3187,20 +3196,98 @@
    "pct": 100,
    "ouPct": 0,
    "backedPct": 100
+  },
+  "monza": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Monza",
+   "lg": "italian-serie-a",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "fiorentina": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Fiorentina",
+   "lg": "italian-serie-a",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 100,
+   "backedPct": 0
+  },
+  "brentford": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Brentford",
+   "lg": "premier-league",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "everton": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Everton",
+   "lg": "premier-league",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": null
+  },
+  "levante": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Levante",
+   "lg": "spanish-la-liga",
+   "backedN": 1,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": 0
+  },
+  "elche": {
+   "n": 1,
+   "correct": 0,
+   "ouN": 1,
+   "ouCorrect": 0,
+   "name": "Elche",
+   "lg": "spanish-la-liga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 0,
+   "ouPct": 0,
+   "backedPct": null
   }
  },
  "tuned": {
   "overall": {
-   "n": 119,
-   "correct": 64,
-   "ouN": 119,
-   "ouCorrect": 63,
-   "pct": 53.8,
-   "ouPct": 52.9
+   "n": 122,
+   "correct": 66,
+   "ouN": 122,
+   "ouCorrect": 64,
+   "pct": 54.1,
+   "ouPct": 52.5
   },
   "actualDist": {
-   "H": 53,
-   "D": 27,
+   "H": 55,
+   "D": 28,
    "A": 39
   },
   "byLeague": {
@@ -3245,12 +3332,12 @@
     "ouPct": 41.7
    },
    "spanish-la-liga": {
-    "n": 9,
+    "n": 10,
     "correct": 5,
-    "ouN": 9,
+    "ouN": 10,
     "ouCorrect": 4,
-    "pct": 55.6,
-    "ouPct": 44.4
+    "pct": 50,
+    "ouPct": 40
    },
    "championship": {
     "n": 12,
@@ -3269,20 +3356,20 @@
     "ouPct": 58.3
    },
    "premier-league": {
-    "n": 9,
-    "correct": 4,
-    "ouN": 9,
+    "n": 10,
+    "correct": 5,
+    "ouN": 10,
     "ouCorrect": 3,
-    "pct": 44.4,
-    "ouPct": 33.3
+    "pct": 50,
+    "ouPct": 30
    },
    "italian-serie-a": {
-    "n": 9,
-    "correct": 7,
-    "ouN": 9,
-    "ouCorrect": 6,
-    "pct": 77.8,
-    "ouPct": 66.7
+    "n": 10,
+    "correct": 8,
+    "ouN": 10,
+    "ouCorrect": 7,
+    "pct": 80,
+    "ouPct": 70
    },
    "scottish-premiership": {
     "n": 6,
@@ -3311,12 +3398,12 @@
   },
   "byPick": {
    "H": {
-    "n": 79,
-    "correct": 46,
-    "ouN": 79,
-    "ouCorrect": 40,
-    "pct": 58.2,
-    "ouPct": 50.6
+    "n": 82,
+    "correct": 48,
+    "ouN": 82,
+    "ouCorrect": 41,
+    "pct": 58.5,
+    "ouPct": 50
    },
    "A": {
     "n": 33,
@@ -3337,20 +3424,20 @@
   },
   "byMargin": {
    "4-6": {
-    "n": 30,
+    "n": 31,
     "correct": 16,
-    "ouN": 30,
+    "ouN": 31,
     "ouCorrect": 16,
-    "pct": 53.3,
-    "ouPct": 53.3
+    "pct": 51.6,
+    "ouPct": 51.6
    },
    "2-3": {
-    "n": 25,
-    "correct": 12,
-    "ouN": 25,
-    "ouCorrect": 12,
-    "pct": 48,
-    "ouPct": 48
+    "n": 26,
+    "correct": 13,
+    "ouN": 26,
+    "ouCorrect": 13,
+    "pct": 50,
+    "ouPct": 50
    },
    "7-10": {
     "n": 28,
@@ -3369,12 +3456,12 @@
     "ouPct": 20
    },
    "0-1": {
-    "n": 21,
-    "correct": 8,
-    "ouN": 21,
+    "n": 22,
+    "correct": 9,
+    "ouN": 22,
     "ouCorrect": 15,
-    "pct": 38.1,
-    "ouPct": 71.4
+    "pct": 40.9,
+    "ouPct": 68.2
    }
   },
   "byWeek": [
@@ -3386,6 +3473,15 @@
     "ouCorrect": 63,
     "pct": 53.8,
     "ouPct": 52.9
+   },
+   {
+    "week": "2026-11-23",
+    "n": 3,
+    "correct": 2,
+    "ouN": 3,
+    "ouCorrect": 1,
+    "pct": 66.7,
+    "ouPct": 33.3
    }
   ],
   "byTeam": {
@@ -6378,6 +6474,84 @@
     "pct": 100,
     "ouPct": 0,
     "backedPct": 100
+   },
+   "monza": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Monza",
+    "lg": "italian-serie-a",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "fiorentina": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Fiorentina",
+    "lg": "italian-serie-a",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "brentford": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Brentford",
+    "lg": "premier-league",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": 100
+   },
+   "everton": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Everton",
+    "lg": "premier-league",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "levante": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Levante",
+    "lg": "spanish-la-liga",
+    "backedN": 1,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": 0
+   },
+   "elche": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Elche",
+    "lg": "spanish-la-liga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 0,
+    "backedPct": null
    }
   }
  },
@@ -7325,5 +7499,5 @@
    }
   }
  },
- "generatedAt": "2026-11-23T07:29:02.270Z"
+ "generatedAt": "2026-11-23T22:51:59.402Z"
 }
