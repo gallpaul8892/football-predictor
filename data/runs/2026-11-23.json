@@ -1,0 +1,6448 @@
+{
+ "date": "2026-11-23",
+ "at": "2026-11-23T07:29:02.277Z",
+ "newResults": 0,
+ "graded": 0,
+ "predicted": 48,
+ "totalResults": 10981,
+ "week": {
+  "n": 119,
+  "correct": 65,
+  "pct": 54.6,
+  "ouPct": 52.9,
+  "tunedPct": 53.8,
+  "bankersN": 31,
+  "bankersPct": 87.1
+ },
+ "overall": {
+  "n": 119,
+  "pct": 54.6,
+  "ouPct": 52.9,
+  "tunedPct": 53.8,
+  "bankersN": 31,
+  "bankersPct": 87.1
+ },
+ "review": {
+  "from": "2026-11-16",
+  "to": "2026-11-22",
+  "summary": {
+   "n": 119,
+   "correct": 65,
+   "ouN": 119,
+   "ouCorrect": 63,
+   "pct": 54.6,
+   "ouPct": 52.9
+  },
+  "tuned": {
+   "n": 119,
+   "correct": 64,
+   "ouN": 119,
+   "ouCorrect": 63,
+   "pct": 53.8,
+   "ouPct": 52.9
+  },
+  "bankers": {
+   "n": 31,
+   "correct": 27,
+   "ouN": 31,
+   "ouCorrect": 14,
+   "pct": 87.1,
+   "ouPct": 45.2
+  },
+  "byLeague": {
+   "national-league-ns": {
+    "n": 16,
+    "correct": 7,
+    "ouN": 16,
+    "ouCorrect": 11,
+    "pct": 43.8,
+    "ouPct": 68.8
+   },
+   "scottish-championship": {
+    "n": 4,
+    "correct": 2,
+    "ouN": 4,
+    "ouCorrect": 2,
+    "pct": 50,
+    "ouPct": 50
+   },
+   "german-bundesliga": {
+    "n": 9,
+    "correct": 5,
+    "ouN": 9,
+    "ouCorrect": 4,
+    "pct": 55.6,
+    "ouPct": 44.4
+   },
+   "national-league": {
+    "n": 12,
+    "correct": 7,
+    "ouN": 12,
+    "ouCorrect": 8,
+    "pct": 58.3,
+    "ouPct": 66.7
+   },
+   "league-one": {
+    "n": 12,
+    "correct": 6,
+    "ouN": 12,
+    "ouCorrect": 5,
+    "pct": 50,
+    "ouPct": 41.7
+   },
+   "spanish-la-liga": {
+    "n": 9,
+    "correct": 4,
+    "ouN": 9,
+    "ouCorrect": 4,
+    "pct": 44.4,
+    "ouPct": 44.4
+   },
+   "championship": {
+    "n": 12,
+    "correct": 8,
+    "ouN": 12,
+    "ouCorrect": 4,
+    "pct": 66.7,
+    "ouPct": 33.3
+   },
+   "league-two": {
+    "n": 12,
+    "correct": 5,
+    "ouN": 12,
+    "ouCorrect": 7,
+    "pct": 41.7,
+    "ouPct": 58.3
+   },
+   "premier-league": {
+    "n": 9,
+    "correct": 4,
+    "ouN": 9,
+    "ouCorrect": 3,
+    "pct": 44.4,
+    "ouPct": 33.3
+   },
+   "italian-serie-a": {
+    "n": 9,
+    "correct": 7,
+    "ouN": 9,
+    "ouCorrect": 6,
+    "pct": 77.8,
+    "ouPct": 66.7
+   },
+   "scottish-premiership": {
+    "n": 6,
+    "correct": 5,
+    "ouN": 6,
+    "ouCorrect": 5,
+    "pct": 83.3,
+    "ouPct": 83.3
+   },
+   "scottish-league-two": {
+    "n": 4,
+    "correct": 3,
+    "ouN": 4,
+    "ouCorrect": 2,
+    "pct": 75,
+    "ouPct": 50
+   },
+   "scottish-league-one": {
+    "n": 5,
+    "correct": 2,
+    "ouN": 5,
+    "ouCorrect": 2,
+    "pct": 40,
+    "ouPct": 40
+   }
+  },
+  "matches": [
+   {
+    "id": "s-mfbgsduwxk2lmcrmtgrofmz8",
+    "lg": "national-league-ns",
+    "day": "2026-11-17",
+    "home": "Bedford Town",
+    "away": "Chorley",
+    "pick": "H",
+    "margin": 8,
+    "result": [
+     1,
+     2
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 4.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-nzpnyx2jorci5nqicz5abdas",
+    "lg": "national-league-ns",
+    "day": "2026-11-17",
+    "home": "Oxford City",
+    "away": "Macclesfield",
+    "pick": "D",
+    "margin": 1,
+    "result": [
+     1,
+     3
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 2.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-p8w4pxvdmxlln6blyirme2hg",
+    "lg": "national-league-ns",
+    "day": "2026-11-17",
+    "home": "Spalding United",
+    "away": "Hebburn Town",
+    "pick": "H",
+    "margin": 9,
+    "result": [
+     0,
+     0
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 5.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-pk9z5xpsyrlitj284h6jp638",
+    "lg": "national-league-ns",
+    "day": "2026-11-17",
+    "home": "Spennymoor Town",
+    "away": "Chester",
+    "pick": "A",
+    "margin": 25,
+    "result": [
+     0,
+     5
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 7,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-392t25jcqfq7zr22jof8qlkpg",
+    "lg": "scottish-championship",
+    "day": "2026-11-20",
+    "home": "Inverness CT",
+    "away": "Ayr United",
+    "pick": "H",
+    "margin": 6,
+    "result": [
+     0,
+     0
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 3.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-5rwr0a7gofe2vvqeal3kkp7h0",
+    "lg": "german-bundesliga",
+    "day": "2026-11-20",
+    "home": "Bayern Munich",
+    "away": "Köln",
+    "pick": "H",
+    "margin": 29,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 12,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 12,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-8qd5zu5zarju4v6b1djwrtams",
+    "lg": "national-league",
+    "day": "2026-11-20",
+    "home": "Southend United",
+    "away": "Boreham Wood",
+    "pick": "A",
+    "margin": 9,
+    "result": [
+     2,
+     3
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "D",
+     "margin": 0,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-21mfhrhzm4c87r2vzqwn0dedw",
+    "lg": "league-one",
+    "day": "2026-11-20",
+    "home": "Barnsley",
+    "away": "Sheffield Wednesday",
+    "pick": "A",
+    "margin": 22,
+    "result": [
+     1,
+     2
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 7,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-828rogo7p3et735q5pmlh2tck",
+    "lg": "spanish-la-liga",
+    "day": "2026-11-20",
+    "home": "Athletic Club",
+    "away": "Espanyol",
+    "pick": "H",
+    "margin": 7,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": false,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 7,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-21xvigebj5a0qxsmhfe561n9w",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Blackpool",
+    "away": "Wigan Athletic",
+    "pick": "H",
+    "margin": 3,
+    "result": [
+     1,
+     2
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 1.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-22g71jojds1g8x6b04wef7jmc",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Millwall",
+    "away": "Queens Park Rangers",
+    "pick": "A",
+    "margin": 3,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 2,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-22rqwqt3qz0kpuyhb72ve0bv8",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Norwich City",
+    "away": "Cardiff City",
+    "pick": "H",
+    "margin": 6,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 6,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-23epvzleyxhbxbrlbzk45xt04",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Southampton",
+    "away": "Derby County",
+    "pick": "H",
+    "margin": 30,
+    "result": [
+     2,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 13.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 13.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-256jf66p76fqt9npjdqnsx34k",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Reading",
+    "away": "Bromley",
+    "pick": "H",
+    "margin": 24,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 13.5,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 13.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-268188z5sco1f5m1hzmebm51w",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Gillingham",
+    "away": "Crewe Alexandra",
+    "pick": "A",
+    "margin": 4,
+    "result": [
+     3,
+     3
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 0.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-26vvu87fbr9zo1tv6cb7h1a1g",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Newport County",
+    "away": "Swindon Town",
+    "pick": "H",
+    "margin": 5,
+    "result": [
+     2,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": false,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 3,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-4x42j8f8ikdvp1z6nmqoxstn8",
+    "lg": "premier-league",
+    "day": "2026-11-21",
+    "home": "Manchester City",
+    "away": "Fulham",
+    "pick": "H",
+    "margin": 26,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 9,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-8scicl1m9fanyitie22n9uk2c",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Solihull Moors",
+    "away": "Altrincham",
+    "pick": "A",
+    "margin": 17,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 2.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-8szvct44u5wahvccel784rbbo",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Tamworth",
+    "away": "Eastleigh",
+    "pick": "H",
+    "margin": 5,
+    "result": [
+     1,
+     3
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 3,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-81xbpprcjc9id9n8tygyxavbo",
+    "lg": "spanish-la-liga",
+    "day": "2026-11-21",
+    "home": "Alavés",
+    "away": "Deportivo de A Coruña",
+    "pick": "D",
+    "margin": 1,
+    "result": [
+     3,
+     1
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "D",
+     "margin": 0,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-7slh2mb2oy5cktk2p3idytrf8",
+    "lg": "italian-serie-a",
+    "day": "2026-11-21",
+    "home": "Como",
+    "away": "Cagliari",
+    "pick": "H",
+    "margin": 12,
+    "result": [
+     2,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": false,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 8,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 8,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-7t7dad29wkbka6b74ejateo0k",
+    "lg": "italian-serie-a",
+    "day": "2026-11-21",
+    "home": "Lazio",
+    "away": "Lecce",
+    "pick": "H",
+    "margin": 22,
+    "result": [
+     3,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 12.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 12.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-5s7iqc6rhw9tutz1kp27e8kyc",
+    "lg": "german-bundesliga",
+    "day": "2026-11-21",
+    "home": "Bayer 04 Leverkusen",
+    "away": "Paderborn",
+    "pick": "H",
+    "margin": 15,
+    "result": [
+     4,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 9,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-5sid9zbhy8yoxg2n13n5b0nis",
+    "lg": "german-bundesliga",
+    "day": "2026-11-21",
+    "home": "Eintracht Frankfurt",
+    "away": "Hoffenheim",
+    "pick": "D",
+    "margin": 1,
+    "result": [
+     1,
+     0
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 1.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-5t3vdlpenned32s3k1jy1p6hg",
+    "lg": "german-bundesliga",
+    "day": "2026-11-21",
+    "home": "Union Berlin",
+    "away": "RB Leipzig",
+    "pick": "A",
+    "margin": 18,
+    "result": [
+     1,
+     5
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 6,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-5ten2u8osh2anmgsgwjibph5g",
+    "lg": "german-bundesliga",
+    "day": "2026-11-21",
+    "home": "Borussia M'gladbach",
+    "away": "Borussia Dortmund",
+    "pick": "A",
+    "margin": 23,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 6,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-5uatqueaql0bpvzjlt75bfehg",
+    "lg": "german-bundesliga",
+    "day": "2026-11-21",
+    "home": "Elversberg",
+    "away": "Freiburg",
+    "pick": "A",
+    "margin": 8,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "D",
+     "margin": 0,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-14zdvz1hnu9zurohgozmzixp0",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Bedford Town",
+    "away": "South Shields",
+    "pick": "A",
+    "margin": 16,
+    "result": [
+     2,
+     4
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 4.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-15ayvh2vl5t2lb5hypdj5d72s",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Buxton",
+    "away": "Hednesford Town",
+    "pick": "D",
+    "margin": 1,
+    "result": [
+     1,
+     3
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 1,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-15m7qw1gimqk5yrckn0xqhlp0",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Chester",
+    "away": "Macclesfield",
+    "pick": "D",
+    "margin": 1,
+    "result": [
+     6,
+     1
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 1.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-15xkd5slg68qyon35ib734il0",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Hebburn Town",
+    "away": "Marine",
+    "pick": "D",
+    "margin": 0,
+    "result": [
+     2,
+     2
+    ],
+    "outcome": "D",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 2,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-169tzv3d2s8k4twyhl32os1ec",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Hereford",
+    "away": "Darlington",
+    "pick": "H",
+    "margin": 25,
+    "result": [
+     2,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 14,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 14,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-16l7jfze28qaobzrzxu9o2ihg",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Morecambe",
+    "away": "King's Lynn Town",
+    "pick": "A",
+    "margin": 2,
+    "result": [
+     1,
+     0
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 3,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-16wsp4zqe0f3360xvo6loxi50",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Oxford City",
+    "away": "Scarborough Athletic",
+    "pick": "H",
+    "margin": 18,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 10.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 10.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-179bu1lk354txhmnn7m2uzthw",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Radcliffe",
+    "away": "AFC Telford United",
+    "pick": "A",
+    "margin": 11,
+    "result": [
+     2,
+     4
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 2,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-17kmr6g43ygktsuiam3zasmc4",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Southport",
+    "away": "Brackley Town",
+    "pick": "A",
+    "margin": 6,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 0.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-17w0a2dfgyedu1psu999lp9n8",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Spalding United",
+    "away": "Merthyr Town",
+    "pick": "H",
+    "margin": 9,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 6,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-187e5m9oe0zxib3hrldgr7p5g",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Spennymoor Town",
+    "away": "Harborough Town",
+    "pick": "A",
+    "margin": 4,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": false,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 0.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-18ircq8974qbgghq8tb03p7o4",
+    "lg": "national-league-ns",
+    "day": "2026-11-21",
+    "home": "Worksop Town",
+    "away": "Chorley",
+    "pick": "A",
+    "margin": 5,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 0.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-216dulnp7qe7ppyy9044gmbys",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Bolton Wanderers",
+    "away": "Portsmouth",
+    "pick": "A",
+    "margin": 7,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 1.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-21t80he2gqg378id7ygfwj0no",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Lincoln City",
+    "away": "Wrexham",
+    "pick": "A",
+    "margin": 6,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 1,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-224ophqrfjl5ldv4r7rg02xhw",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Middlesbrough",
+    "away": "Bristol City",
+    "pick": "H",
+    "margin": 20,
+    "result": [
+     2,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 11.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 11.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-229f8eh98pz4t4x16jyeoi13o",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Bradford City",
+    "away": "Doncaster Rovers",
+    "pick": "H",
+    "margin": 13,
+    "result": [
+     2,
+     2
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 9.5,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-22l1gfk89i0jpp9zfywx6ac5w",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Burton Albion",
+    "away": "Luton Town",
+    "pick": "A",
+    "margin": 16,
+    "result": [
+     1,
+     2
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-22wjc4tb1sq7vs1ihqmt0vcpg",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Cambridge United",
+    "away": "Stockport County",
+    "pick": "A",
+    "margin": 10,
+    "result": [
+     0,
+     3
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 3,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-233a1ew6luv1cal6466m8kr2s",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Sheffield United",
+    "away": "Watford",
+    "pick": "H",
+    "margin": 19,
+    "result": [
+     4,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 9,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-238nx6cbbs2szep5us88a40lw",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Huddersfield Town",
+    "away": "Leicester City",
+    "pick": "H",
+    "margin": 11,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 9,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-23k4m4k70z6s7anfrovtl4aac",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Leyton Orient",
+    "away": "AFC Wimbledon",
+    "pick": "H",
+    "margin": 5,
+    "result": [
+     4,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 5.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-23q9j616pmkfd4lcc3r38wufo",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Stoke City",
+    "away": "Birmingham City",
+    "pick": "D",
+    "margin": 1,
+    "result": [
+     1,
+     0
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 2,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-23vowljgp65izqnjrwnaaj5sk",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Mansfield Town",
+    "away": "MK Dons",
+    "pick": "A",
+    "margin": 2,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 0.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-241pfybjj843xpa80fdtcmlg4",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Swansea City",
+    "away": "West Bromwich Albion",
+    "pick": "D",
+    "margin": 1,
+    "result": [
+     2,
+     2
+    ],
+    "outcome": "D",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 0.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-247qao4o1w2hpxkiyws7tbnro",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Notts County",
+    "away": "Stevenage",
+    "pick": "A",
+    "margin": 2,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": false,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 2,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-24dae9gzlcfpoe5zxkp5di0wk",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "West Ham United",
+    "away": "Preston North End",
+    "pick": "H",
+    "margin": 21,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 10.5,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 10.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-24jek9z9iy15j4kpdr11gh7v8",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Oxford United",
+    "away": "Wycombe Wanderers",
+    "pick": "H",
+    "margin": 15,
+    "result": [
+     4,
+     3
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 8.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 8.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-24kd0eyj5hahmt3g6puc9iolw",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Accrington Stanley",
+    "away": "Salford City",
+    "pick": "A",
+    "margin": 18,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-24ovzm7bglb71fja1qunaisd0",
+    "lg": "championship",
+    "day": "2026-11-21",
+    "home": "Wolverhampton Wanderers",
+    "away": "Charlton Athletic",
+    "pick": "H",
+    "margin": 22,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 12,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 12,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-24uyvy9u49esco8yahzquyuqc",
+    "lg": "league-one",
+    "day": "2026-11-21",
+    "home": "Plymouth Argyle",
+    "away": "Peterborough United",
+    "pick": "H",
+    "margin": 23,
+    "result": [
+     0,
+     2
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 11,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 11,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-24waadvhbuvjrka55902sudxw",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Barnet",
+    "away": "Port Vale",
+    "pick": "H",
+    "margin": 19,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 9.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-2585821c95o411igql8gy3cwk",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Cheltenham Town",
+    "away": "Bristol Rovers",
+    "pick": "H",
+    "margin": 15,
+    "result": [
+     0,
+     3
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 9.5,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-25k5im3c3l8eawlbaptcf3mz8",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Chesterfield",
+    "away": "Shrewsbury Town",
+    "pick": "H",
+    "margin": 6,
+    "result": [
+     4,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 3.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-25w4i2xfbbs4w9ea2nq8wla1g",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Crawley Town",
+    "away": "Fleetwood Town",
+    "pick": "A",
+    "margin": 16,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 5.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-26k0t1avjiae2novaxg7fdhqs",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Grimsby Town",
+    "away": "Rotherham United",
+    "pick": "H",
+    "margin": 28,
+    "result": [
+     0,
+     0
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 16,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 16,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-277t6gey6cm3xculw28wf5e6s",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Northampton Town",
+    "away": "Rochdale",
+    "pick": "H",
+    "margin": 3,
+    "result": [
+     3,
+     2
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 5.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-27jnnypwsgyq9etngz54xlmhg",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Oldham Athletic",
+    "away": "Exeter City",
+    "pick": "A",
+    "margin": 12,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": false,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-27vl5wtvwm7usx6mlltzedbmc",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "Tranmere Rovers",
+    "away": "Colchester United",
+    "pick": "H",
+    "margin": 6,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 7,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-287i238ggakhyp7mdro00q0pg",
+    "lg": "league-two",
+    "day": "2026-11-21",
+    "home": "York City",
+    "away": "Walsall",
+    "pick": "H",
+    "margin": 8,
+    "result": [
+     0,
+     0
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 4,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-2cwt1n1mp15cj0m86eoe9l9uc",
+    "lg": "scottish-premiership",
+    "day": "2026-11-21",
+    "home": "Celtic",
+    "away": "St. Mirren",
+    "pick": "H",
+    "margin": 23,
+    "result": [
+     4,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 8.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 8.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-2dm1g94brnl3528q3s6deh89g",
+    "lg": "scottish-premiership",
+    "day": "2026-11-21",
+    "home": "Falkirk",
+    "away": "St. Johnstone",
+    "pick": "H",
+    "margin": 7,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 9,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-2dyh03tl3q32aah2kzmx8g4d0",
+    "lg": "scottish-premiership",
+    "day": "2026-11-21",
+    "home": "Hibernian",
+    "away": "Dundee United",
+    "pick": "A",
+    "margin": 5,
+    "result": [
+     0,
+     4
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "D",
+     "margin": 0,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-2eaxzfulcqfthzayy7y70d82c",
+    "lg": "scottish-premiership",
+    "day": "2026-11-21",
+    "home": "Kilmarnock",
+    "away": "Aberdeen",
+    "pick": "D",
+    "margin": 0,
+    "result": [
+     2,
+     4
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 2.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-324wdaksgeezyh6ywpe7fxc0k",
+    "lg": "scottish-league-two",
+    "day": "2026-11-21",
+    "home": "Annan Athletic",
+    "away": "Forfar Athletic",
+    "pick": "D",
+    "margin": 0,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 2.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-32g6g2jqpz26rt9bcit1c8t90",
+    "lg": "scottish-league-two",
+    "day": "2026-11-21",
+    "home": "Clyde",
+    "away": "Stirling Albion",
+    "pick": "H",
+    "margin": 19,
+    "result": [
+     4,
+     3
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 6.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-32rg1s88m9lp0jy54yzv5gyz8",
+    "lg": "scottish-league-two",
+    "day": "2026-11-21",
+    "home": "Edinburgh City",
+    "away": "Kelty Hearts",
+    "pick": "H",
+    "margin": 2,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 3,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-332sxegs5m2oqnsvbuu0y5n2s",
+    "lg": "scottish-league-two",
+    "day": "2026-11-21",
+    "home": "Stranraer",
+    "away": "Elgin City",
+    "pick": "H",
+    "margin": 8,
+    "result": [
+     3,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 6,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-38gvzj4lezt2oblxnal8rqhhw",
+    "lg": "scottish-championship",
+    "day": "2026-11-21",
+    "home": "Arbroath",
+    "away": "Stenhousemuir",
+    "pick": "A",
+    "margin": 9,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "D",
+     "margin": 0,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-39dq3i87bfrqbacxcray19tec",
+    "lg": "scottish-championship",
+    "day": "2026-11-21",
+    "home": "Queen's Park",
+    "away": "Livingston",
+    "pick": "A",
+    "margin": 11,
+    "result": [
+     1,
+     4
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 2.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-39oo2nrho4umbkp4jn1w54npw",
+    "lg": "scottish-championship",
+    "day": "2026-11-21",
+    "home": "Raith Rovers",
+    "away": "Partick Thistle",
+    "pick": "A",
+    "margin": 2,
+    "result": [
+     0,
+     2
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": false,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "D",
+     "margin": 0,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-3fa3m2shthycu0l37yi5u74t0",
+    "lg": "scottish-league-one",
+    "day": "2026-11-21",
+    "home": "East Fife",
+    "away": "Airdrieonians",
+    "pick": "D",
+    "margin": 1,
+    "result": [
+     0,
+     2
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 3.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-3g02k236647xenes5cb0kg5xw",
+    "lg": "scottish-league-one",
+    "day": "2026-11-21",
+    "home": "Peterhead",
+    "away": "East Kilbride",
+    "pick": "A",
+    "margin": 10,
+    "result": [
+     1,
+     0
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 0.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-3gcuo18tr13js1f54ih1qsefo",
+    "lg": "scottish-league-one",
+    "day": "2026-11-21",
+    "home": "Queen of the South",
+    "away": "Hamilton Academical",
+    "pick": "A",
+    "margin": 11,
+    "result": [
+     1,
+     3
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 0.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-3gpp307opk3q6yj3t59dv77ro",
+    "lg": "scottish-league-one",
+    "day": "2026-11-21",
+    "home": "Ross County",
+    "away": "Cove Rangers",
+    "pick": "H",
+    "margin": 18,
+    "result": [
+     5,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 7,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-4uq3dwjemb2o2xavhsk9wszdg",
+    "lg": "premier-league",
+    "day": "2026-11-21",
+    "home": "Bournemouth",
+    "away": "Nottingham Forest",
+    "pick": "H",
+    "margin": 12,
+    "result": [
+     2,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 10.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 10.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-4v2b3zg4479svvku6mezupfro",
+    "lg": "premier-league",
+    "day": "2026-11-21",
+    "home": "Aston Villa",
+    "away": "Sunderland",
+    "pick": "H",
+    "margin": 12,
+    "result": [
+     0,
+     0
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 8.5,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 8.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-4vqxpltefcdchpzkgwz3yr310",
+    "lg": "premier-league",
+    "day": "2026-11-21",
+    "home": "Chelsea",
+    "away": "Leeds United",
+    "pick": "H",
+    "margin": 7,
+    "result": [
+     1,
+     4
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 7,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-4w3atupelzlb2at14x7zk7578",
+    "lg": "premier-league",
+    "day": "2026-11-21",
+    "home": "Coventry City",
+    "away": "Crystal Palace",
+    "pick": "H",
+    "margin": 7,
+    "result": [
+     3,
+     2
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 5.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-4xsnkddrdioejztg91k7ducyc",
+    "lg": "premier-league",
+    "day": "2026-11-21",
+    "home": "Tottenham Hotspur",
+    "away": "Ipswich Town",
+    "pick": "H",
+    "margin": 3,
+    "result": [
+     2,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 6.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-8qpak8neoxrvcvhgw84hv5t78",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Aldershot Town",
+    "away": "Scunthorpe United",
+    "pick": "H",
+    "margin": 11,
+    "result": [
+     2,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 8,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 8,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-8r1hmk5snegcxpwlrz9s4b8yc",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Barrow",
+    "away": "Carlisle United",
+    "pick": "A",
+    "margin": 2,
+    "result": [
+     0,
+     2
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 2,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-8rdewsoej16bcnei13cv83cic",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Halifax Town",
+    "away": "Woking",
+    "pick": "H",
+    "margin": 5,
+    "result": [
+     5,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 4,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-8rp67az5l32rq4xmmsgwltlas",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Gateshead",
+    "away": "Hartlepool United",
+    "pick": "A",
+    "margin": 6,
+    "result": [
+     1,
+     2
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 0.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-8s0tyqf7o5khp0zvx99lnmj9w",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Kidderminster Harriers",
+    "away": "Fylde",
+    "pick": "A",
+    "margin": 17,
+    "result": [
+     2,
+     2
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 5.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-8so8g7m6n8bu01niaiovysu8k",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Sutton United",
+    "away": "Boston United",
+    "pick": "H",
+    "margin": 7,
+    "result": [
+     1,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 7,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-8tbj4e3wm82fx1g9wrosfzbx0",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Wealdstone",
+    "away": "Hornchurch",
+    "pick": "A",
+    "margin": 6,
+    "result": [
+     4,
+     0
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 0.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-8tna21e8qherjun6s7onrayvo",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Worthing",
+    "away": "Harrogate Town",
+    "pick": "A",
+    "margin": 6,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 0.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-845l819xjrwnukitg0q3a8c9g",
+    "lg": "spanish-la-liga",
+    "day": "2026-11-21",
+    "home": "Rayo Vallecano",
+    "away": "Valencia",
+    "pick": "H",
+    "margin": 8,
+    "result": [
+     0,
+     1
+    ],
+    "outcome": "A",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 5.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-7uflfa840rmsf62f96jle3z10",
+    "lg": "italian-serie-a",
+    "day": "2026-11-21",
+    "home": "Parma",
+    "away": "Roma",
+    "pick": "A",
+    "margin": 25,
+    "result": [
+     1,
+     5
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 6.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-3fn9vuwxhlttoy2m4o96fxmac",
+    "lg": "scottish-league-one",
+    "day": "2026-11-21",
+    "home": "Montrose",
+    "away": "Alloa Athletic",
+    "pick": "H",
+    "margin": 8,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 6,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-4xgd5lkdaorn0jxd9qsx1rqxg",
+    "lg": "premier-league",
+    "day": "2026-11-21",
+    "home": "Newcastle United",
+    "away": "Arsenal",
+    "pick": "A",
+    "margin": 23,
+    "result": [
+     2,
+     2
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 6.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-5u01js1oahg9tz8f4ulkxadxw",
+    "lg": "german-bundesliga",
+    "day": "2026-11-21",
+    "home": "Schalke 04",
+    "away": "Stuttgart",
+    "pick": "A",
+    "margin": 15,
+    "result": [
+     0,
+     0
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 4.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-84snfg3o35m7xy7adjsq7mrys",
+    "lg": "spanish-la-liga",
+    "day": "2026-11-21",
+    "home": "Sevilla",
+    "away": "Real Betis",
+    "pick": "A",
+    "margin": 5,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "D",
+     "margin": 0,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-8u0sbl1tfqa3e85lf6ribzb4k",
+    "lg": "national-league",
+    "day": "2026-11-21",
+    "home": "Yeovil Town",
+    "away": "Forest Green Rovers",
+    "pick": "H",
+    "margin": 11,
+    "result": [
+     3,
+     2
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 9.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-2d9hnjeqbej0xmgl8hiqb86j8",
+    "lg": "scottish-premiership",
+    "day": "2026-11-21",
+    "home": "Dundee",
+    "away": "Heart of Midlothian",
+    "pick": "A",
+    "margin": 4,
+    "result": [
+     0,
+     8
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 2.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-7u4njj5vzsore9tx3o4flknpw",
+    "lg": "italian-serie-a",
+    "day": "2026-11-21",
+    "home": "Napoli",
+    "away": "Torino",
+    "pick": "H",
+    "margin": 4,
+    "result": [
+     1,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 2.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-2enm6isg849gfaiysg7stlams",
+    "lg": "scottish-premiership",
+    "day": "2026-11-21",
+    "home": "Motherwell",
+    "away": "Rangers",
+    "pick": "A",
+    "margin": 16,
+    "result": [
+     1,
+     2
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 2.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-84h4m9b9g3tqib17j8nocr9qs",
+    "lg": "spanish-la-liga",
+    "day": "2026-11-21",
+    "home": "Real Madrid",
+    "away": "Celta Vigo",
+    "pick": "H",
+    "margin": 24,
+    "result": [
+     2,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 12,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 12,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-7swd2xv6gei68ddws82y8ku8k",
+    "lg": "italian-serie-a",
+    "day": "2026-11-22",
+    "home": "Juventus",
+    "away": "Venezia",
+    "pick": "H",
+    "margin": 19,
+    "result": [
+     4,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 8.5,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 8.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-21hsq00fm42okqrvh9j8s5250",
+    "lg": "championship",
+    "day": "2026-11-22",
+    "home": "Burnley",
+    "away": "Blackburn Rovers",
+    "pick": "A",
+    "margin": 14,
+    "result": [
+     2,
+     2
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 3.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-82k5i1q9r1t13h6d9s5jwh34k",
+    "lg": "spanish-la-liga",
+    "day": "2026-11-22",
+    "home": "Barcelona",
+    "away": "Villarreal",
+    "pick": "H",
+    "margin": 20,
+    "result": [
+     3,
+     2
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 9,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 9,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-4wfi4qj9ndn19vvw8gc5e71n8",
+    "lg": "premier-league",
+    "day": "2026-11-22",
+    "home": "Hull City",
+    "away": "Brighton & Hove Albion",
+    "pick": "A",
+    "margin": 19,
+    "result": [
+     2,
+     0
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 7,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-7sahe5933q71mpt2juyiafwus",
+    "lg": "italian-serie-a",
+    "day": "2026-11-22",
+    "home": "Bologna",
+    "away": "Udinese",
+    "pick": "H",
+    "margin": 15,
+    "result": [
+     1,
+     1
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 12.5,
+     "correct": false
+    },
+    "banker": {
+     "side": "H",
+     "gap": 12.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-7uqldjza8udrm8ujbwlaqov84",
+    "lg": "italian-serie-a",
+    "day": "2026-11-22",
+    "home": "Sassuolo",
+    "away": "Genoa",
+    "pick": "A",
+    "margin": 6,
+    "result": [
+     0,
+     2
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 2,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-5st5hmskji7x1cb7jqohck4yc",
+    "lg": "german-bundesliga",
+    "day": "2026-11-22",
+    "home": "Augsburg",
+    "away": "Mainz 05",
+    "pick": "A",
+    "margin": 11,
+    "result": [
+     3,
+     1
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 0.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-83u0icd3b8doe95t75ypcp1xw",
+    "lg": "spanish-la-liga",
+    "day": "2026-11-22",
+    "home": "Racing de Santander",
+    "away": "Real Sociedad",
+    "pick": "A",
+    "margin": 10,
+    "result": [
+     3,
+     2
+    ],
+    "outcome": "H",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 2.5,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-4wrsp64aq5fpx9pq0b76gdlhw",
+    "lg": "premier-league",
+    "day": "2026-11-22",
+    "home": "Liverpool",
+    "away": "Manchester United",
+    "pick": "H",
+    "margin": 17,
+    "result": [
+     4,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 13,
+     "correct": true
+    },
+    "banker": {
+     "side": "H",
+     "gap": 13,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-5tpbezn2g2z3wkvhxuykmyexg",
+    "lg": "german-bundesliga",
+    "day": "2026-11-22",
+    "home": "Werder Bremen",
+    "away": "Hamburger SV",
+    "pick": "H",
+    "margin": 8,
+    "result": [
+     4,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 4.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-7tihhdch6myqobao6oexk4gt0",
+    "lg": "italian-serie-a",
+    "day": "2026-11-22",
+    "home": "AC Milan",
+    "away": "Frosinone",
+    "pick": "H",
+    "margin": 5,
+    "result": [
+     5,
+     1
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "H",
+     "margin": 4.5,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-83ihhupbrznxj8emnypfelhjo",
+    "lg": "spanish-la-liga",
+    "day": "2026-11-22",
+    "home": "Osasuna",
+    "away": "Málaga",
+    "pick": "H",
+    "margin": 9,
+    "result": [
+     1,
+     0
+    ],
+    "outcome": "H",
+    "correct": true,
+    "over": true,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "H",
+     "margin": 6,
+     "correct": true
+    }
+   },
+   {
+    "id": "s-7rzitakki3g6g7m9yj4totn2s",
+    "lg": "italian-serie-a",
+    "day": "2026-11-22",
+    "home": "Atalanta",
+    "away": "Inter Milan",
+    "pick": "A",
+    "margin": 16,
+    "result": [
+     4,
+     4
+    ],
+    "outcome": "D",
+    "correct": false,
+    "over": true,
+    "ouCorrect": true,
+    "tuned": {
+     "pick": "A",
+     "margin": 4,
+     "correct": false
+    }
+   },
+   {
+    "id": "s-82vk3mqrxovp5nbu31vtpmvis",
+    "lg": "spanish-la-liga",
+    "day": "2026-11-22",
+    "home": "Getafe",
+    "away": "Atlético Madrid",
+    "pick": "A",
+    "margin": 22,
+    "result": [
+     0,
+     3
+    ],
+    "outcome": "A",
+    "correct": true,
+    "over": false,
+    "ouCorrect": false,
+    "tuned": {
+     "pick": "A",
+     "margin": 6,
+     "correct": true
+    }
+   }
+  ]
+ },
+ "predictions": [
+  {
+   "id": "s-7tto7hbwd8o4wifwovvhbk1zo",
+   "lg": "italian-serie-a",
+   "ko": "2026-11-23T19:45:00Z",
+   "day": "2026-11-23",
+   "home": {
+    "id": "monza",
+    "name": "Monza",
+    "pts": 5,
+    "br": {
+     "form": 2,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LDLWLWLLLL",
+    "venue": "DLLLLLWWLL",
+    "pos": 18,
+    "gf": 1.6,
+    "ga": 2.1
+   },
+   "away": {
+    "id": "fiorentina",
+    "name": "Fiorentina",
+    "pts": 10,
+    "br": {
+     "form": 2,
+     "venueForm": 5,
+     "position": 3,
+     "h2h": 0
+    },
+    "form": "LLWDLLLDWD",
+    "venue": "WWDLWLWLLW",
+    "pos": 15,
+    "gf": 1.7,
+    "ga": 2.1
+   },
+   "h2hPlayed": 1,
+   "pick": "A",
+   "margin": 5,
+   "xg": [
+    1.85,
+    1.9
+   ],
+   "goals": 3.75,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 1.5,
+    "pts": [
+     4,
+     2.5
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 3,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.261Z"
+  },
+  {
+   "id": "s-4veowc3ye0ziovl62553c2g44",
+   "lg": "premier-league",
+   "ko": "2026-11-23T20:00:00Z",
+   "day": "2026-11-23",
+   "home": {
+    "id": "brentford",
+    "name": "Brentford",
+    "pts": 8,
+    "br": {
+     "form": 3,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "WDDDWDLDWL",
+    "venue": "DDDWDWDWLW",
+    "pos": 10,
+    "gf": 1.6,
+    "ga": 1.1
+   },
+   "away": {
+    "id": "everton",
+    "name": "Everton",
+    "pts": 8,
+    "br": {
+     "form": 4,
+     "venueForm": 1,
+     "position": 3,
+     "h2h": 0
+    },
+    "form": "WDDDWDLLWW",
+    "venue": "LDLDLDDDLW",
+    "pos": 7,
+    "gf": 1.2,
+    "ga": 1
+   },
+   "h2hPlayed": 4,
+   "pick": "D",
+   "margin": 0,
+   "xg": [
+    1.3,
+    1.15
+   ],
+   "goals": 2.45,
+   "over": false,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 0.5,
+    "pts": [
+     4,
+     3.5
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 3,
+      "position": 0,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 3,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.261Z"
+  },
+  {
+   "id": "s-8371uo2o7j0j4yx1kkf9r9yj8",
+   "lg": "spanish-la-liga",
+   "ko": "2026-11-23T20:00:00Z",
+   "day": "2026-11-23",
+   "home": {
+    "id": "levante",
+    "name": "Levante",
+    "pts": 11,
+    "br": {
+     "form": 2,
+     "venueForm": 7,
+     "position": 1,
+     "h2h": 1
+    },
+    "form": "WDLLDDWLLD",
+    "venue": "WWWWWWLDWL",
+    "pos": 18,
+    "gf": 1.6,
+    "ga": 1.8
+   },
+   "away": {
+    "id": "elche",
+    "name": "Elche",
+    "pts": 6,
+    "br": {
+     "form": 2,
+     "venueForm": 3,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LLDLWDDWLL",
+    "venue": "WLLDDLDWDW",
+    "pos": 19,
+    "gf": 1.3,
+    "ga": 1.4
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 5,
+   "xg": [
+    1.5,
+    1.55
+   ],
+   "goals": 3.05,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 3.5,
+    "pts": [
+     4.5,
+     1
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 1,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.262Z"
+  },
+  {
+   "id": "s-250gu0j3wbmzavuqzp8uzdr84",
+   "lg": "championship",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "bristol-city",
+    "name": "Bristol City",
+    "pts": 5,
+    "br": {
+     "form": 2,
+     "venueForm": 3,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LWDLLDWLLL",
+    "venue": "LWLWLWLLLL",
+    "pos": 18,
+    "gf": 0.6,
+    "ga": 1.5
+   },
+   "away": {
+    "id": "wrexham",
+    "name": "Wrexham",
+    "pts": 12,
+    "br": {
+     "form": 4,
+     "venueForm": 3,
+     "position": 4,
+     "h2h": 1
+    },
+    "form": "LWDLWLLWDW",
+    "venue": "WLDWDLDLLW",
+    "pos": 14,
+    "gf": 1.2,
+    "ga": 1.5
+   },
+   "h2hPlayed": 2,
+   "pick": "A",
+   "margin": 7,
+   "xg": [
+    1.05,
+    1.35
+   ],
+   "goals": 2.4,
+   "over": false,
+   "thin": false,
+   "tuned": {
+    "pick": "D",
+    "margin": 0,
+    "pts": [
+     4,
+     4
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 4,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.262Z"
+  },
+  {
+   "id": "s-25bz7amwvix020zushuf7szkk",
+   "lg": "championship",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "cardiff-city",
+    "name": "Cardiff City",
+    "pts": 19,
+    "br": {
+     "form": 4,
+     "venueForm": 6,
+     "position": 9,
+     "h2h": 0
+    },
+    "form": "LWLWDWLDWL",
+    "venue": "WWDDDWWWDW",
+    "pos": 15,
+    "gf": 2.1,
+    "ga": 1.9
+   },
+   "away": {
+    "id": "preston-north-end",
+    "name": "Preston North End",
+    "pts": 3,
+    "br": {
+     "form": 1,
+     "venueForm": 1,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LDLLLDLLWD",
+    "venue": "LWLLLDLLLD",
+    "pos": 24,
+    "gf": 0.8,
+    "ga": 1.9
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 16,
+   "xg": [
+    2,
+    1.35
+   ],
+   "goals": 3.35,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 8.5,
+    "pts": [
+     9.5,
+     1
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 4,
+      "position": 9,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 8.5
+   },
+   "madeAt": "2026-11-23T07:29:02.262Z"
+  },
+  {
+   "id": "s-25ngorl71zrsysmgo3fchdmvo",
+   "lg": "championship",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "charlton-athletic",
+    "name": "Charlton Athletic",
+    "pts": 6,
+    "br": {
+     "form": 1,
+     "venueForm": 4,
+     "position": 1,
+     "h2h": 0
+    },
+    "form": "DLDDLLLLWL",
+    "venue": "LWWWDDDLLW",
+    "pos": 19,
+    "gf": 0.8,
+    "ga": 1.8
+   },
+   "away": {
+    "id": "lincoln-city",
+    "name": "Lincoln City",
+    "pts": 7,
+    "br": {
+     "form": 2,
+     "venueForm": 5,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "WLLLDWLLLL",
+    "venue": "WWLWWWLDLL",
+    "pos": 20,
+    "gf": 1,
+    "ga": 2.1
+   },
+   "h2hPlayed": 2,
+   "pick": "D",
+   "margin": 1,
+   "xg": [
+    1.45,
+    1.4
+   ],
+   "goals": 2.85,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 3.5,
+    "pts": [
+     4.5,
+     1
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 1,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.262Z"
+  },
+  {
+   "id": "s-25zllz5wnb4l9uessoj14n2tw",
+   "lg": "championship",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "middlesbrough",
+    "name": "Middlesbrough",
+    "pts": 20,
+    "br": {
+     "form": 5,
+     "venueForm": 7,
+     "position": 7,
+     "h2h": 1
+    },
+    "form": "DDWWDWWLDW",
+    "venue": "WDWWWDWDWW",
+    "pos": 1,
+    "gf": 2,
+    "ga": 1.1
+   },
+   "away": {
+    "id": "swansea-city",
+    "name": "Swansea City",
+    "pts": 11,
+    "br": {
+     "form": 5,
+     "venueForm": 5,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "WWWWLLWLLD",
+    "venue": "WDWWLWWLLL",
+    "pos": 8,
+    "gf": 1.6,
+    "ga": 1.6
+   },
+   "h2hPlayed": 3,
+   "pick": "H",
+   "margin": 9,
+   "xg": [
+    1.8,
+    1.35
+   ],
+   "goals": 3.15,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 8.5,
+    "pts": [
+     9.5,
+     1
+    ],
+    "br": [
+     {
+      "form": 3,
+      "venueForm": 3,
+      "position": 7,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 8.5
+   },
+   "madeAt": "2026-11-23T07:29:02.262Z"
+  },
+  {
+   "id": "s-26bae77ghh6n7oc4bp1816m1g",
+   "lg": "championship",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "norwich-city",
+    "name": "Norwich City",
+    "pts": 12,
+    "br": {
+     "form": 5,
+     "venueForm": 5,
+     "position": 0,
+     "h2h": 2
+    },
+    "form": "LLLLLWWWWW",
+    "venue": "WDLWWLLLWW",
+    "pos": 11,
+    "gf": 2.4,
+    "ga": 1.6
+   },
+   "away": {
+    "id": "queens-park-rangers",
+    "name": "Queens Park Rangers",
+    "pts": 12,
+    "br": {
+     "form": 4,
+     "venueForm": 3,
+     "position": 4,
+     "h2h": 1
+    },
+    "form": "DDDWLWLDWW",
+    "venue": "LLWWDDDLLW",
+    "pos": 7,
+    "gf": 1.8,
+    "ga": 1.4
+   },
+   "h2hPlayed": 4,
+   "pick": "D",
+   "margin": 0,
+   "xg": [
+    1.9,
+    1.7
+   ],
+   "goals": 3.6,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 3,
+    "pts": [
+     8,
+     5
+    ],
+    "br": [
+     {
+      "form": 5,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 2,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 1,
+      "position": 4,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.262Z"
+  },
+  {
+   "id": "s-26myffs29boggsidvbgfbaj2s",
+   "lg": "championship",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "portsmouth",
+    "name": "Portsmouth",
+    "pts": 9,
+    "br": {
+     "form": 4,
+     "venueForm": 5,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "DLWWDWDWLD",
+    "venue": "WDLLWDWWWL",
+    "pos": 12,
+    "gf": 1.4,
+    "ga": 1.1
+   },
+   "away": {
+    "id": "west-ham-united",
+    "name": "West Ham United",
+    "pts": 8,
+    "br": {
+     "form": 3,
+     "venueForm": 3,
+     "position": 2,
+     "h2h": 0
+    },
+    "form": "WDDWWLLDLD",
+    "venue": "LLDDWDWWDL",
+    "pos": 10,
+    "gf": 2.4,
+    "ga": 1.5
+   },
+   "h2hPlayed": 0,
+   "pick": "D",
+   "margin": 1,
+   "xg": [
+    1.45,
+    1.75
+   ],
+   "goals": 3.2,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 4,
+    "pts": [
+     5,
+     1
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 0,
+      "venueForm": 2,
+      "position": 2,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.262Z"
+  },
+  {
+   "id": "s-26yfoc76twkb86xtdb04pyqz8",
+   "lg": "championship",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "sheffield-united",
+    "name": "Sheffield United",
+    "pts": 9,
+    "br": {
+     "form": 5,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LLWLWDWWLW",
+    "venue": "LLDWLLWDWW",
+    "pos": 9,
+    "gf": 1.7,
+    "ga": 1.1
+   },
+   "away": {
+    "id": "southampton",
+    "name": "Southampton",
+    "pts": 17,
+    "br": {
+     "form": 6,
+     "venueForm": 3,
+     "position": 6,
+     "h2h": 2
+    },
+    "form": "WLWWDWWDLW",
+    "venue": "WDLDDLWWDL",
+    "pos": 3,
+    "gf": 1.7,
+    "ga": 0.8
+   },
+   "h2hPlayed": 2,
+   "pick": "A",
+   "margin": 8,
+   "xg": [
+    1.25,
+    1.4
+   ],
+   "goals": 2.65,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "D",
+    "margin": 0,
+    "pts": [
+     6,
+     6
+    ],
+    "br": [
+     {
+      "form": 3,
+      "venueForm": 3,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 2,
+      "position": 6,
+      "h2h": 2
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.262Z"
+  },
+  {
+   "id": "s-1b84ssfs4fj66tesx8h682kus",
+   "lg": "league-one",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "blackpool",
+    "name": "Blackpool",
+    "pts": 6,
+    "br": {
+     "form": 1,
+     "venueForm": 5,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LDLLLWLDLL",
+    "venue": "WWWDWDLWLL",
+    "pos": 22,
+    "gf": 1,
+    "ga": 2
+   },
+   "away": {
+    "id": "leicester-city",
+    "name": "Leicester City",
+    "pts": 21,
+    "br": {
+     "form": 5,
+     "venueForm": 4,
+     "position": 12,
+     "h2h": 0
+    },
+    "form": "LWDLWWLWDW",
+    "venue": "DLWDDWDWLW",
+    "pos": 10,
+    "gf": 1.9,
+    "ga": 1.6
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 15,
+   "xg": [
+    1.3,
+    1.95
+   ],
+   "goals": 3.25,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 5,
+    "pts": [
+     4,
+     9
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 3,
+      "position": 12,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.263Z"
+  },
+  {
+   "id": "s-16qdwf025flh3uils5440ror8",
+   "lg": "league-one",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "bradford-city",
+    "name": "Bradford City",
+    "pts": 25,
+    "br": {
+     "form": 4,
+     "venueForm": 3,
+     "position": 18,
+     "h2h": 0
+    },
+    "form": "WWWDDWDDLD",
+    "venue": "DDLWLWDWLD",
+    "pos": 6,
+    "gf": 0.8,
+    "ga": 0.6
+   },
+   "away": {
+    "id": "barnsley",
+    "name": "Barnsley",
+    "pts": 2,
+    "br": {
+     "form": 0,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LLDLLLLDLL",
+    "venue": "LLWDWLLLLL",
+    "pos": 24,
+    "gf": 0.9,
+    "ga": 2.3
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 23,
+   "xg": [
+    1.55,
+    0.75
+   ],
+   "goals": 2.3,
+   "over": false,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 13,
+    "pts": [
+     13,
+     0
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 18,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 0,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 13
+   },
+   "madeAt": "2026-11-23T07:29:02.263Z"
+  },
+  {
+   "id": "s-1bjtz4xv34lc2oqypdy6on4es",
+   "lg": "league-one",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "bromley",
+    "name": "Bromley",
+    "pts": 6,
+    "br": {
+     "form": 2,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LDWLLLDLLW",
+    "venue": "WWDWDLLWLD",
+    "pos": 23,
+    "gf": 1,
+    "ga": 2
+   },
+   "away": {
+    "id": "wycombe-wanderers",
+    "name": "Wycombe Wanderers",
+    "pts": 14,
+    "br": {
+     "form": 4,
+     "venueForm": 2,
+     "position": 8,
+     "h2h": 0
+    },
+    "form": "DWWDLWDDWL",
+    "venue": "LDLDLWWDDL",
+    "pos": 15,
+    "gf": 2,
+    "ga": 1.8
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 8,
+   "xg": [
+    1.4,
+    2
+   ],
+   "goals": 3.4,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 2,
+    "pts": [
+     4,
+     6
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 8,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.263Z"
+  },
+  {
+   "id": "s-19mbfu0i36ub7zhxxizn0bqc4",
+   "lg": "league-one",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "stevenage",
+    "name": "Stevenage",
+    "pts": 10,
+    "br": {
+     "form": 5,
+     "venueForm": 5,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "DWWLWLWLDW",
+    "venue": "DWWLLDWWWL",
+    "pos": 14,
+    "gf": 1.4,
+    "ga": 0.8
+   },
+   "away": {
+    "id": "sheffield-wednesday",
+    "name": "Sheffield Wednesday",
+    "pts": 16,
+    "br": {
+     "form": 3,
+     "venueForm": 4,
+     "position": 9,
+     "h2h": 0
+    },
+    "form": "DDDWLLDDWW",
+    "venue": "DLLWWWDLLW",
+    "pos": 5,
+    "gf": 1.4,
+    "ga": 0.9
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 6,
+   "xg": [
+    1.15,
+    1.1
+   ],
+   "goals": 2.25,
+   "over": false,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 1.5,
+    "pts": [
+     5,
+     6.5
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 9,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.263Z"
+  },
+  {
+   "id": "s-19egxpgnsarp66shee8a1ghlg",
+   "lg": "league-two",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "crawley-town",
+    "name": "Crawley Town",
+    "pts": 3,
+    "br": {
+     "form": 2,
+     "venueForm": 1,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "DLLLDLLDWW",
+    "venue": "LDDLLLDLDW",
+    "pos": 24,
+    "gf": 1.3,
+    "ga": 1.8
+   },
+   "away": {
+    "id": "barnet",
+    "name": "Barnet",
+    "pts": 36,
+    "br": {
+     "form": 6,
+     "venueForm": 7,
+     "position": 22,
+     "h2h": 1
+    },
+    "form": "DWWWWLDWDW",
+    "venue": "WWWWWDDWWD",
+    "pos": 2,
+    "gf": 2.1,
+    "ga": 1.4
+   },
+   "h2hPlayed": 2,
+   "pick": "A",
+   "margin": 33,
+   "xg": [
+    1.35,
+    1.95
+   ],
+   "goals": 3.3,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 8,
+    "pts": [
+     5,
+     13
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 22,
+      "h2h": 1
+     }
+    ]
+   },
+   "banker": {
+    "side": "A",
+    "gap": 8
+   },
+   "madeAt": "2026-11-23T07:29:02.263Z"
+  },
+  {
+   "id": "s-1aq318y0y4ghaebyg06ezd89g",
+   "lg": "league-two",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "port-vale",
+    "name": "Port Vale",
+    "pts": 11,
+    "br": {
+     "form": 5,
+     "venueForm": 5,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LWLWWDLWWL",
+    "venue": "DDLDDWWWWW",
+    "pos": 19,
+    "gf": 1.3,
+    "ga": 1.2
+   },
+   "away": {
+    "id": "northampton-town",
+    "name": "Northampton Town",
+    "pts": 5,
+    "br": {
+     "form": 3,
+     "venueForm": 1,
+     "position": 1,
+     "h2h": 0
+    },
+    "form": "LLDWLWDLDW",
+    "venue": "LLLLDLDWDD",
+    "pos": 18,
+    "gf": 1,
+    "ga": 1
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 6,
+   "xg": [
+    1.15,
+    1.1
+   ],
+   "goals": 2.25,
+   "over": false,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 2.5,
+    "pts": [
+     5,
+     2.5
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 5,
+      "position": 0,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 1,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.263Z"
+  },
+  {
+   "id": "s-8uo80c1xuhpi6j5z6sz3rj7ys",
+   "lg": "national-league",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "altrincham",
+    "name": "Altrincham",
+    "pts": 18,
+    "br": {
+     "form": 5,
+     "venueForm": 7,
+     "position": 5,
+     "h2h": 1
+    },
+    "form": "WWWLWWDLLL",
+    "venue": "WWLWWWWWDL",
+    "pos": 10,
+    "gf": 1.5,
+    "ga": 1.6
+   },
+   "away": {
+    "id": "wealdstone",
+    "name": "Wealdstone",
+    "pts": 8,
+    "br": {
+     "form": 4,
+     "venueForm": 3,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LWDLLWLWDW",
+    "venue": "LDLWWLDLWD",
+    "pos": 15,
+    "gf": 1.8,
+    "ga": 1.7
+   },
+   "h2hPlayed": 4,
+   "pick": "H",
+   "margin": 10,
+   "xg": [
+    1.6,
+    1.7
+   ],
+   "goals": 3.3,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 3.5,
+    "pts": [
+     6.5,
+     3
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 3,
+      "position": 5,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.263Z"
+  },
+  {
+   "id": "s-8uzu5k7nqmincxzks76a5iec4",
+   "lg": "national-league",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "boston-united",
+    "name": "Boston United",
+    "pts": 7,
+    "br": {
+     "form": 3,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "WLDLLLWWLL",
+    "venue": "WLWLLDLLWW",
+    "pos": 21,
+    "gf": 1.1,
+    "ga": 2
+   },
+   "away": {
+    "id": "barrow",
+    "name": "Barrow",
+    "pts": 23,
+    "br": {
+     "form": 7,
+     "venueForm": 4,
+     "position": 12,
+     "h2h": 0
+    },
+    "form": "LWWWWWWDWL",
+    "venue": "LLDDDLWWWW",
+    "pos": 9,
+    "gf": 1.9,
+    "ga": 1
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 16,
+   "xg": [
+    1.05,
+    1.95
+   ],
+   "goals": 3,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 4,
+    "pts": [
+     5,
+     9
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 4,
+      "position": 12,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.263Z"
+  },
+  {
+   "id": "s-8vbeuhlm16972hno4bjo20aac",
+   "lg": "national-league",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "carlisle-united",
+    "name": "Carlisle United",
+    "pts": 29,
+    "br": {
+     "form": 7,
+     "venueForm": 4,
+     "position": 17,
+     "h2h": 1
+    },
+    "form": "LLWWDWWWWW",
+    "venue": "LLWWDDLDWW",
+    "pos": 5,
+    "gf": 2,
+    "ga": 1
+   },
+   "away": {
+    "id": "tamworth",
+    "name": "Tamworth",
+    "pts": 6,
+    "br": {
+     "form": 4,
+     "venueForm": 1,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LWLWWLWLLL",
+    "venue": "DDDLLLLLWL",
+    "pos": 22,
+    "gf": 1.4,
+    "ga": 1.8
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 23,
+   "xg": [
+    1.9,
+    1.2
+   ],
+   "goals": 3.1,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 15.5,
+    "pts": [
+     16.5,
+     1
+    ],
+    "br": [
+     {
+      "form": 5,
+      "venueForm": 2,
+      "position": 17,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 15.5
+   },
+   "madeAt": "2026-11-23T07:29:02.263Z"
+  },
+  {
+   "id": "s-8vmzpq859e7msuow2v6bem6tw",
+   "lg": "national-league",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "eastleigh",
+    "name": "Eastleigh",
+    "pts": 9,
+    "br": {
+     "form": 3,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 2
+    },
+    "form": "WLDLLWLDLW",
+    "venue": "DWWDDWDLWL",
+    "pos": 16,
+    "gf": 1.3,
+    "ga": 1.8
+   },
+   "away": {
+    "id": "yeovil-town",
+    "name": "Yeovil Town",
+    "pts": 22,
+    "br": {
+     "form": 6,
+     "venueForm": 4,
+     "position": 12,
+     "h2h": 0
+    },
+    "form": "WWDWWLWLDW",
+    "venue": "LLDWLDWWWL",
+    "pos": 4,
+    "gf": 2.6,
+    "ga": 1.1
+   },
+   "h2hPlayed": 4,
+   "pick": "A",
+   "margin": 13,
+   "xg": [
+    1.2,
+    2.2
+   ],
+   "goals": 3.4,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 3,
+    "pts": [
+     5,
+     8
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 2,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 12,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-8vym2s16eb0exqn3mn7qgmadw",
+   "lg": "national-league",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "forest-green-rovers",
+    "name": "Forest Green Rovers",
+    "pts": 8,
+    "br": {
+     "form": 3,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "WWDLDDLWDL",
+    "venue": "WWLLWLDLWD",
+    "pos": 18,
+    "gf": 1.9,
+    "ga": 1.7
+   },
+   "away": {
+    "id": "southend-united",
+    "name": "Southend United",
+    "pts": 21,
+    "br": {
+     "form": 4,
+     "venueForm": 4,
+     "position": 12,
+     "h2h": 1
+    },
+    "form": "WLDWWDDLWL",
+    "venue": "LWWDDWDWDL",
+    "pos": 6,
+    "gf": 2.5,
+    "ga": 2
+   },
+   "h2hPlayed": 5,
+   "pick": "A",
+   "margin": 13,
+   "xg": [
+    1.95,
+    2.1
+   ],
+   "goals": 4.05,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 3,
+    "pts": [
+     4,
+     7
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 12,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-8uciwtjin8w5ly2evul4t1mok",
+   "lg": "national-league",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "afc-fylde",
+    "name": "Fylde",
+    "pts": 17,
+    "br": {
+     "form": 5,
+     "venueForm": 6,
+     "position": 5,
+     "h2h": 1
+    },
+    "form": "LWLLWLWWWD",
+    "venue": "WWDWDLLWWW",
+    "pos": 3,
+    "gf": 1.5,
+    "ga": 1.6
+   },
+   "away": {
+    "id": "halifax",
+    "name": "Halifax Town",
+    "pts": 8,
+    "br": {
+     "form": 4,
+     "venueForm": 3,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "DLDWWDLWDW",
+    "venue": "DWLLLWLWDD",
+    "pos": 8,
+    "gf": 2.1,
+    "ga": 1.1
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 9,
+   "xg": [
+    1.3,
+    1.85
+   ],
+   "goals": 3.15,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 6.5,
+    "pts": [
+     8.5,
+     2
+    ],
+    "br": [
+     {
+      "form": 3,
+      "venueForm": 3,
+      "position": 5,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-8wa8wbfkt9f4ghka3s62if5zo",
+   "lg": "national-league",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "hornchurch",
+    "name": "Hornchurch",
+    "pts": 10,
+    "br": {
+     "form": 4,
+     "venueForm": 6,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "WLWLWLLLWL",
+    "venue": "WWLWWWLW",
+    "pos": 13,
+    "gf": 1,
+    "ga": 1.9
+   },
+   "away": {
+    "id": "sutton-united",
+    "name": "Sutton United",
+    "pts": 8,
+    "br": {
+     "form": 3,
+     "venueForm": 3,
+     "position": 2,
+     "h2h": 0
+    },
+    "form": "DDLDLLWWLW",
+    "venue": "LLWWLDLDLW",
+    "pos": 11,
+    "gf": 1.2,
+    "ga": 1.4
+   },
+   "h2hPlayed": 0,
+   "pick": "H",
+   "margin": 2,
+   "xg": [
+    1.2,
+    1.55
+   ],
+   "goals": 2.75,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "D",
+    "margin": 0,
+    "pts": [
+     4,
+     4
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 4,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 1,
+      "position": 2,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-8wlqswwj4p6tr3wlmnpgj8sno",
+   "lg": "national-league",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "scunthorpe-united",
+    "name": "Scunthorpe United",
+    "pts": 7,
+    "br": {
+     "form": 1,
+     "venueForm": 4,
+     "position": 1,
+     "h2h": 1
+    },
+    "form": "LLWLLLLLDL",
+    "venue": "WLWDWLLWLD",
+    "pos": 23,
+    "gf": 1,
+    "ga": 2.1
+   },
+   "away": {
+    "id": "gateshead",
+    "name": "Gateshead",
+    "pts": 1,
+    "br": {
+     "form": 0,
+     "venueForm": 0,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LLLLLLLLLL",
+    "venue": "LLLLLLLLLL",
+    "pos": 24,
+    "gf": 0.5,
+    "ga": 2.6
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 6,
+   "xg": [
+    1.8,
+    1.3
+   ],
+   "goals": 3.1,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 3.5,
+    "pts": [
+     3.5,
+     0
+    ],
+    "br": [
+     {
+      "form": 0,
+      "venueForm": 1,
+      "position": 1,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 0,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-8wxg52pysbtc7786f2z2zccno",
+   "lg": "national-league",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "woking",
+    "name": "Woking",
+    "pts": 6,
+    "br": {
+     "form": 4,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "DDWLWLWLWL",
+    "venue": "DLLWDWDLLL",
+    "pos": 17,
+    "gf": 1.6,
+    "ga": 1.8
+   },
+   "away": {
+    "id": "worthing",
+    "name": "Worthing",
+    "pts": 20,
+    "br": {
+     "form": 6,
+     "venueForm": 4,
+     "position": 10,
+     "h2h": 0
+    },
+    "form": "WWDWWWDLDW",
+    "venue": "WLDWDWWD",
+    "pos": 7,
+    "gf": 2.1,
+    "ga": 1.3
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 14,
+   "xg": [
+    1.45,
+    1.95
+   ],
+   "goals": 3.4,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 2,
+    "pts": [
+     5,
+     7
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 10,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-18u3jf19fow11426p3mj6vw2c",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "afc-telford-united",
+    "name": "AFC Telford United",
+    "pts": 10,
+    "br": {
+     "form": 6,
+     "venueForm": 3,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "WDLLWDWWWW",
+    "venue": "LDLDLWLWDW",
+    "pos": 11,
+    "gf": 1.5,
+    "ga": 1.4
+   },
+   "away": {
+    "id": "buxton",
+    "name": "Buxton",
+    "pts": 11,
+    "br": {
+     "form": 5,
+     "venueForm": 3,
+     "position": 2,
+     "h2h": 1
+    },
+    "form": "WWLLDWWWDL",
+    "venue": "WLDLWLLLWD",
+    "pos": 9,
+    "gf": 2.3,
+    "ga": 1.7
+   },
+   "h2hPlayed": 2,
+   "pick": "D",
+   "margin": 1,
+   "xg": [
+    1.6,
+    1.85
+   ],
+   "goals": 3.45,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 3,
+    "pts": [
+     7,
+     4
+    ],
+    "br": [
+     {
+      "form": 4,
+      "venueForm": 3,
+      "position": 0,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 1,
+      "position": 2,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-195e8a8epmzz5zmr8hem0kg0k",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "brackley-town",
+    "name": "Brackley Town",
+    "pts": 7,
+    "br": {
+     "form": 3,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LDWWLLDWLD",
+    "venue": "DWDLWDWWLL",
+    "pos": 17,
+    "gf": 1.2,
+    "ga": 1.5
+   },
+   "away": {
+    "id": "hereford-united",
+    "name": "Hereford",
+    "pts": 27,
+    "br": {
+     "form": 5,
+     "venueForm": 6,
+     "position": 15,
+     "h2h": 1
+    },
+    "form": "WWDLWLLWDW",
+    "venue": "WDLWWWDWWD",
+    "pos": 2,
+    "gf": 1.8,
+    "ga": 1
+   },
+   "h2hPlayed": 1,
+   "pick": "A",
+   "margin": 20,
+   "xg": [
+    1.1,
+    1.65
+   ],
+   "goals": 2.75,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 5.5,
+    "pts": [
+     4,
+     9.5
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 15,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-19gl59xte6tb3407xad61cmj8",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "chorley",
+    "name": "Chorley",
+    "pts": 12,
+    "br": {
+     "form": 5,
+     "venueForm": 5,
+     "position": 2,
+     "h2h": 0
+    },
+    "form": "WLWWLWLLWL",
+    "venue": "LWLWDWWWLL",
+    "pos": 13,
+    "gf": 1.8,
+    "ga": 1.6
+   },
+   "away": {
+    "id": "azomsqg7on2zlrav2rju7h1xr",
+    "name": "Hebburn Town",
+    "pts": 2,
+    "br": {
+     "form": 1,
+     "venueForm": 1,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LWDLLDDLDD",
+    "venue": "DWLLDDLD",
+    "pos": 15,
+    "gf": 1,
+    "ga": 2.1
+   },
+   "h2hPlayed": 0,
+   "pick": "H",
+   "margin": 10,
+   "xg": [
+    1.95,
+    1.3
+   ],
+   "goals": 3.25,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 6,
+    "pts": [
+     6,
+     0
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 2,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 0,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-19rsneb1reekicd6gd5pqnnro",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "darlington",
+    "name": "Darlington",
+    "pts": 4,
+    "br": {
+     "form": 1,
+     "venueForm": 1,
+     "position": 1,
+     "h2h": 1
+    },
+    "form": "LLDDLWLLDL",
+    "venue": "LLLLLLDDWD",
+    "pos": 22,
+    "gf": 1.2,
+    "ga": 1.8
+   },
+   "away": {
+    "id": "southport",
+    "name": "Southport",
+    "pts": 1,
+    "br": {
+     "form": 1,
+     "venueForm": 0,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LWLDLLDLLD",
+    "venue": "LLLDLLLLDL",
+    "pos": 23,
+    "gf": 0.7,
+    "ga": 1.8
+   },
+   "h2hPlayed": 3,
+   "pick": "H",
+   "margin": 3,
+   "xg": [
+    1.5,
+    1.25
+   ],
+   "goals": 2.75,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 4.5,
+    "pts": [
+     4.5,
+     0
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 1,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 0,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-1a31gn69x2mmpu8pqn0a3t4b8",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "1e0ypoakip3j8mypq2ltkk3w",
+    "name": "Harborough Town",
+    "pts": 6,
+    "br": {
+     "form": 2,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "WLLDLWDLDD",
+    "venue": "WWWLDWD",
+    "pos": 19,
+    "gf": 0.6,
+    "ga": 1.2
+   },
+   "away": {
+    "id": "chester",
+    "name": "Chester",
+    "pts": 27,
+    "br": {
+     "form": 6,
+     "venueForm": 5,
+     "position": 16,
+     "h2h": 0
+    },
+    "form": "LLWWLWLWWW",
+    "venue": "WLWWDDLLWW",
+    "pos": 3,
+    "gf": 2.1,
+    "ga": 1.1
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 21,
+   "xg": [
+    0.85,
+    1.65
+   ],
+   "goals": 2.5,
+   "over": false,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 8,
+    "pts": [
+     4,
+     12
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 4,
+      "venueForm": 2,
+      "position": 16,
+      "h2h": 0
+     }
+    ]
+   },
+   "banker": {
+    "side": "A",
+    "gap": 8
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-1aeajirlyorios0sf0j4bmmfo",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "egbbr8zcuo2pmfdbibuqfluhg",
+    "name": "Hednesford Town",
+    "pts": 13,
+    "br": {
+     "form": 8,
+     "venueForm": 5,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "WLWWWWLWWW",
+    "venue": "LDWLWWWW",
+    "pos": 5,
+    "gf": 2.4,
+    "ga": 1.1
+   },
+   "away": {
+    "id": "oxford-city",
+    "name": "Oxford City",
+    "pts": 12,
+    "br": {
+     "form": 4,
+     "venueForm": 7,
+     "position": 1,
+     "h2h": 0
+    },
+    "form": "LWDWDWLDLW",
+    "venue": "WWWWWLWWDD",
+    "pos": 4,
+    "gf": 1.6,
+    "ga": 1.1
+   },
+   "h2hPlayed": 0,
+   "pick": "D",
+   "margin": 1,
+   "xg": [
+    1.75,
+    1.35
+   ],
+   "goals": 3.1,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 4.5,
+    "pts": [
+     7,
+     2.5
+    ],
+    "br": [
+     {
+      "form": 4,
+      "venueForm": 4,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 1,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-1apkq7k7uneizcnfu0v2jyk9g",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "kings-lynn-town",
+    "name": "King's Lynn Town",
+    "pts": 23,
+    "br": {
+     "form": 5,
+     "venueForm": 4,
+     "position": 13,
+     "h2h": 1
+    },
+    "form": "LWWWDDLWWL",
+    "venue": "LDDLWLWWDW",
+    "pos": 8,
+    "gf": 1.6,
+    "ga": 1
+   },
+   "away": {
+    "id": "7kti8xufzgpomf98040szjwig",
+    "name": "Radcliffe",
+    "pts": 7,
+    "br": {
+     "form": 4,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LWLLWWWLDL",
+    "venue": "LLLLLLLLWW",
+    "pos": 21,
+    "gf": 1.8,
+    "ga": 2
+   },
+   "h2hPlayed": 3,
+   "pick": "H",
+   "margin": 16,
+   "xg": [
+    1.8,
+    1.4
+   ],
+   "goals": 3.2,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 9.5,
+    "pts": [
+     11.5,
+     2
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 13,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 9.5
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-1b0r5hi886s7f0801lg3rncic",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "macclesfield-town",
+    "name": "Macclesfield",
+    "pts": 13,
+    "br": {
+     "form": 5,
+     "venueForm": 7,
+     "position": 1,
+     "h2h": 0
+    },
+    "form": "WLDDWWLWWL",
+    "venue": "LWWWWWDWWL",
+    "pos": 6,
+    "gf": 1.8,
+    "ga": 1.5
+   },
+   "away": {
+    "id": "morecambe",
+    "name": "Morecambe",
+    "pts": 7,
+    "br": {
+     "form": 5,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LWDLWWWLDW",
+    "venue": "LLLLWLDLWL",
+    "pos": 7,
+    "gf": 1.7,
+    "ga": 1.4
+   },
+   "h2hPlayed": 0,
+   "pick": "H",
+   "margin": 6,
+   "xg": [
+    1.6,
+    1.6
+   ],
+   "goals": 3.2,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 3.5,
+    "pts": [
+     6.5,
+     3
+    ],
+    "br": [
+     {
+      "form": 3,
+      "venueForm": 3,
+      "position": 1,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-1bc328a0nv2it194iina79vdg",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "94hvwr1tqq3o6yp6ex4dhnsb0",
+    "name": "Marine",
+    "pts": 16,
+    "br": {
+     "form": 4,
+     "venueForm": 3,
+     "position": 8,
+     "h2h": 1
+    },
+    "form": "LLWWWDLLWD",
+    "venue": "LLLLLWLWWD",
+    "pos": 16,
+    "gf": 1.5,
+    "ga": 1.5
+   },
+   "away": {
+    "id": "spennymoor-town",
+    "name": "Spennymoor Town",
+    "pts": 3,
+    "br": {
+     "form": 1,
+     "venueForm": 1,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LDDLLLWLLD",
+    "venue": "LWDLLLDLLL",
+    "pos": 24,
+    "gf": 0.8,
+    "ga": 2
+   },
+   "h2hPlayed": 4,
+   "pick": "H",
+   "margin": 13,
+   "xg": [
+    1.75,
+    1.15
+   ],
+   "goals": 2.9,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 7,
+    "pts": [
+     8,
+     1
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 3,
+      "position": 8,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-1bna58rmgzk0eaipvtodzhtec",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "eyb1box7vynoi1c4px82tuwda",
+    "name": "Merthyr Town",
+    "pts": 7,
+    "br": {
+     "form": 2,
+     "venueForm": 3,
+     "position": 0,
+     "h2h": 2
+    },
+    "form": "WDLDDLLDWL",
+    "venue": "LLWDDWLDLW",
+    "pos": 18,
+    "gf": 1.3,
+    "ga": 1.6
+   },
+   "away": {
+    "id": "ak5dt76kb6ops1gue1xtxqspg",
+    "name": "Bedford Town",
+    "pts": 12,
+    "br": {
+     "form": 4,
+     "venueForm": 4,
+     "position": 4,
+     "h2h": 0
+    },
+    "form": "WWLDLWWLLL",
+    "venue": "DWDLLWWLLW",
+    "pos": 14,
+    "gf": 1.1,
+    "ga": 1.5
+   },
+   "h2hPlayed": 2,
+   "pick": "A",
+   "margin": 5,
+   "xg": [
+    1.4,
+    1.35
+   ],
+   "goals": 2.75,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "D",
+    "margin": 0,
+    "pts": [
+     4,
+     4
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 2,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 4,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-1byejmp1hqynxy44quiog57o4",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "5f1ehzv2z1o1q6ds7td0svjkt",
+    "name": "Scarborough Athletic",
+    "pts": 5,
+    "br": {
+     "form": 1,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "DDDLWLLDLL",
+    "venue": "WWLWWLDLDL",
+    "pos": 20,
+    "gf": 0.9,
+    "ga": 1.6
+   },
+   "away": {
+    "id": "epp5e0tdrfg221sjkvhtza1y7",
+    "name": "Spalding United",
+    "pts": 16,
+    "br": {
+     "form": 4,
+     "venueForm": 2,
+     "position": 10,
+     "h2h": 0
+    },
+    "form": "WWLLLDWLDW",
+    "venue": "WLDWLLLL",
+    "pos": 10,
+    "gf": 1.4,
+    "ga": 1.4
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 11,
+   "xg": [
+    1.15,
+    1.5
+   ],
+   "goals": 2.65,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 4,
+    "pts": [
+     3,
+     7
+    ],
+    "br": [
+     {
+      "form": 0,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 10,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-1ca0nw2pj7h9savjx449b87bo",
+   "lg": "national-league-ns",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "south-shields",
+    "name": "South Shields",
+    "pts": 26,
+    "br": {
+     "form": 7,
+     "venueForm": 6,
+     "position": 11,
+     "h2h": 2
+    },
+    "form": "WLWLLWWWWW",
+    "venue": "DWLWDDWWWW",
+    "pos": 1,
+    "gf": 2.7,
+    "ga": 1.9
+   },
+   "away": {
+    "id": "cht6tk02wdayxe1byqherg83x",
+    "name": "Worksop Town",
+    "pts": 8,
+    "br": {
+     "form": 5,
+     "venueForm": 3,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "WLWLWDDWLW",
+    "venue": "DWLWLLWLDD",
+    "pos": 12,
+    "gf": 1.7,
+    "ga": 1.2
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 18,
+   "xg": [
+    1.95,
+    1.8
+   ],
+   "goals": 3.75,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 11.5,
+    "pts": [
+     13.5,
+     2
+    ],
+    "br": [
+     {
+      "form": 5,
+      "venueForm": 4,
+      "position": 11,
+      "h2h": 2,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 11.5
+   },
+   "madeAt": "2026-11-23T07:29:02.264Z"
+  },
+  {
+   "id": "s-29fl3qsqjct3iiy6p7piaszro",
+   "lg": "scottish-premiership",
+   "ko": "2026-11-24T19:45:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "hibernian",
+    "name": "Hibernian",
+    "pts": 5,
+    "br": {
+     "form": 1,
+     "venueForm": 0,
+     "position": 0,
+     "h2h": 4
+    },
+    "form": "LLLDLLLDWL",
+    "venue": "LLLLLLDLLL",
+    "pos": 11,
+    "gf": 1,
+    "ga": 1.7
+   },
+   "away": {
+    "id": "dundee",
+    "name": "Dundee",
+    "pts": 10,
+    "br": {
+     "form": 3,
+     "venueForm": 2,
+     "position": 4,
+     "h2h": 1
+    },
+    "form": "LDLWWDLWLL",
+    "venue": "LDLLLWLWLL",
+    "pos": 7,
+    "gf": 1.4,
+    "ga": 2.2
+   },
+   "h2hPlayed": 6,
+   "pick": "A",
+   "margin": 5,
+   "xg": [
+    1.6,
+    1.55
+   ],
+   "goals": 3.15,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 1,
+    "pts": [
+     4,
+     3
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 4,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 4,
+      "h2h": 1
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-279vnyh7eyct41vaitpwbrg9g",
+   "lg": "championship",
+   "ko": "2026-11-24T20:00:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "wolverhampton-wanderers",
+    "name": "Wolverhampton Wanderers",
+    "pts": 30,
+    "br": {
+     "form": 6,
+     "venueForm": 5,
+     "position": 19,
+     "h2h": 0
+    },
+    "form": "WLLWDWWWDW",
+    "venue": "DDDWWLDWWW",
+    "pos": 4,
+    "gf": 1.4,
+    "ga": 0.9
+   },
+   "away": {
+    "id": "derby-county",
+    "name": "Derby County",
+    "pts": 3,
+    "br": {
+     "form": 1,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LDDLLDLLWL",
+    "venue": "LWLWLDLDLL",
+    "pos": 23,
+    "gf": 0.9,
+    "ga": 2.1
+   },
+   "h2hPlayed": 0,
+   "pick": "H",
+   "margin": 27,
+   "xg": [
+    1.75,
+    0.9
+   ],
+   "goals": 2.65,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 15.5,
+    "pts": [
+     16.5,
+     1
+    ],
+    "br": [
+     {
+      "form": 4,
+      "venueForm": 3,
+      "position": 19,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 15.5
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-2ah8iq89ollxlr0cbowv8b2ms",
+   "lg": "scottish-premiership",
+   "ko": "2026-11-24T20:00:00Z",
+   "day": "2026-11-24",
+   "home": {
+    "id": "rangers",
+    "name": "Rangers",
+    "pts": 26,
+    "br": {
+     "form": 8,
+     "venueForm": 6,
+     "position": 6,
+     "h2h": 6
+    },
+    "form": "WWWWWDWDWW",
+    "venue": "DWWLLLWWWW",
+    "pos": 2,
+    "gf": 2,
+    "ga": 0.7
+   },
+   "away": {
+    "id": "aberdeen",
+    "name": "Aberdeen",
+    "pts": 5,
+    "br": {
+     "form": 3,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LDWDLWLLLW",
+    "venue": "LLDLLLWDLW",
+    "pos": 8,
+    "gf": 1.4,
+    "ga": 1.6
+   },
+   "h2hPlayed": 7,
+   "pick": "H",
+   "margin": 21,
+   "xg": [
+    1.8,
+    1.05
+   ],
+   "goals": 2.85,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 7,
+    "pts": [
+     9,
+     2
+    ],
+    "br": [
+     {
+      "form": 3,
+      "venueForm": 4,
+      "position": 6,
+      "h2h": 6,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-8x97rjlkq2m6o6za43bfz6mfo",
+   "lg": "national-league",
+   "ko": "2026-11-25T19:00:00Z",
+   "day": "2026-11-25",
+   "home": {
+    "id": "boreham-wood",
+    "name": "Boreham Wood",
+    "pts": 30,
+    "br": {
+     "form": 9,
+     "venueForm": 8,
+     "position": 11,
+     "h2h": 2
+    },
+    "form": "WWWWWWWWDW",
+    "venue": "WDDWWWWWWW",
+    "pos": 1,
+    "gf": 3,
+    "ga": 1.1
+   },
+   "away": {
+    "id": "aldershot-town",
+    "name": "Aldershot Town",
+    "pts": 5,
+    "br": {
+     "form": 3,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LWLLLLLWLW",
+    "venue": "LWDDWLLLLL",
+    "pos": 12,
+    "gf": 1.2,
+    "ga": 1.5
+   },
+   "h2hPlayed": 2,
+   "pick": "H",
+   "margin": 25,
+   "xg": [
+    2.25,
+    1.15
+   ],
+   "goals": 3.4,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 10.5,
+    "pts": [
+     12.5,
+     2
+    ],
+    "br": [
+     {
+      "form": 4,
+      "venueForm": 5,
+      "position": 11,
+      "h2h": 2,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 10.5
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-27leit0dj4zrf0b2qz2gdwyz8",
+   "lg": "championship",
+   "ko": "2026-11-25T19:45:00Z",
+   "day": "2026-11-25",
+   "home": {
+    "id": "bolton-wanderers",
+    "name": "Bolton Wanderers",
+    "pts": 8,
+    "br": {
+     "form": 4,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "WWLWDLLWLD",
+    "venue": "WWWLLWLLLD",
+    "pos": 17,
+    "gf": 1.5,
+    "ga": 1.8
+   },
+   "away": {
+    "id": "west-bromwich-albion",
+    "name": "West Bromwich Albion",
+    "pts": 20,
+    "br": {
+     "form": 4,
+     "venueForm": 5,
+     "position": 11,
+     "h2h": 0
+    },
+    "form": "DLLWWDWDWD",
+    "venue": "WLWLWLWDWD",
+    "pos": 6,
+    "gf": 1.6,
+    "ga": 1.1
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 12,
+   "xg": [
+    1.3,
+    1.7
+   ],
+   "goals": 3,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 3.5,
+    "pts": [
+     4,
+     7.5
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 2,
+      "position": 11,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-27ww8sd01vsfavqddu16puej8",
+   "lg": "championship",
+   "ko": "2026-11-25T19:45:00Z",
+   "day": "2026-11-25",
+   "home": {
+    "id": "burnley",
+    "name": "Burnley",
+    "pts": 1,
+    "br": {
+     "form": 1,
+     "venueForm": 0,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LDWDLLDDLD",
+    "venue": "DDDDLDDLDD",
+    "pos": 22,
+    "gf": 1.7,
+    "ga": 2
+   },
+   "away": {
+    "id": "birmingham-city",
+    "name": "Birmingham City",
+    "pts": 28,
+    "br": {
+     "form": 7,
+     "venueForm": 4,
+     "position": 17,
+     "h2h": 0
+    },
+    "form": "WDWWWLWWWL",
+    "venue": "DDDWLWWLWL",
+    "pos": 5,
+    "gf": 2,
+    "ga": 0.7
+   },
+   "h2hPlayed": 0,
+   "pick": "A",
+   "margin": 27,
+   "xg": [
+    1.2,
+    2
+   ],
+   "goals": 3.2,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 8.5,
+    "pts": [
+     3,
+     11.5
+    ],
+    "br": [
+     {
+      "form": 0,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 3,
+      "position": 17,
+      "h2h": 0
+     }
+    ]
+   },
+   "banker": {
+    "side": "A",
+    "gap": 8.5
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-28jqnrtuba31i43dbk9f5kb2s",
+   "lg": "championship",
+   "ko": "2026-11-25T19:45:00Z",
+   "day": "2026-11-25",
+   "home": {
+    "id": "watford",
+    "name": "Watford",
+    "pts": 6,
+    "br": {
+     "form": 2,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LLLLWLLWDL",
+    "venue": "LLWDWLLWWD",
+    "pos": 21,
+    "gf": 0.7,
+    "ga": 2
+   },
+   "away": {
+    "id": "blackburn-rovers",
+    "name": "Blackburn Rovers",
+    "pts": 17,
+    "br": {
+     "form": 5,
+     "venueForm": 2,
+     "position": 8,
+     "h2h": 2
+    },
+    "form": "WDWWLWLLWD",
+    "venue": "LWDDLDWLLD",
+    "pos": 13,
+    "gf": 1.7,
+    "ga": 1.6
+   },
+   "h2hPlayed": 3,
+   "pick": "A",
+   "margin": 11,
+   "xg": [
+    1.15,
+    1.85
+   ],
+   "goals": 3,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 2,
+    "pts": [
+     4,
+     6
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 8,
+      "h2h": 2
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-8xku76v0jzjffbk4nnu9d33mc",
+   "lg": "national-league",
+   "ko": "2026-11-25T19:45:00Z",
+   "day": "2026-11-25",
+   "home": {
+    "id": "harrogate-town",
+    "name": "Harrogate Town",
+    "pts": 25,
+    "br": {
+     "form": 6,
+     "venueForm": 7,
+     "position": 12,
+     "h2h": 0
+    },
+    "form": "LWWWWWLDWL",
+    "venue": "LWDWWLWWWW",
+    "pos": 2,
+    "gf": 2,
+    "ga": 1.3
+   },
+   "away": {
+    "id": "kidderminster-harriers",
+    "name": "Kidderminster Harriers",
+    "pts": 4,
+    "br": {
+     "form": 0,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "DLLDDLDLDD",
+    "venue": "WWLWWDLDDL",
+    "pos": 14,
+    "gf": 0.7,
+    "ga": 1.2
+   },
+   "h2hPlayed": 0,
+   "pick": "H",
+   "margin": 21,
+   "xg": [
+    1.6,
+    1
+   ],
+   "goals": 2.6,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 11,
+    "pts": [
+     11,
+     0
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 4,
+      "position": 12,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 0,
+      "venueForm": 0,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 11
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-8xwfdne8tr0nkxa7g4klezhn8",
+   "lg": "national-league",
+   "ko": "2026-11-25T19:45:00Z",
+   "day": "2026-11-25",
+   "home": {
+    "id": "hartlepool-united",
+    "name": "Hartlepool United",
+    "pts": 12,
+    "br": {
+     "form": 3,
+     "venueForm": 5,
+     "position": 1,
+     "h2h": 3
+    },
+    "form": "LLLLWWLLDW",
+    "venue": "WWWLWLLLWD",
+    "pos": 19,
+    "gf": 1.5,
+    "ga": 2.1
+   },
+   "away": {
+    "id": "solihull-moors",
+    "name": "Solihull Moors",
+    "pts": 9,
+    "br": {
+     "form": 5,
+     "venueForm": 4,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "LLWLLLWWWW",
+    "venue": "DWLLDLWLWW",
+    "pos": 20,
+    "gf": 1.5,
+    "ga": 2.2
+   },
+   "h2hPlayed": 4,
+   "pick": "H",
+   "margin": 3,
+   "xg": [
+    1.85,
+    1.8
+   ],
+   "goals": 3.65,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 1.5,
+    "pts": [
+     5.5,
+     4
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 1,
+      "position": 1,
+      "h2h": 3,
+      "home": 3
+     },
+     {
+      "form": 4,
+      "venueForm": 3,
+      "position": 0,
+      "h2h": 0
+     }
+    ]
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-2889qsx5zl31936o3pmbyqal0",
+   "lg": "championship",
+   "ko": "2026-11-25T20:00:00Z",
+   "day": "2026-11-25",
+   "home": {
+    "id": "stoke-city",
+    "name": "Stoke City",
+    "pts": 27,
+    "br": {
+     "form": 8,
+     "venueForm": 5,
+     "position": 14,
+     "h2h": 0
+    },
+    "form": "WWWLWDWWWW",
+    "venue": "LLLWWWLDWW",
+    "pos": 2,
+    "gf": 1.6,
+    "ga": 0.8
+   },
+   "away": {
+    "id": "millwall",
+    "name": "Millwall",
+    "pts": 7,
+    "br": {
+     "form": 2,
+     "venueForm": 2,
+     "position": 0,
+     "h2h": 3
+    },
+    "form": "DDWLDLWLLL",
+    "venue": "DDWLLDWLLL",
+    "pos": 16,
+    "gf": 1.2,
+    "ga": 1.7
+   },
+   "h2hPlayed": 4,
+   "pick": "H",
+   "margin": 20,
+   "xg": [
+    1.65,
+    1
+   ],
+   "goals": 2.65,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "H",
+    "margin": 13,
+    "pts": [
+     14,
+     1
+    ],
+    "br": [
+     {
+      "form": 4,
+      "venueForm": 3,
+      "position": 14,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 1,
+      "venueForm": 1,
+      "position": 0,
+      "h2h": 3
+     }
+    ]
+   },
+   "banker": {
+    "side": "H",
+    "gap": 13
+   },
+   "madeAt": "2026-11-23T07:29:02.265Z"
+  },
+  {
+   "id": "s-26594lu9y7n4rw0yj0eojj2fo",
+   "lg": "league-one",
+   "ko": "2026-11-26T20:00:00Z",
+   "day": "2026-11-26",
+   "home": {
+    "id": "doncaster-rovers",
+    "name": "Doncaster Rovers",
+    "pts": 7,
+    "br": {
+     "form": 3,
+     "venueForm": 3,
+     "position": 0,
+     "h2h": 1
+    },
+    "form": "LLWWLLWLLD",
+    "venue": "LWLDDDLWLW",
+    "pos": 20,
+    "gf": 1.2,
+    "ga": 1.9
+   },
+   "away": {
+    "id": "huddersfield-town",
+    "name": "Huddersfield Town",
+    "pts": 30,
+    "br": {
+     "form": 5,
+     "venueForm": 6,
+     "position": 18,
+     "h2h": 1
+    },
+    "form": "DLWDWWWWDL",
+    "venue": "WDWDWDLWWW",
+    "pos": 2,
+    "gf": 1.8,
+    "ga": 0.9
+   },
+   "h2hPlayed": 2,
+   "pick": "A",
+   "margin": 23,
+   "xg": [
+    1.05,
+    1.85
+   ],
+   "goals": 2.9,
+   "over": true,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 8,
+    "pts": [
+     4,
+     12
+    ],
+    "br": [
+     {
+      "form": 1,
+      "venueForm": 2,
+      "position": 0,
+      "h2h": 1,
+      "home": 3
+     },
+     {
+      "form": 3,
+      "venueForm": 3,
+      "position": 18,
+      "h2h": 1
+     }
+    ]
+   },
+   "banker": {
+    "side": "A",
+    "gap": 8
+   },
+   "madeAt": "2026-11-23T07:29:02.266Z"
+  }
+ ]
+}
