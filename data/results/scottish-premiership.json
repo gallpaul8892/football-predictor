@@ -473,5 +473,7 @@
 {"id":"s-2dyh03tl3q32aah2kzmx8g4d0","ko":"2026-11-21T15:00:00Z","h":"hibernian","hn":"Hibernian","a":"dundee-united","an":"Dundee United","hs":0,"as":4},
 {"id":"s-2eaxzfulcqfthzayy7y70d82c","ko":"2026-11-21T15:00:00Z","h":"kilmarnock","hn":"Kilmarnock","a":"aberdeen","an":"Aberdeen","hs":2,"as":4},
 {"id":"s-2d9hnjeqbej0xmgl8hiqb86j8","ko":"2026-11-21T17:45:00Z","h":"dundee","hn":"Dundee","a":"heart-of-midlothian","an":"Heart of Midlothian","hs":0,"as":8},
-{"id":"s-2enm6isg849gfaiysg7stlams","ko":"2026-11-21T20:00:00Z","h":"motherwell","hn":"Motherwell","a":"rangers","an":"Rangers","hs":1,"as":2}
+{"id":"s-2enm6isg849gfaiysg7stlams","ko":"2026-11-21T20:00:00Z","h":"motherwell","hn":"Motherwell","a":"rangers","an":"Rangers","hs":1,"as":2},
+{"id":"s-29fl3qsqjct3iiy6p7piaszro","ko":"2026-11-24T19:45:00Z","h":"hibernian","hn":"Hibernian","a":"dundee","an":"Dundee","hs":2,"as":1},
+{"id":"s-2ah8iq89ollxlr0cbowv8b2ms","ko":"2026-11-24T20:00:00Z","h":"rangers","hn":"Rangers","a":"aberdeen","an":"Aberdeen","hs":3,"as":2}
 ]
