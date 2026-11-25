@@ -1,16 +1,16 @@
 {
  "overall": {
-  "n": 159,
-  "correct": 80,
-  "ouN": 159,
-  "ouCorrect": 83,
-  "pct": 50.3,
-  "ouPct": 52.2
+  "n": 166,
+  "correct": 87,
+  "ouN": 166,
+  "ouCorrect": 87,
+  "pct": 52.4,
+  "ouPct": 52.4
  },
  "actualDist": {
-  "H": 74,
+  "H": 78,
   "D": 38,
-  "A": 47
+  "A": 50
  },
  "byLeague": {
   "national-league-ns": {
@@ -38,12 +38,12 @@
    "ouPct": 44.4
   },
   "national-league": {
-   "n": 21,
-   "correct": 11,
-   "ouN": 21,
-   "ouCorrect": 13,
-   "pct": 52.4,
-   "ouPct": 61.9
+   "n": 24,
+   "correct": 14,
+   "ouN": 24,
+   "ouCorrect": 15,
+   "pct": 58.3,
+   "ouPct": 62.5
   },
   "league-one": {
    "n": 16,
@@ -62,12 +62,12 @@
    "ouPct": 40
   },
   "championship": {
-   "n": 20,
-   "correct": 11,
-   "ouN": 20,
-   "ouCorrect": 9,
-   "pct": 55,
-   "ouPct": 45
+   "n": 24,
+   "correct": 15,
+   "ouN": 24,
+   "ouCorrect": 11,
+   "pct": 62.5,
+   "ouPct": 45.8
   },
   "league-two": {
    "n": 14,
@@ -120,12 +120,12 @@
  },
  "byPick": {
   "H": {
-   "n": 78,
-   "correct": 48,
-   "ouN": 78,
-   "ouCorrect": 41,
-   "pct": 61.5,
-   "ouPct": 52.6
+   "n": 82,
+   "correct": 52,
+   "ouN": 82,
+   "ouCorrect": 44,
+   "pct": 63.4,
+   "ouPct": 53.7
   },
   "D": {
    "n": 17,
@@ -136,22 +136,22 @@
    "ouPct": 41.2
   },
   "A": {
-   "n": 64,
-   "correct": 28,
-   "ouN": 64,
-   "ouCorrect": 35,
-   "pct": 43.8,
-   "ouPct": 54.7
+   "n": 67,
+   "correct": 31,
+   "ouN": 67,
+   "ouCorrect": 36,
+   "pct": 46.3,
+   "ouPct": 53.7
   }
  },
  "byMargin": {
   "7-10": {
-   "n": 28,
-   "correct": 12,
-   "ouN": 28,
+   "n": 29,
+   "correct": 13,
+   "ouN": 29,
    "ouCorrect": 15,
-   "pct": 42.9,
-   "ouPct": 53.6
+   "pct": 44.8,
+   "ouPct": 51.7
   },
   "0-1": {
    "n": 17,
@@ -162,12 +162,12 @@
    "ouPct": 41.2
   },
   "11+": {
-   "n": 72,
-   "correct": 43,
-   "ouN": 72,
-   "ouCorrect": 38,
-   "pct": 59.7,
-   "ouPct": 52.8
+   "n": 77,
+   "correct": 48,
+   "ouN": 77,
+   "ouCorrect": 42,
+   "pct": 62.3,
+   "ouPct": 54.5
   },
   "4-6": {
    "n": 30,
@@ -178,12 +178,12 @@
    "ouPct": 66.7
   },
   "2-3": {
-   "n": 12,
-   "correct": 7,
-   "ouN": 12,
+   "n": 13,
+   "correct": 8,
+   "ouN": 13,
    "ouCorrect": 3,
-   "pct": 58.3,
-   "ouPct": 25
+   "pct": 61.5,
+   "ouPct": 23.1
   }
  },
  "byWeek": [
@@ -198,12 +198,12 @@
   },
   {
    "week": "2026-11-23",
-   "n": 40,
-   "correct": 15,
-   "ouN": 40,
-   "ouCorrect": 20,
-   "pct": 37.5,
-   "ouPct": 50
+   "n": 47,
+   "correct": 22,
+   "ouN": 47,
+   "ouCorrect": 24,
+   "pct": 46.8,
+   "ouPct": 51.1
   }
  ],
  "byTeam": {
@@ -377,14 +377,14 @@
    "backedPct": 100
   },
   "boreham-wood": {
-   "n": 1,
-   "correct": 1,
-   "ouN": 1,
-   "ouCorrect": 1,
+   "n": 2,
+   "correct": 2,
+   "ouN": 2,
+   "ouCorrect": 2,
    "name": "Boreham Wood",
    "lg": "national-league",
-   "backedN": 1,
-   "backedCorrect": 1,
+   "backedN": 2,
+   "backedCorrect": 2,
    "pct": 100,
    "ouPct": 100,
    "backedPct": 100
@@ -468,16 +468,16 @@
    "backedPct": null
   },
   "millwall": {
-   "n": 1,
-   "correct": 1,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "n": 2,
+   "correct": 2,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Millwall",
    "lg": "championship",
    "backedN": 0,
    "backedCorrect": 0,
    "pct": 100,
-   "ouPct": 0,
+   "ouPct": 50,
    "backedPct": null
   },
   "queens-park-rangers": {
@@ -650,16 +650,16 @@
    "backedPct": null
   },
   "solihull-moors": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
    "ouCorrect": 1,
    "name": "Solihull Moors",
    "lg": "national-league",
    "backedN": 0,
    "backedCorrect": 0,
-   "pct": 0,
-   "ouPct": 100,
+   "pct": 50,
+   "ouPct": 50,
    "backedPct": null
   },
   "altrincham": {
@@ -1118,16 +1118,16 @@
    "backedPct": null
   },
   "bolton-wanderers": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Bolton Wanderers",
    "lg": "championship",
    "backedN": 0,
    "backedCorrect": 0,
-   "pct": 0,
-   "ouPct": 0,
+   "pct": 50,
+   "ouPct": 50,
    "backedPct": null
   },
   "portsmouth": {
@@ -1287,16 +1287,16 @@
    "backedPct": 100
   },
   "watford": {
-   "n": 1,
-   "correct": 1,
-   "ouN": 1,
+   "n": 2,
+   "correct": 2,
+   "ouN": 2,
    "ouCorrect": 1,
    "name": "Watford",
    "lg": "championship",
    "backedN": 0,
    "backedCorrect": 0,
    "pct": 100,
-   "ouPct": 100,
+   "ouPct": 50,
    "backedPct": null
   },
   "huddersfield-town": {
@@ -1352,30 +1352,30 @@
    "backedPct": null
   },
   "stoke-city": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Stoke City",
    "lg": "championship",
-   "backedN": 0,
-   "backedCorrect": 0,
-   "pct": 0,
-   "ouPct": 0,
-   "backedPct": null
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 50,
+   "ouPct": 50,
+   "backedPct": 100
   },
   "birmingham-city": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
    "ouCorrect": 0,
    "name": "Birmingham City",
    "lg": "championship",
-   "backedN": 0,
-   "backedCorrect": 0,
-   "pct": 0,
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 50,
    "ouPct": 0,
-   "backedPct": null
+   "backedPct": 100
   },
   "mansfield-town": {
    "n": 1,
@@ -1417,17 +1417,17 @@
    "backedPct": null
   },
   "west-bromwich-albion": {
-   "n": 1,
-   "correct": 1,
-   "ouN": 1,
-   "ouCorrect": 1,
+   "n": 2,
+   "correct": 2,
+   "ouN": 2,
+   "ouCorrect": 2,
    "name": "West Bromwich Albion",
    "lg": "championship",
-   "backedN": 0,
-   "backedCorrect": 0,
+   "backedN": 1,
+   "backedCorrect": 1,
    "pct": 100,
    "ouPct": 100,
-   "backedPct": null
+   "backedPct": 100
   },
   "notts-county": {
    "n": 1,
@@ -2340,16 +2340,16 @@
    "backedPct": null
   },
   "aldershot-town": {
-   "n": 1,
-   "correct": 1,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "n": 2,
+   "correct": 2,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Aldershot Town",
    "lg": "national-league",
    "backedN": 1,
    "backedCorrect": 1,
    "pct": 100,
-   "ouPct": 0,
+   "ouPct": 50,
    "backedPct": 100
   },
   "scunthorpe-united": {
@@ -2431,29 +2431,29 @@
    "backedPct": null
   },
   "hartlepool-united": {
-   "n": 1,
-   "correct": 1,
-   "ouN": 1,
+   "n": 2,
+   "correct": 2,
+   "ouN": 2,
    "ouCorrect": 1,
    "name": "Hartlepool United",
    "lg": "national-league",
-   "backedN": 1,
-   "backedCorrect": 1,
+   "backedN": 2,
+   "backedCorrect": 2,
    "pct": 100,
-   "ouPct": 100,
+   "ouPct": 50,
    "backedPct": 100
   },
   "kidderminster-harriers": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Kidderminster Harriers",
    "lg": "national-league",
    "backedN": 0,
    "backedCorrect": 0,
-   "pct": 0,
-   "ouPct": 0,
+   "pct": 50,
+   "ouPct": 50,
    "backedPct": null
   },
   "afc-fylde": {
@@ -2535,17 +2535,17 @@
    "backedPct": 0
   },
   "harrogate-town": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
-   "ouCorrect": 1,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
+   "ouCorrect": 2,
    "name": "Harrogate Town",
    "lg": "national-league",
-   "backedN": 1,
-   "backedCorrect": 0,
-   "pct": 0,
+   "backedN": 2,
+   "backedCorrect": 1,
+   "pct": 50,
    "ouPct": 100,
-   "backedPct": 0
+   "backedPct": 50
   },
   "rayo-vallecano": {
    "n": 1,
@@ -2860,30 +2860,30 @@
    "backedPct": null
   },
   "burnley": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
    "ouCorrect": 1,
    "name": "Burnley",
    "lg": "championship",
    "backedN": 0,
    "backedCorrect": 0,
-   "pct": 0,
-   "ouPct": 100,
+   "pct": 50,
+   "ouPct": 50,
    "backedPct": null
   },
   "blackburn-rovers": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
    "ouCorrect": 1,
    "name": "Blackburn Rovers",
    "lg": "championship",
-   "backedN": 1,
-   "backedCorrect": 0,
-   "pct": 0,
-   "ouPct": 100,
-   "backedPct": 0
+   "backedN": 2,
+   "backedCorrect": 1,
+   "pct": 50,
+   "ouPct": 50,
+   "backedPct": 50
   },
   "barcelona": {
    "n": 1,
@@ -3278,17 +3278,17 @@
  },
  "tuned": {
   "overall": {
-   "n": 159,
-   "correct": 88,
-   "ouN": 159,
-   "ouCorrect": 83,
-   "pct": 55.3,
-   "ouPct": 52.2
+   "n": 166,
+   "correct": 95,
+   "ouN": 166,
+   "ouCorrect": 87,
+   "pct": 57.2,
+   "ouPct": 52.4
   },
   "actualDist": {
-   "H": 74,
+   "H": 78,
    "D": 38,
-   "A": 47
+   "A": 50
   },
   "byLeague": {
    "national-league-ns": {
@@ -3316,12 +3316,12 @@
     "ouPct": 44.4
    },
    "national-league": {
-    "n": 21,
-    "correct": 11,
-    "ouN": 21,
-    "ouCorrect": 13,
-    "pct": 52.4,
-    "ouPct": 61.9
+    "n": 24,
+    "correct": 14,
+    "ouN": 24,
+    "ouCorrect": 15,
+    "pct": 58.3,
+    "ouPct": 62.5
    },
    "league-one": {
     "n": 16,
@@ -3340,12 +3340,12 @@
     "ouPct": 40
    },
    "championship": {
-    "n": 20,
-    "correct": 14,
-    "ouN": 20,
-    "ouCorrect": 9,
-    "pct": 70,
-    "ouPct": 45
+    "n": 24,
+    "correct": 18,
+    "ouN": 24,
+    "ouCorrect": 11,
+    "pct": 75,
+    "ouPct": 45.8
    },
    "league-two": {
     "n": 14,
@@ -3398,20 +3398,20 @@
   },
   "byPick": {
    "H": {
-    "n": 104,
-    "correct": 63,
-    "ouN": 104,
-    "ouCorrect": 55,
-    "pct": 60.6,
-    "ouPct": 52.9
+    "n": 108,
+    "correct": 67,
+    "ouN": 108,
+    "ouCorrect": 58,
+    "pct": 62,
+    "ouPct": 53.7
    },
    "A": {
-    "n": 44,
-    "correct": 21,
-    "ouN": 44,
-    "ouCorrect": 22,
-    "pct": 47.7,
-    "ouPct": 50
+    "n": 47,
+    "correct": 24,
+    "ouN": 47,
+    "ouCorrect": 23,
+    "pct": 51.1,
+    "ouPct": 48.9
    },
    "D": {
     "n": 11,
@@ -3424,36 +3424,36 @@
   },
   "byMargin": {
    "4-6": {
-    "n": 43,
-    "correct": 23,
-    "ouN": 43,
-    "ouCorrect": 22,
-    "pct": 53.5,
-    "ouPct": 51.2
+    "n": 44,
+    "correct": 24,
+    "ouN": 44,
+    "ouCorrect": 23,
+    "pct": 54.5,
+    "ouPct": 52.3
    },
    "2-3": {
-    "n": 34,
-    "correct": 16,
-    "ouN": 34,
+    "n": 36,
+    "correct": 18,
+    "ouN": 36,
     "ouCorrect": 17,
-    "pct": 47.1,
-    "ouPct": 50
+    "pct": 50,
+    "ouPct": 47.2
    },
    "7-10": {
-    "n": 36,
-    "correct": 24,
-    "ouN": 36,
+    "n": 37,
+    "correct": 25,
+    "ouN": 37,
     "ouCorrect": 21,
-    "pct": 66.7,
-    "ouPct": 58.3
+    "pct": 67.6,
+    "ouPct": 56.8
    },
    "11+": {
-    "n": 19,
-    "correct": 12,
-    "ouN": 19,
-    "ouCorrect": 6,
-    "pct": 63.2,
-    "ouPct": 31.6
+    "n": 22,
+    "correct": 15,
+    "ouN": 22,
+    "ouCorrect": 9,
+    "pct": 68.2,
+    "ouPct": 40.9
    },
    "0-1": {
     "n": 27,
@@ -3476,12 +3476,12 @@
    },
    {
     "week": "2026-11-23",
-    "n": 40,
-    "correct": 24,
-    "ouN": 40,
-    "ouCorrect": 20,
-    "pct": 60,
-    "ouPct": 50
+    "n": 47,
+    "correct": 31,
+    "ouN": 47,
+    "ouCorrect": 24,
+    "pct": 66,
+    "ouPct": 51.1
    }
   ],
   "byTeam": {
@@ -3655,17 +3655,17 @@
     "backedPct": 100
    },
    "boreham-wood": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 1,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 2,
     "name": "Boreham Wood",
     "lg": "national-league",
-    "backedN": 0,
-    "backedCorrect": 0,
-    "pct": 0,
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 50,
     "ouPct": 100,
-    "backedPct": null
+    "backedPct": 100
    },
    "barnsley": {
     "n": 2,
@@ -3746,16 +3746,16 @@
     "backedPct": null
    },
    "millwall": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Millwall",
     "lg": "championship",
     "backedN": 0,
     "backedCorrect": 0,
     "pct": 100,
-    "ouPct": 0,
+    "ouPct": 50,
     "backedPct": null
    },
    "queens-park-rangers": {
@@ -3928,16 +3928,16 @@
     "backedPct": null
    },
    "solihull-moors": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
     "ouCorrect": 1,
     "name": "Solihull Moors",
     "lg": "national-league",
     "backedN": 0,
     "backedCorrect": 0,
-    "pct": 0,
-    "ouPct": 100,
+    "pct": 50,
+    "ouPct": 50,
     "backedPct": null
    },
    "altrincham": {
@@ -4396,16 +4396,16 @@
     "backedPct": 100
    },
    "bolton-wanderers": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Bolton Wanderers",
     "lg": "championship",
     "backedN": 0,
     "backedCorrect": 0,
-    "pct": 0,
-    "ouPct": 0,
+    "pct": 50,
+    "ouPct": 50,
     "backedPct": null
    },
    "portsmouth": {
@@ -4565,16 +4565,16 @@
     "backedPct": 100
    },
    "watford": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
     "ouCorrect": 1,
     "name": "Watford",
     "lg": "championship",
     "backedN": 0,
     "backedCorrect": 0,
     "pct": 100,
-    "ouPct": 100,
+    "ouPct": 50,
     "backedPct": null
    },
    "huddersfield-town": {
@@ -4630,30 +4630,30 @@
     "backedPct": null
    },
    "stoke-city": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Stoke City",
+    "lg": "championship",
+    "backedN": 2,
+    "backedCorrect": 2,
+    "pct": 100,
+    "ouPct": 50,
+    "backedPct": 100
+   },
+   "birmingham-city": {
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
+    "ouCorrect": 0,
+    "name": "Birmingham City",
     "lg": "championship",
     "backedN": 1,
     "backedCorrect": 1,
     "pct": 100,
     "ouPct": 0,
     "backedPct": 100
-   },
-   "birmingham-city": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
-    "name": "Birmingham City",
-    "lg": "championship",
-    "backedN": 0,
-    "backedCorrect": 0,
-    "pct": 100,
-    "ouPct": 0,
-    "backedPct": null
    },
    "mansfield-town": {
     "n": 1,
@@ -4695,17 +4695,17 @@
     "backedPct": 0
    },
    "west-bromwich-albion": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 1,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 2,
     "name": "West Bromwich Albion",
     "lg": "championship",
-    "backedN": 0,
-    "backedCorrect": 0,
-    "pct": 0,
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 50,
     "ouPct": 100,
-    "backedPct": null
+    "backedPct": 100
    },
    "notts-county": {
     "n": 1,
@@ -5618,16 +5618,16 @@
     "backedPct": null
    },
    "aldershot-town": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Aldershot Town",
     "lg": "national-league",
     "backedN": 1,
     "backedCorrect": 1,
     "pct": 100,
-    "ouPct": 0,
+    "ouPct": 50,
     "backedPct": 100
    },
    "scunthorpe-united": {
@@ -5709,29 +5709,29 @@
     "backedPct": null
    },
    "hartlepool-united": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
     "ouCorrect": 1,
     "name": "Hartlepool United",
     "lg": "national-league",
-    "backedN": 1,
-    "backedCorrect": 1,
+    "backedN": 2,
+    "backedCorrect": 2,
     "pct": 100,
-    "ouPct": 100,
+    "ouPct": 50,
     "backedPct": 100
    },
    "kidderminster-harriers": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Kidderminster Harriers",
     "lg": "national-league",
     "backedN": 0,
     "backedCorrect": 0,
-    "pct": 0,
-    "ouPct": 0,
+    "pct": 50,
+    "ouPct": 50,
     "backedPct": null
    },
    "afc-fylde": {
@@ -5813,17 +5813,17 @@
     "backedPct": 0
    },
    "harrogate-town": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 1,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 2,
     "name": "Harrogate Town",
     "lg": "national-league",
-    "backedN": 1,
-    "backedCorrect": 0,
-    "pct": 0,
+    "backedN": 2,
+    "backedCorrect": 1,
+    "pct": 50,
     "ouPct": 100,
-    "backedPct": 0
+    "backedPct": 50
    },
    "rayo-vallecano": {
     "n": 1,
@@ -6138,30 +6138,30 @@
     "backedPct": null
    },
    "burnley": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
     "ouCorrect": 1,
     "name": "Burnley",
     "lg": "championship",
     "backedN": 0,
     "backedCorrect": 0,
-    "pct": 0,
-    "ouPct": 100,
+    "pct": 50,
+    "ouPct": 50,
     "backedPct": null
    },
    "blackburn-rovers": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
     "ouCorrect": 1,
     "name": "Blackburn Rovers",
     "lg": "championship",
-    "backedN": 1,
-    "backedCorrect": 0,
-    "pct": 0,
-    "ouPct": 100,
-    "backedPct": 0
+    "backedN": 2,
+    "backedCorrect": 1,
+    "pct": 50,
+    "ouPct": 50,
+    "backedPct": 50
    },
    "barcelona": {
     "n": 1,
@@ -6557,17 +6557,17 @@
  },
  "bankers": {
   "overall": {
-   "n": 40,
-   "correct": 34,
-   "ouN": 40,
-   "ouCorrect": 19,
-   "pct": 85,
-   "ouPct": 47.5
+   "n": 44,
+   "correct": 38,
+   "ouN": 44,
+   "ouCorrect": 22,
+   "pct": 86.4,
+   "ouPct": 50
   },
   "actualDist": {
-   "H": 25,
+   "H": 28,
    "D": 8,
-   "A": 7
+   "A": 8
   },
   "byLeague": {
    "german-bundesliga": {
@@ -6579,11 +6579,11 @@
     "ouPct": 50
    },
    "championship": {
-    "n": 8,
-    "correct": 7,
-    "ouN": 8,
-    "ouCorrect": 4,
-    "pct": 87.5,
+    "n": 10,
+    "correct": 9,
+    "ouN": 10,
+    "ouCorrect": 5,
+    "pct": 90,
     "ouPct": 50
    },
    "league-one": {
@@ -6635,12 +6635,12 @@
     "ouPct": 100
    },
    "national-league": {
-    "n": 3,
-    "correct": 2,
-    "ouN": 3,
-    "ouCorrect": 2,
-    "pct": 66.7,
-    "ouPct": 66.7
+    "n": 5,
+    "correct": 4,
+    "ouN": 5,
+    "ouCorrect": 4,
+    "pct": 80,
+    "ouPct": 80
    },
    "spanish-la-liga": {
     "n": 2,
@@ -6653,17 +6653,17 @@
   },
   "byPick": {
    "H": {
-    "n": 38,
-    "correct": 32,
-    "ouN": 38,
-    "ouCorrect": 19,
-    "pct": 84.2,
-    "ouPct": 50
+    "n": 41,
+    "correct": 35,
+    "ouN": 41,
+    "ouCorrect": 22,
+    "pct": 85.4,
+    "ouPct": 53.7
    },
    "A": {
-    "n": 2,
-    "correct": 2,
-    "ouN": 2,
+    "n": 3,
+    "correct": 3,
+    "ouN": 3,
     "ouCorrect": 0,
     "pct": 100,
     "ouPct": 0
@@ -6671,20 +6671,20 @@
   },
   "byMargin": {
    "11+": {
-    "n": 19,
-    "correct": 16,
-    "ouN": 19,
-    "ouCorrect": 6,
-    "pct": 84.2,
-    "ouPct": 31.6
+    "n": 22,
+    "correct": 19,
+    "ouN": 22,
+    "ouCorrect": 9,
+    "pct": 86.4,
+    "ouPct": 40.9
    },
    "7-10": {
-    "n": 21,
-    "correct": 18,
-    "ouN": 21,
+    "n": 22,
+    "correct": 19,
+    "ouN": 22,
     "ouCorrect": 13,
-    "pct": 85.7,
-    "ouPct": 61.9
+    "pct": 86.4,
+    "ouPct": 59.1
    }
   },
   "byWeek": [
@@ -6699,12 +6699,12 @@
    },
    {
     "week": "2026-11-23",
-    "n": 9,
-    "correct": 7,
-    "ouN": 9,
-    "ouCorrect": 5,
-    "pct": 77.8,
-    "ouPct": 55.6
+    "n": 13,
+    "correct": 11,
+    "ouN": 13,
+    "ouCorrect": 8,
+    "pct": 84.6,
+    "ouPct": 61.5
    }
   ],
   "byTeam": {
@@ -7333,16 +7333,16 @@
     "backedPct": null
    },
    "aldershot-town": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Aldershot Town",
     "lg": "national-league",
     "backedN": 1,
     "backedCorrect": 1,
     "pct": 100,
-    "ouPct": 0,
+    "ouPct": 50,
     "backedPct": 100
    },
    "scunthorpe-united": {
@@ -7669,8 +7669,99 @@
     "pct": 0,
     "ouPct": 100,
     "backedPct": null
+   },
+   "boreham-wood": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Boreham Wood",
+    "lg": "national-league",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "burnley": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Burnley",
+    "lg": "championship",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": null
+   },
+   "birmingham-city": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 0,
+    "name": "Birmingham City",
+    "lg": "championship",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 0,
+    "backedPct": 100
+   },
+   "harrogate-town": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Harrogate Town",
+    "lg": "national-league",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "kidderminster-harriers": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Kidderminster Harriers",
+    "lg": "national-league",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "stoke-city": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Stoke City",
+    "lg": "championship",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "millwall": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Millwall",
+    "lg": "championship",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
    }
   }
  },
- "generatedAt": "2026-11-25T07:28:39.790Z"
+ "generatedAt": "2026-11-25T22:51:19.153Z"
 }

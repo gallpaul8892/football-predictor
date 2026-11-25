@@ -1168,5 +1168,9 @@
 {"id":"s-26bae77ghh6n7oc4bp1816m1g","ko":"2026-11-24T19:45:00Z","h":"norwich-city","hn":"Norwich City","a":"queens-park-rangers","an":"Queens Park Rangers","hs":1,"as":1},
 {"id":"s-26myffs29boggsidvbgfbaj2s","ko":"2026-11-24T19:45:00Z","h":"portsmouth","hn":"Portsmouth","a":"west-ham-united","an":"West Ham United","hs":1,"as":0},
 {"id":"s-26yfoc76twkb86xtdb04pyqz8","ko":"2026-11-24T19:45:00Z","h":"sheffield-united","hn":"Sheffield United","a":"southampton","an":"Southampton","hs":1,"as":1},
-{"id":"s-279vnyh7eyct41vaitpwbrg9g","ko":"2026-11-24T20:00:00Z","h":"wolverhampton-wanderers","hn":"Wolverhampton Wanderers","a":"derby-county","an":"Derby County","hs":3,"as":0}
+{"id":"s-279vnyh7eyct41vaitpwbrg9g","ko":"2026-11-24T20:00:00Z","h":"wolverhampton-wanderers","hn":"Wolverhampton Wanderers","a":"derby-county","an":"Derby County","hs":3,"as":0},
+{"id":"s-27leit0dj4zrf0b2qz2gdwyz8","ko":"2026-11-25T19:45:00Z","h":"bolton-wanderers","hn":"Bolton Wanderers","a":"west-bromwich-albion","an":"West Bromwich Albion","hs":1,"as":3},
+{"id":"s-27ww8sd01vsfavqddu16puej8","ko":"2026-11-25T19:45:00Z","h":"burnley","hn":"Burnley","a":"birmingham-city","an":"Birmingham City","hs":0,"as":2},
+{"id":"s-28jqnrtuba31i43dbk9f5kb2s","ko":"2026-11-25T19:45:00Z","h":"watford","hn":"Watford","a":"blackburn-rovers","an":"Blackburn Rovers","hs":0,"as":1},
+{"id":"s-2889qsx5zl31936o3pmbyqal0","ko":"2026-11-25T20:00:00Z","h":"stoke-city","hn":"Stoke City","a":"millwall","an":"Millwall","hs":2,"as":1}
 ]

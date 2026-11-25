@@ -1,10 +1,10 @@
 {
  "date": "2026-11-25",
- "at": "2026-11-25T07:28:39.797Z",
- "newResults": 0,
- "graded": 0,
- "predicted": 95,
- "totalResults": 11021,
+ "at": "2026-11-25T22:51:19.158Z",
+ "newResults": 7,
+ "graded": 7,
+ "predicted": 88,
+ "totalResults": 11028,
  "week": {
   "n": 155,
   "correct": 79,
@@ -15,12 +15,12 @@
   "bankersPct": 85
  },
  "overall": {
-  "n": 159,
-  "pct": 50.3,
-  "ouPct": 52.2,
-  "tunedPct": 55.3,
-  "bankersN": 40,
-  "bankersPct": 85
+  "n": 166,
+  "pct": 52.4,
+  "ouPct": 52.4,
+  "tunedPct": 57.2,
+  "bankersN": 44,
+  "bankersPct": 86.4
  },
  "review": {
   "from": "2026-11-18",
@@ -3770,526 +3770,6 @@
  },
  "predictions": [
   {
-   "id": "s-8x97rjlkq2m6o6za43bfz6mfo",
-   "lg": "national-league",
-   "ko": "2026-11-25T19:00:00Z",
-   "day": "2026-11-25",
-   "home": {
-    "id": "boreham-wood",
-    "name": "Boreham Wood",
-    "pts": 31,
-    "br": {
-     "form": 9,
-     "venueForm": 8,
-     "position": 12,
-     "h2h": 2
-    },
-    "form": "WWWWWWWWDW",
-    "venue": "WDDWWWWWWW",
-    "pos": 1,
-    "gf": 3,
-    "ga": 1.1
-   },
-   "away": {
-    "id": "aldershot-town",
-    "name": "Aldershot Town",
-    "pts": 5,
-    "br": {
-     "form": 3,
-     "venueForm": 2,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "LWLLLLLWLW",
-    "venue": "LWDDWLLLLL",
-    "pos": 13,
-    "gf": 1.2,
-    "ga": 1.5
-   },
-   "h2hPlayed": 2,
-   "pick": "H",
-   "margin": 26,
-   "xg": [
-    2.25,
-    1.15
-   ],
-   "goals": 3.4,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 11,
-    "pts": [
-     13,
-     2
-    ],
-    "br": [
-     {
-      "form": 4,
-      "venueForm": 5,
-      "position": 12,
-      "h2h": 2,
-      "home": 3
-     },
-     {
-      "form": 2,
-      "venueForm": 0,
-      "position": 0,
-      "h2h": 0
-     }
-    ]
-   },
-   "banker": {
-    "side": "H",
-    "gap": 11
-   },
-   "madeAt": "2026-11-25T07:28:39.773Z"
-  },
-  {
-   "id": "s-27leit0dj4zrf0b2qz2gdwyz8",
-   "lg": "championship",
-   "ko": "2026-11-25T19:45:00Z",
-   "day": "2026-11-25",
-   "home": {
-    "id": "bolton-wanderers",
-    "name": "Bolton Wanderers",
-    "pts": 8,
-    "br": {
-     "form": 4,
-     "venueForm": 4,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "WWLWDLLWLD",
-    "venue": "WWWLLWLLLD",
-    "pos": 19,
-    "gf": 1.5,
-    "ga": 1.8
-   },
-   "away": {
-    "id": "west-bromwich-albion",
-    "name": "West Bromwich Albion",
-    "pts": 22,
-    "br": {
-     "form": 4,
-     "venueForm": 5,
-     "position": 13,
-     "h2h": 0
-    },
-    "form": "DLLWWDWDWD",
-    "venue": "WLWLWLWDWD",
-    "pos": 6,
-    "gf": 1.6,
-    "ga": 1.1
-   },
-   "h2hPlayed": 0,
-   "pick": "A",
-   "margin": 14,
-   "xg": [
-    1.3,
-    1.7
-   ],
-   "goals": 3,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 4.5,
-    "pts": [
-     4,
-     8.5
-    ],
-    "br": [
-     {
-      "form": 1,
-      "venueForm": 1,
-      "position": 0,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 2,
-      "venueForm": 2,
-      "position": 13,
-      "h2h": 0
-     }
-    ]
-   },
-   "madeAt": "2026-11-25T07:28:39.774Z"
-  },
-  {
-   "id": "s-27ww8sd01vsfavqddu16puej8",
-   "lg": "championship",
-   "ko": "2026-11-25T19:45:00Z",
-   "day": "2026-11-25",
-   "home": {
-    "id": "burnley",
-    "name": "Burnley",
-    "pts": 1,
-    "br": {
-     "form": 1,
-     "venueForm": 0,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "LDWDLLDDLD",
-    "venue": "DDDDLDDLDD",
-    "pos": 23,
-    "gf": 1.7,
-    "ga": 2
-   },
-   "away": {
-    "id": "birmingham-city",
-    "name": "Birmingham City",
-    "pts": 29,
-    "br": {
-     "form": 7,
-     "venueForm": 4,
-     "position": 18,
-     "h2h": 0
-    },
-    "form": "WDWWWLWWWL",
-    "venue": "DDDWLWWLWL",
-    "pos": 5,
-    "gf": 2,
-    "ga": 0.7
-   },
-   "h2hPlayed": 0,
-   "pick": "A",
-   "margin": 28,
-   "xg": [
-    1.2,
-    2
-   ],
-   "goals": 3.2,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 9,
-    "pts": [
-     3,
-     12
-    ],
-    "br": [
-     {
-      "form": 0,
-      "venueForm": 0,
-      "position": 0,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 3,
-      "venueForm": 3,
-      "position": 18,
-      "h2h": 0
-     }
-    ]
-   },
-   "banker": {
-    "side": "A",
-    "gap": 9
-   },
-   "madeAt": "2026-11-25T07:28:39.774Z"
-  },
-  {
-   "id": "s-28jqnrtuba31i43dbk9f5kb2s",
-   "lg": "championship",
-   "ko": "2026-11-25T19:45:00Z",
-   "day": "2026-11-25",
-   "home": {
-    "id": "watford",
-    "name": "Watford",
-    "pts": 6,
-    "br": {
-     "form": 2,
-     "venueForm": 4,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "LLLLWLLWDL",
-    "venue": "LLWDWLLWWD",
-    "pos": 20,
-    "gf": 0.7,
-    "ga": 2
-   },
-   "away": {
-    "id": "blackburn-rovers",
-    "name": "Blackburn Rovers",
-    "pts": 16,
-    "br": {
-     "form": 5,
-     "venueForm": 2,
-     "position": 7,
-     "h2h": 2
-    },
-    "form": "WDWWLWLLWD",
-    "venue": "LWDDLDWLLD",
-    "pos": 13,
-    "gf": 1.7,
-    "ga": 1.6
-   },
-   "h2hPlayed": 3,
-   "pick": "A",
-   "margin": 10,
-   "xg": [
-    1.15,
-    1.85
-   ],
-   "goals": 3,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 1.5,
-    "pts": [
-     4,
-     5.5
-    ],
-    "br": [
-     {
-      "form": 1,
-      "venueForm": 2,
-      "position": 0,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 2,
-      "venueForm": 1,
-      "position": 7,
-      "h2h": 2
-     }
-    ]
-   },
-   "madeAt": "2026-11-25T07:28:39.774Z"
-  },
-  {
-   "id": "s-8xku76v0jzjffbk4nnu9d33mc",
-   "lg": "national-league",
-   "ko": "2026-11-25T19:45:00Z",
-   "day": "2026-11-25",
-   "home": {
-    "id": "harrogate-town",
-    "name": "Harrogate Town",
-    "pts": 25,
-    "br": {
-     "form": 6,
-     "venueForm": 7,
-     "position": 12,
-     "h2h": 0
-    },
-    "form": "LWWWWWLDWL",
-    "venue": "LWDWWLWWWW",
-    "pos": 3,
-    "gf": 2,
-    "ga": 1.3
-   },
-   "away": {
-    "id": "kidderminster-harriers",
-    "name": "Kidderminster Harriers",
-    "pts": 4,
-    "br": {
-     "form": 0,
-     "venueForm": 4,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "DLLDDLDLDD",
-    "venue": "WWLWWDLDDL",
-    "pos": 15,
-    "gf": 0.7,
-    "ga": 1.2
-   },
-   "h2hPlayed": 0,
-   "pick": "H",
-   "margin": 21,
-   "xg": [
-    1.6,
-    1
-   ],
-   "goals": 2.6,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 11,
-    "pts": [
-     11,
-     0
-    ],
-    "br": [
-     {
-      "form": 2,
-      "venueForm": 4,
-      "position": 12,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 0,
-      "venueForm": 0,
-      "position": 0,
-      "h2h": 0
-     }
-    ]
-   },
-   "banker": {
-    "side": "H",
-    "gap": 11
-   },
-   "madeAt": "2026-11-25T07:28:39.774Z"
-  },
-  {
-   "id": "s-8xwfdne8tr0nkxa7g4klezhn8",
-   "lg": "national-league",
-   "ko": "2026-11-25T19:45:00Z",
-   "day": "2026-11-25",
-   "home": {
-    "id": "hartlepool-united",
-    "name": "Hartlepool United",
-    "pts": 12,
-    "br": {
-     "form": 3,
-     "venueForm": 5,
-     "position": 1,
-     "h2h": 3
-    },
-    "form": "LLLLWWLLDW",
-    "venue": "WWWLWLLLWD",
-    "pos": 20,
-    "gf": 1.5,
-    "ga": 2.1
-   },
-   "away": {
-    "id": "solihull-moors",
-    "name": "Solihull Moors",
-    "pts": 9,
-    "br": {
-     "form": 5,
-     "venueForm": 4,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "LLWLLLWWWW",
-    "venue": "DWLLDLWLWW",
-    "pos": 21,
-    "gf": 1.5,
-    "ga": 2.2
-   },
-   "h2hPlayed": 4,
-   "pick": "H",
-   "margin": 3,
-   "xg": [
-    1.85,
-    1.8
-   ],
-   "goals": 3.65,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 1.5,
-    "pts": [
-     5.5,
-     4
-    ],
-    "br": [
-     {
-      "form": 2,
-      "venueForm": 1,
-      "position": 1,
-      "h2h": 3,
-      "home": 3
-     },
-     {
-      "form": 4,
-      "venueForm": 3,
-      "position": 0,
-      "h2h": 0
-     }
-    ]
-   },
-   "madeAt": "2026-11-25T07:28:39.774Z"
-  },
-  {
-   "id": "s-2889qsx5zl31936o3pmbyqal0",
-   "lg": "championship",
-   "ko": "2026-11-25T20:00:00Z",
-   "day": "2026-11-25",
-   "home": {
-    "id": "stoke-city",
-    "name": "Stoke City",
-    "pts": 27,
-    "br": {
-     "form": 8,
-     "venueForm": 5,
-     "position": 14,
-     "h2h": 0
-    },
-    "form": "WWWLWDWWWW",
-    "venue": "LLLWWWLDWW",
-    "pos": 4,
-    "gf": 1.6,
-    "ga": 0.8
-   },
-   "away": {
-    "id": "millwall",
-    "name": "Millwall",
-    "pts": 7,
-    "br": {
-     "form": 2,
-     "venueForm": 2,
-     "position": 0,
-     "h2h": 3
-    },
-    "form": "DDWLDLWLLL",
-    "venue": "DDWLLDWLLL",
-    "pos": 18,
-    "gf": 1.2,
-    "ga": 1.7
-   },
-   "h2hPlayed": 4,
-   "pick": "H",
-   "margin": 20,
-   "xg": [
-    1.65,
-    1
-   ],
-   "goals": 2.65,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "H",
-    "margin": 13,
-    "pts": [
-     14,
-     1
-    ],
-    "br": [
-     {
-      "form": 4,
-      "venueForm": 3,
-      "position": 14,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 1,
-      "venueForm": 1,
-      "position": 0,
-      "h2h": 3
-     }
-    ]
-   },
-   "banker": {
-    "side": "H",
-    "gap": 13
-   },
-   "madeAt": "2026-11-25T07:28:39.774Z"
-  },
-  {
    "id": "s-26594lu9y7n4rw0yj0eojj2fo",
    "lg": "league-one",
    "ko": "2026-11-26T20:00:00Z",
@@ -4363,7 +3843,7 @@
     "side": "A",
     "gap": 8.5
    },
-   "madeAt": "2026-11-25T07:28:39.774Z"
+   "madeAt": "2026-11-25T22:51:19.139Z"
   },
   {
    "id": "s-5wot1nnbty46x6e4p5j2ow93o",
@@ -4439,7 +3919,7 @@
     "side": "H",
     "gap": 11
    },
-   "madeAt": "2026-11-25T07:28:39.775Z"
+   "madeAt": "2026-11-25T22:51:19.139Z"
   },
   {
    "id": "s-8y80grdjifseerrmnqk7o213o",
@@ -4511,7 +3991,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.775Z"
+   "madeAt": "2026-11-25T22:51:19.140Z"
   },
   {
    "id": "s-7xtabfw47qlw3wfjz2e9xuqdw",
@@ -4583,7 +4063,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.776Z"
+   "madeAt": "2026-11-25T22:51:19.140Z"
   },
   {
    "id": "s-50voo5vk1cmq1r4gjo2dwh4pg",
@@ -4655,7 +4135,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.776Z"
+   "madeAt": "2026-11-25T22:51:19.140Z"
   },
   {
    "id": "s-2b4yiu3wy119f2tpqstsc3h90",
@@ -4674,18 +4154,18 @@
     },
     "form": "LWWDWWDLWD",
     "venue": "DWWWWWWDWW",
-    "pos": 3,
+    "pos": 4,
     "gf": 1.4,
     "ga": 0.8
    },
    "away": {
     "id": "middlesbrough",
     "name": "Middlesbrough",
-    "pts": 12,
+    "pts": 13,
     "br": {
      "form": 6,
      "venueForm": 3,
-     "position": 2,
+     "position": 3,
      "h2h": 1
     },
     "form": "DWWDWWLDWW",
@@ -4695,8 +4175,8 @@
     "ga": 1
    },
    "h2hPlayed": 4,
-   "pick": "H",
-   "margin": 2,
+   "pick": "D",
+   "margin": 1,
    "xg": [
     1.2,
     1.4
@@ -4706,10 +4186,10 @@
    "thin": false,
    "tuned": {
     "pick": "H",
-    "margin": 1,
+    "margin": 0.5,
     "pts": [
      5,
-     4
+     4.5
     ],
     "br": [
      {
@@ -4722,12 +4202,12 @@
      {
       "form": 3,
       "venueForm": 2,
-      "position": 2,
+      "position": 3,
       "h2h": 1
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.776Z"
+   "madeAt": "2026-11-25T22:51:19.140Z"
   },
   {
    "id": "s-86pdcjszp1rw8p2pmxdrxnehg",
@@ -4799,7 +4279,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.777Z"
+   "madeAt": "2026-11-25T22:51:19.140Z"
   },
   {
    "id": "s-489mt7035y6mpxxayh9gk4efo",
@@ -4871,7 +4351,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.777Z"
+   "madeAt": "2026-11-25T22:51:19.140Z"
   },
   {
    "id": "s-296rijj684sccxyc03mpx5g5w",
@@ -4881,18 +4361,18 @@
    "home": {
     "id": "blackburn-rovers",
     "name": "Blackburn Rovers",
-    "pts": 12,
+    "pts": 13,
     "br": {
      "form": 5,
      "venueForm": 5,
-     "position": 2,
+     "position": 3,
      "h2h": 0
     },
-    "form": "WDWWLWLLWD",
+    "form": "DWWLWLLWDW",
     "venue": "DLWLLWWWLW",
-    "pos": 13,
-    "gf": 1.7,
-    "ga": 1.6
+    "pos": 12,
+    "gf": 1.5,
+    "ga": 1.5
    },
    "away": {
     "id": "charlton-athletic",
@@ -4912,26 +4392,26 @@
    },
    "h2hPlayed": 2,
    "pick": "H",
-   "margin": 8,
+   "margin": 9,
    "xg": [
-    1.75,
-    1.4
+    1.65,
+    1.35
    ],
-   "goals": 3.15,
+   "goals": 3,
    "over": true,
    "thin": false,
    "tuned": {
     "pick": "H",
-    "margin": 4,
+    "margin": 4.5,
     "pts": [
-     6,
+     6.5,
      2
     ],
     "br": [
      {
       "form": 2,
       "venueForm": 4,
-      "position": 2,
+      "position": 3,
       "h2h": 0,
       "home": 3
      },
@@ -4943,7 +4423,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.777Z"
+   "madeAt": "2026-11-25T22:51:19.141Z"
   },
   {
    "id": "s-29us6s37hjpgkmtmjh281x7o4",
@@ -4969,22 +4449,22 @@
    "away": {
     "id": "wolverhampton-wanderers",
     "name": "Wolverhampton Wanderers",
-    "pts": 29,
+    "pts": 28,
     "br": {
      "form": 6,
      "venueForm": 4,
-     "position": 19,
+     "position": 18,
      "h2h": 0
     },
     "form": "LLWDWWWDWW",
     "venue": "LDWLDWLWWD",
-    "pos": 2,
+    "pos": 3,
     "gf": 1.6,
     "ga": 0.9
    },
    "h2hPlayed": 0,
    "pick": "A",
-   "margin": 25,
+   "margin": 24,
    "xg": [
     0.9,
     2.05
@@ -4994,10 +4474,10 @@
    "thin": false,
    "tuned": {
     "pick": "A",
-    "margin": 10.5,
+    "margin": 10,
     "pts": [
      3,
-     13.5
+     13
     ],
     "br": [
      {
@@ -5010,16 +4490,16 @@
      {
       "form": 4,
       "venueForm": 3,
-      "position": 19,
+      "position": 18,
       "h2h": 0
      }
     ]
    },
    "banker": {
     "side": "A",
-    "gap": 10.5
+    "gap": 10
    },
-   "madeAt": "2026-11-25T07:28:39.777Z"
+   "madeAt": "2026-11-25T22:51:19.141Z"
   },
   {
    "id": "s-2ahxgz7r3l47rett7fojj8zro",
@@ -5091,7 +4571,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.777Z"
+   "madeAt": "2026-11-25T22:51:19.141Z"
   },
   {
    "id": "s-273upgjev1o78cwk5itvo953o",
@@ -5167,7 +4647,7 @@
     "side": "H",
     "gap": 9.5
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.141Z"
   },
   {
    "id": "s-27fh06a0h8vpijzvu98woraj8",
@@ -5239,7 +4719,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.142Z"
   },
   {
    "id": "s-28jha9ide0yhltn39j3ysd9n8",
@@ -5311,7 +4791,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.142Z"
   },
   {
    "id": "s-29jl1lakdnwu3la9oo5xrocus",
@@ -5387,7 +4867,7 @@
     "side": "H",
     "gap": 12
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.142Z"
   },
   {
    "id": "s-8yjozl0k05g9rkux47xfm24no",
@@ -5420,20 +4900,20 @@
      "position": 0,
      "h2h": 1
     },
-    "form": "LWLLLLLWLW",
-    "venue": "LWDDWLLLLL",
+    "form": "WLLLLLWLWL",
+    "venue": "WDDWLLLLLL",
     "pos": 13,
-    "gf": 1.2,
-    "ga": 1.5
+    "gf": 1.3,
+    "ga": 1.8
    },
    "h2hPlayed": 1,
    "pick": "H",
    "margin": 12,
    "xg": [
-    1.45,
-    1.4
+    1.6,
+    1.45
    ],
-   "goals": 2.85,
+   "goals": 3.05,
    "over": true,
    "thin": false,
    "tuned": {
@@ -5463,7 +4943,7 @@
     "side": "H",
     "gap": 8
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.142Z"
   },
   {
    "id": "s-91tq3iyirkbjdir2yo73fb7kk",
@@ -5535,7 +5015,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.142Z"
   },
   {
    "id": "s-8546urm1fb3fbinqg9rey93x0",
@@ -5611,7 +5091,7 @@
     "side": "H",
     "gap": 10
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.142Z"
   },
   {
    "id": "s-7vnmh29grg0vv17duv4kxwljo",
@@ -5687,7 +5167,7 @@
     "side": "H",
     "gap": 9
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.142Z"
   },
   {
    "id": "s-5w3963n9m4vinm0vqk4x7mg44",
@@ -5759,7 +5239,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.142Z"
   },
   {
    "id": "s-5we27c1oyptg2gn58dqn7hxck",
@@ -5831,7 +5311,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.778Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-5vskxpb5cyodwzlcv8vrowxlg",
@@ -5903,7 +5383,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-5wzksx5m3i0jfuud1mrahkcno",
@@ -5975,7 +5455,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-50740jm2kvu0czl8o7kwiw8pg",
@@ -6047,7 +5527,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-50jewe5a2x1vi9xqmjovi63o4",
@@ -6119,7 +5599,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-28v8p7u3gz4k0wcxfkztn0rh0",
@@ -6136,48 +5616,48 @@
      "position": 14,
      "h2h": 0
     },
-    "form": "WDWWWLWWWL",
+    "form": "DWWWLWWWLW",
     "venue": "WWDDDDWWWW",
     "pos": 5,
     "gf": 2,
-    "ga": 0.7
+    "ga": 0.6
    },
    "away": {
     "id": "bolton-wanderers",
     "name": "Bolton Wanderers",
-    "pts": 9,
+    "pts": 8,
     "br": {
-     "form": 4,
+     "form": 3,
      "venueForm": 4,
      "position": 0,
      "h2h": 1
     },
-    "form": "WWLWDLLWLD",
+    "form": "WLWDLLWLDL",
     "venue": "DWDLLWWDWL",
     "pos": 19,
     "gf": 1.5,
-    "ga": 1.8
+    "ga": 2.1
    },
    "h2hPlayed": 1,
    "pick": "H",
-   "margin": 18,
+   "margin": 19,
    "xg": [
-    1.9,
-    1.1
+    2.05,
+    1.05
    ],
-   "goals": 3,
+   "goals": 3.1,
    "over": true,
    "thin": false,
    "tuned": {
     "pick": "H",
-    "margin": 12,
+    "margin": 13,
     "pts": [
-     13,
+     14,
      1
     ],
     "br": [
      {
-      "form": 3,
+      "form": 4,
       "venueForm": 4,
       "position": 14,
       "h2h": 0,
@@ -6193,9 +5673,9 @@
    },
    "banker": {
     "side": "H",
-    "gap": 12
+    "gap": 13
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-29i8fcgrswwi4fqgokg9agglw",
@@ -6228,20 +5708,20 @@
      "position": 4,
      "h2h": 3
     },
-    "form": "LLLLWLLWDL",
+    "form": "LLLWLLWDLL",
     "venue": "LLDLLLLLLL",
     "pos": 20,
-    "gf": 0.7,
-    "ga": 2
+    "gf": 0.6,
+    "ga": 1.9
    },
    "h2hPlayed": 3,
    "pick": "A",
    "margin": 6,
    "xg": [
-    1.4,
-    1.45
+    1.35,
+    1.4
    ],
-   "goals": 2.85,
+   "goals": 2.75,
    "over": true,
    "thin": false,
    "tuned": {
@@ -6267,7 +5747,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-2a67okc78d04mi57z23n9j8d0",
@@ -6284,10 +5764,10 @@
      "position": 5,
      "h2h": 1
     },
-    "form": "DDWLDLWLLL",
+    "form": "DWLDLWLLLL",
     "venue": "WLWLWDLDWL",
     "pos": 18,
-    "gf": 1.2,
+    "gf": 1.1,
     "ga": 1.7
    },
    "away": {
@@ -6300,20 +5780,20 @@
      "position": 0,
      "h2h": 1
     },
-    "form": "LDWDLLDDLD",
+    "form": "DWDLLDDLDL",
     "venue": "LLLLDLWLDL",
     "pos": 23,
-    "gf": 1.7,
-    "ga": 2
+    "gf": 1.6,
+    "ga": 1.9
    },
    "h2hPlayed": 2,
    "pick": "H",
    "margin": 9,
    "xg": [
-    1.6,
-    1.7
+    1.5,
+    1.65
    ],
-   "goals": 3.3,
+   "goals": 3.15,
    "over": true,
    "thin": false,
    "tuned": {
@@ -6339,7 +5819,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-2atf3vts9gy04bv3puw8wuxp0",
@@ -6411,7 +5891,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-2brul4jtd56an8wvixqzdsil0",
@@ -6421,17 +5901,17 @@
    "home": {
     "id": "west-bromwich-albion",
     "name": "West Bromwich Albion",
-    "pts": 21,
+    "pts": 22,
     "br": {
-     "form": 4,
+     "form": 5,
      "venueForm": 5,
      "position": 10,
      "h2h": 2
     },
-    "form": "DLLWWDWDWD",
+    "form": "LLWWDWDWDW",
     "venue": "WDWDWDLWDW",
     "pos": 6,
-    "gf": 1.6,
+    "gf": 1.8,
     "ga": 1.1
    },
    "away": {
@@ -6452,24 +5932,24 @@
    },
    "h2hPlayed": 4,
    "pick": "H",
-   "margin": 14,
+   "margin": 15,
    "xg": [
-    1.55,
+    1.65,
     0.9
    ],
-   "goals": 2.45,
-   "over": false,
+   "goals": 2.55,
+   "over": true,
    "thin": false,
    "tuned": {
     "pick": "H",
-    "margin": 9,
+    "margin": 10,
     "pts": [
-     10,
+     11,
      1
     ],
     "br": [
      {
-      "form": 2,
+      "form": 3,
       "venueForm": 2,
       "position": 10,
       "h2h": 2,
@@ -6485,9 +5965,9 @@
    },
    "banker": {
     "side": "H",
-    "gap": 9
+    "gap": 10
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-2c4210odgqrz1wi3l5td7wa38",
@@ -6506,29 +5986,29 @@
     },
     "form": "DDWWLLDLDL",
     "venue": "LWLWWWDLLD",
-    "pos": 12,
+    "pos": 13,
     "gf": 1.8,
     "ga": 1.6
    },
    "away": {
     "id": "stoke-city",
     "name": "Stoke City",
-    "pts": 21,
+    "pts": 24,
     "br": {
      "form": 8,
      "venueForm": 5,
-     "position": 8,
+     "position": 11,
      "h2h": 0
     },
-    "form": "WWWLWDWWWW",
+    "form": "WWLWDWWWWW",
     "venue": "LLLLDWWWWW",
-    "pos": 4,
+    "pos": 2,
     "gf": 1.6,
     "ga": 0.8
    },
    "h2hPlayed": 0,
    "pick": "A",
-   "margin": 15,
+   "margin": 18,
    "xg": [
     1.3,
     1.6
@@ -6538,10 +6018,10 @@
    "thin": false,
    "tuned": {
     "pick": "A",
-    "margin": 5,
+    "margin": 7.5,
     "pts": [
      3,
-     8
+     10.5
     ],
     "br": [
      {
@@ -6552,14 +6032,14 @@
       "home": 3
      },
      {
-      "form": 4,
+      "form": 5,
       "venueForm": 5,
-      "position": 8,
+      "position": 11,
       "h2h": 0
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-2cfsvak1w2zzagak8et5m67mc",
@@ -6631,7 +6111,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-25i7huluylgssj42gxyqyac5w",
@@ -6703,7 +6183,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-25tpveyd7xoudq6q1toolbuvo",
@@ -6775,7 +6255,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-26gpxrjvluwdcbjziv8g5a0ic",
@@ -6847,7 +6327,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-26sbusu1lmbxhfr543k8juhas",
@@ -6919,7 +6399,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-27qw6jktssr72ist3d1dza044",
@@ -6991,7 +6471,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-282fvwqzw6cufcz7wn884dvro",
@@ -7067,7 +6547,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-28dzg79z4rrqw8pbz1r36sahg",
@@ -7143,7 +6623,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-28pkggmkh4hjuxbt7ygn3lzis",
@@ -7215,7 +6695,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-2913jxtpgt4jhid9g2htt7kt0",
@@ -7287,7 +6767,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.779Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-28voudzdjx49fiyv21lw1fkes",
@@ -7359,7 +6839,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-297h4c8a9x3ft76oxvlnlgj6c",
@@ -7431,7 +6911,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.143Z"
   },
   {
    "id": "s-29wbqa5yfcu2h6iw4dmi7v7dg",
@@ -7503,7 +6983,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-2a87mp3kv6jpoyoxvb2dkz3tg",
@@ -7575,7 +7055,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-2ak8s2objttuen2ba5sxdpxck",
@@ -7651,7 +7131,7 @@
     "side": "A",
     "gap": 9
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-2awc7t8d98posuq9247a8p53o",
@@ -7723,7 +7203,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-2b8d7i6qu3p2c30312kq745xw",
@@ -7799,7 +7279,7 @@
     "side": "H",
     "gap": 10
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-2bkanglszac117u7p3eytjuhg",
@@ -7871,7 +7351,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-2bwfa21b93obow1hiy1r935zo",
@@ -7943,7 +7423,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-2c8ao6xtclnz9q2zeaxp9x250",
@@ -8019,7 +7499,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-8yvbbtdkgf18i296aqzs4j5ec",
@@ -8091,7 +7571,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-8z71d60il4i7v5mryin1kj4lw",
@@ -8108,8 +7588,8 @@
      "position": 23,
      "h2h": 2
     },
-    "form": "WWWWWWWWDW",
-    "venue": "WDDWWWWWWW",
+    "form": "WWWWWWWDWW",
+    "venue": "DDWWWWWWWW",
     "pos": 1,
     "gf": 3,
     "ga": 1.1
@@ -8167,7 +7647,7 @@
     "side": "H",
     "gap": 17.5
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-8zisndfis5niupm0amfoph6vo",
@@ -8193,28 +7673,28 @@
    "away": {
     "id": "kidderminster-harriers",
     "name": "Kidderminster Harriers",
-    "pts": 11,
+    "pts": 10,
     "br": {
      "form": 0,
-     "venueForm": 4,
+     "venueForm": 3,
      "position": 7,
      "h2h": 0
     },
-    "form": "DLLDDLDLDD",
-    "venue": "WWLWWDLDDL",
+    "form": "LLDDLDLDDL",
+    "venue": "WLWWDLDDLL",
     "pos": 15,
-    "gf": 0.7,
-    "ga": 1.2
+    "gf": 0.8,
+    "ga": 1.5
    },
    "h2hPlayed": 0,
    "pick": "A",
-   "margin": 6,
+   "margin": 5,
    "xg": [
-    1,
-    1.35
+    1.15,
+    1.4
    ],
-   "goals": 2.35,
-   "over": false,
+   "goals": 2.55,
+   "over": true,
    "thin": false,
    "tuned": {
     "pick": "H",
@@ -8239,7 +7719,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-8zuhku3c80s661473wfei972s",
@@ -8311,7 +7791,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-906qsviksmwdb5tdfubf4wydw",
@@ -8330,18 +7810,18 @@
     },
     "form": "LDLLWLDLWL",
     "venue": "WWDDWDLWLL",
-    "pos": 17,
+    "pos": 18,
     "gf": 1.3,
     "ga": 2.1
    },
    "away": {
     "id": "halifax",
     "name": "Halifax Town",
-    "pts": 19,
+    "pts": 20,
     "br": {
      "form": 5,
      "venueForm": 4,
-     "position": 9,
+     "position": 10,
      "h2h": 1
     },
     "form": "LDWWDLWDWW",
@@ -8352,7 +7832,7 @@
    },
    "h2hPlayed": 3,
    "pick": "A",
-   "margin": 13,
+   "margin": 14,
    "xg": [
     1.15,
     2.15
@@ -8362,10 +7842,10 @@
    "thin": false,
    "tuned": {
     "pick": "A",
-    "margin": 3.5,
+    "margin": 4,
     "pts": [
      4,
-     7.5
+     8
     ],
     "br": [
      {
@@ -8378,12 +7858,12 @@
      {
       "form": 3,
       "venueForm": 2,
-      "position": 9,
+      "position": 10,
       "h2h": 1
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-90itlkx3qufr4a2pcg0anurkk",
@@ -8402,7 +7882,7 @@
     },
     "form": "WDLDDLWDLL",
     "venue": "WLLWLDLWDL",
-    "pos": 19,
+    "pos": 20,
     "gf": 1.8,
     "ga": 1.9
    },
@@ -8418,7 +7898,7 @@
     },
     "form": "WLWWLWLLLW",
     "venue": "DDLLLLLWLW",
-    "pos": 18,
+    "pos": 19,
     "gf": 1.5,
     "ga": 1.6
    },
@@ -8455,7 +7935,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-90ufz5i38caws9kf5prqanq50",
@@ -8465,69 +7945,69 @@
    "home": {
     "id": "harrogate-town",
     "name": "Harrogate Town",
-    "pts": 13,
+    "pts": 16,
     "br": {
-     "form": 6,
-     "venueForm": 7,
-     "position": 0,
+     "form": 7,
+     "venueForm": 8,
+     "position": 1,
      "h2h": 0
     },
-    "form": "LWWWWWLDWL",
-    "venue": "LWDWWLWWWW",
-    "pos": 3,
-    "gf": 2,
-    "ga": 1.3
+    "form": "WWWWWLDWLW",
+    "venue": "WDWWLWWWWW",
+    "pos": 2,
+    "gf": 2.2,
+    "ga": 1
    },
    "away": {
     "id": "yeovil-town",
     "name": "Yeovil Town",
-    "pts": 12,
+    "pts": 11,
     "br": {
      "form": 6,
      "venueForm": 5,
-     "position": 1,
+     "position": 0,
      "h2h": 0
     },
     "form": "WDWWLWLDWW",
     "venue": "LDWLDWWWLW",
-    "pos": 2,
+    "pos": 3,
     "gf": 2.5,
     "ga": 1.1
    },
    "h2hPlayed": 0,
-   "pick": "D",
-   "margin": 1,
+   "pick": "H",
+   "margin": 5,
    "xg": [
-    1.55,
-    1.9
+    1.65,
+    1.75
    ],
-   "goals": 3.45,
+   "goals": 3.4,
    "over": true,
    "thin": false,
    "tuned": {
     "pick": "H",
-    "margin": 1.5,
+    "margin": 2.5,
     "pts": [
-     5,
-     3.5
+     5.5,
+     3
     ],
     "br": [
      {
       "form": 2,
-      "venueForm": 4,
-      "position": 0,
+      "venueForm": 5,
+      "position": 1,
       "h2h": 0,
       "home": 3
      },
      {
       "form": 3,
       "venueForm": 4,
-      "position": 1,
+      "position": 0,
       "h2h": 0
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-91hzyonaepo29n61u08xh68lw",
@@ -8560,20 +8040,20 @@
      "position": 0,
      "h2h": 0
     },
-    "form": "LLWLLLWWWW",
-    "venue": "DWLLDLWLWW",
+    "form": "LWLLLWWWWL",
+    "venue": "WLLDLWLWWL",
     "pos": 21,
-    "gf": 1.5,
-    "ga": 2.2
+    "gf": 1.4,
+    "ga": 2
    },
    "h2hPlayed": 0,
    "pick": "H",
    "margin": 9,
    "xg": [
-    1.55,
-    1.7
+    1.45,
+    1.65
    ],
-   "goals": 3.25,
+   "goals": 3.1,
    "over": true,
    "thin": false,
    "tuned": {
@@ -8599,7 +8079,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-1cl9oxiuauofd56gclhcy4rh0",
@@ -8671,7 +8151,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-1cwh8j0ptef6ma278mgu70x04",
@@ -8747,7 +8227,7 @@
     "side": "H",
     "gap": 11
    },
-   "madeAt": "2026-11-25T07:28:39.780Z"
+   "madeAt": "2026-11-25T22:51:19.144Z"
   },
   {
    "id": "s-1d7nvm6odsl2z5oh2wrfimp04",
@@ -8823,7 +8303,7 @@
     "side": "H",
     "gap": 8
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-1diwr6oz097003bzwk3pd668k",
@@ -8895,7 +8375,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-1du3nqlypodvmvq8lk90pwzro",
@@ -8967,7 +8447,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-1e5kfapm5stqi9e1txiowxkic",
@@ -9039,7 +8519,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-1egvorky8v1j3iv5s9ceka5g4",
@@ -9111,7 +8591,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-1es50k2yg44h856g8oo8u60ic",
@@ -9183,7 +8663,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-1f3hofven3ngr60awpna5n85w",
@@ -9255,7 +8735,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-1fexz7a9f74jc4lssamau0vmc",
@@ -9331,7 +8811,7 @@
     "side": "H",
     "gap": 12.5
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-1fqad6j9i103awoglsxdgbor8",
@@ -9407,7 +8887,7 @@
     "side": "A",
     "gap": 9.5
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-1g1oqwu1t32kth02nihp76qdw",
@@ -9479,7 +8959,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-2ezzvwrn5cgrj8etmefcno4yc",
@@ -9551,7 +9031,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-2fcj9kb2978q1pf6mlua29t78",
@@ -9623,7 +9103,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-2gdovmtu6nkzf160sexdbclck",
@@ -9695,7 +9175,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-2gq5bbr0y9ipzrm3zzq9ifw2c",
@@ -9767,7 +9247,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-870wpf6zi87cxoeqrqhlbqgpg",
@@ -9839,7 +9319,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-47bnziieht4i2hvjqat74wydw",
@@ -9915,7 +9395,7 @@
     "side": "H",
     "gap": 11
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-48l07tijtujsq0csynni1sowk",
@@ -9987,7 +9467,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-7x7dketz4e76t5pk47rg9pvro",
@@ -10059,7 +9539,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-4zurtmi011eq32l7f6zze9mvo",
@@ -10131,7 +9611,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-916aqpgulorz3l9fh6w47li50",
@@ -10141,27 +9621,27 @@
    "home": {
     "id": "hartlepool-united",
     "name": "Hartlepool United",
-    "pts": 9,
+    "pts": 10,
     "br": {
-     "form": 3,
+     "form": 4,
      "venueForm": 5,
      "position": 0,
      "h2h": 1
     },
-    "form": "LLLLWWLLDW",
-    "venue": "WWWLWLLLWD",
-    "pos": 20,
-    "gf": 1.5,
-    "ga": 2.1
+    "form": "LLLWWLLDWW",
+    "venue": "WWLWLLLWDW",
+    "pos": 17,
+    "gf": 1.6,
+    "ga": 1.8
    },
    "away": {
     "id": "southend-united",
     "name": "Southend United",
-    "pts": 25,
+    "pts": 22,
     "br": {
      "form": 4,
      "venueForm": 5,
-     "position": 16,
+     "position": 13,
      "h2h": 0
     },
     "form": "LDWWDDLWLW",
@@ -10172,25 +9652,25 @@
    },
    "h2hPlayed": 3,
    "pick": "A",
-   "margin": 16,
+   "margin": 12,
    "xg": [
-    1.7,
-    2.1
+    1.75,
+    1.95
    ],
-   "goals": 3.8,
+   "goals": 3.7,
    "over": true,
    "thin": false,
    "tuned": {
     "pick": "A",
-    "margin": 5,
+    "margin": 3.5,
     "pts": [
      5,
-     10
+     8.5
     ],
     "br": [
      {
       "form": 2,
-      "venueForm": 1,
+      "venueForm": 2,
       "position": 0,
       "h2h": 1,
       "home": 3
@@ -10198,12 +9678,12 @@
      {
       "form": 2,
       "venueForm": 2,
-      "position": 16,
+      "position": 13,
       "h2h": 0
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-5uwc1hmjl00xzgw07e650rnys",
@@ -10275,7 +9755,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-862gtflvz3nj4z7zotu7z1mac",
@@ -10351,7 +9831,7 @@
     "side": "A",
     "gap": 8
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-2g1dzt5csgryc8zbhf2rgal90",
@@ -10423,7 +9903,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.781Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-470corz9p1v0r8sd392hpw07o",
@@ -10495,7 +9975,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.782Z"
+   "madeAt": "2026-11-25T22:51:19.145Z"
   },
   {
    "id": "s-7vz5px77zw7ha4sh9a7h91t04",
@@ -10567,7 +10047,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.782Z"
+   "madeAt": "2026-11-25T22:51:19.146Z"
   },
   {
    "id": "s-87chbnhy5fke8c9kcv9s5ekus",
@@ -10643,7 +10123,7 @@
     "side": "H",
     "gap": 10.5
    },
-   "madeAt": "2026-11-25T07:28:39.782Z"
+   "madeAt": "2026-11-25T22:51:19.146Z"
   },
   {
    "id": "s-49j29k7ec3zyy3ju6jj0lhqms",
@@ -10715,7 +10195,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-25T07:28:39.782Z"
+   "madeAt": "2026-11-25T22:51:19.146Z"
   }
  ]
 }
