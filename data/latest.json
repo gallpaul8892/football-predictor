@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T07:28:36.210Z",
+ "generatedAt": "2026-11-26T22:51:47.706Z",
  "today": "2026-11-26",
  "window": [
   "2026-11-26",
@@ -108,82 +108,6 @@
  },
  "upcoming": [
   {
-   "id": "s-26594lu9y7n4rw0yj0eojj2fo",
-   "lg": "league-one",
-   "ko": "2026-11-26T20:00:00Z",
-   "day": "2026-11-26",
-   "home": {
-    "id": "doncaster-rovers",
-    "name": "Doncaster Rovers",
-    "pts": 7,
-    "br": {
-     "form": 3,
-     "venueForm": 3,
-     "position": 0,
-     "h2h": 1
-    },
-    "form": "LLWWLLWLLD",
-    "venue": "LWLDDDLWLW",
-    "pos": 21,
-    "gf": 1.2,
-    "ga": 1.9
-   },
-   "away": {
-    "id": "huddersfield-town",
-    "name": "Huddersfield Town",
-    "pts": 31,
-    "br": {
-     "form": 5,
-     "venueForm": 6,
-     "position": 19,
-     "h2h": 1
-    },
-    "form": "DLWDWWWWDL",
-    "venue": "WDWDWDLWWW",
-    "pos": 2,
-    "gf": 1.8,
-    "ga": 0.9
-   },
-   "h2hPlayed": 2,
-   "pick": "A",
-   "margin": 24,
-   "xg": [
-    1.05,
-    1.85
-   ],
-   "goals": 2.9,
-   "over": true,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 8.5,
-    "pts": [
-     4,
-     12.5
-    ],
-    "br": [
-     {
-      "form": 1,
-      "venueForm": 2,
-      "position": 0,
-      "h2h": 1,
-      "home": 3
-     },
-     {
-      "form": 3,
-      "venueForm": 3,
-      "position": 19,
-      "h2h": 1
-     }
-    ]
-   },
-   "banker": {
-    "side": "A",
-    "gap": 8.5
-   },
-   "madeAt": "2026-11-26T07:28:36.185Z"
-  },
-  {
    "id": "s-5wot1nnbty46x6e4p5j2ow93o",
    "lg": "german-bundesliga",
    "ko": "2026-11-27T19:30:00Z",
@@ -257,7 +181,7 @@
     "side": "H",
     "gap": 11
    },
-   "madeAt": "2026-11-26T07:28:36.186Z"
+   "madeAt": "2026-11-26T22:51:47.687Z"
   },
   {
    "id": "s-7xtabfw47qlw3wfjz2e9xuqdw",
@@ -329,7 +253,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.186Z"
+   "madeAt": "2026-11-26T22:51:47.688Z"
   },
   {
    "id": "s-8y80grdjifseerrmnqk7o213o",
@@ -401,7 +325,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.186Z"
+   "madeAt": "2026-11-26T22:51:47.687Z"
   },
   {
    "id": "s-2b4yiu3wy119f2tpqstsc3h90",
@@ -473,7 +397,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.187Z"
+   "madeAt": "2026-11-26T22:51:47.688Z"
   },
   {
    "id": "s-50voo5vk1cmq1r4gjo2dwh4pg",
@@ -545,7 +469,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.186Z"
+   "madeAt": "2026-11-26T22:51:47.688Z"
   },
   {
    "id": "s-86pdcjszp1rw8p2pmxdrxnehg",
@@ -617,7 +541,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.187Z"
+   "madeAt": "2026-11-26T22:51:47.688Z"
   },
   {
    "id": "s-489mt7035y6mpxxayh9gk4efo",
@@ -689,7 +613,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.188Z"
+   "madeAt": "2026-11-26T22:51:47.688Z"
   },
   {
    "id": "s-273upgjev1o78cwk5itvo953o",
@@ -765,7 +689,7 @@
     "side": "H",
     "gap": 9.5
    },
-   "madeAt": "2026-11-26T07:28:36.189Z"
+   "madeAt": "2026-11-26T22:51:47.689Z"
   },
   {
    "id": "s-27fh06a0h8vpijzvu98woraj8",
@@ -837,7 +761,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.189Z"
+   "madeAt": "2026-11-26T22:51:47.689Z"
   },
   {
    "id": "s-28jha9ide0yhltn39j3ysd9n8",
@@ -909,7 +833,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.189Z"
+   "madeAt": "2026-11-26T22:51:47.689Z"
   },
   {
    "id": "s-296rijj684sccxyc03mpx5g5w",
@@ -981,7 +905,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.188Z"
+   "madeAt": "2026-11-26T22:51:47.688Z"
   },
   {
    "id": "s-29jl1lakdnwu3la9oo5xrocus",
@@ -1057,7 +981,7 @@
     "side": "H",
     "gap": 12
    },
-   "madeAt": "2026-11-26T07:28:36.189Z"
+   "madeAt": "2026-11-26T22:51:47.689Z"
   },
   {
    "id": "s-29us6s37hjpgkmtmjh281x7o4",
@@ -1133,7 +1057,7 @@
     "side": "A",
     "gap": 10
    },
-   "madeAt": "2026-11-26T07:28:36.188Z"
+   "madeAt": "2026-11-26T22:51:47.688Z"
   },
   {
    "id": "s-2ahxgz7r3l47rett7fojj8zro",
@@ -1205,7 +1129,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.189Z"
+   "madeAt": "2026-11-26T22:51:47.689Z"
   },
   {
    "id": "s-8yjozl0k05g9rkux47xfm24no",
@@ -1281,7 +1205,7 @@
     "side": "H",
     "gap": 8
    },
-   "madeAt": "2026-11-26T07:28:36.189Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-91tq3iyirkbjdir2yo73fb7kk",
@@ -1353,7 +1277,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.189Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-8546urm1fb3fbinqg9rey93x0",
@@ -1429,7 +1353,7 @@
     "side": "H",
     "gap": 10
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-7vnmh29grg0vv17duv4kxwljo",
@@ -1505,7 +1429,7 @@
     "side": "H",
     "gap": 9
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-5vskxpb5cyodwzlcv8vrowxlg",
@@ -1577,7 +1501,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-5w3963n9m4vinm0vqk4x7mg44",
@@ -1649,7 +1573,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-5we27c1oyptg2gn58dqn7hxck",
@@ -1721,7 +1645,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-5wzksx5m3i0jfuud1mrahkcno",
@@ -1793,7 +1717,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-1cl9oxiuauofd56gclhcy4rh0",
@@ -1865,7 +1789,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1cwh8j0ptef6ma278mgu70x04",
@@ -1941,7 +1865,7 @@
     "side": "H",
     "gap": 11
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1d7nvm6odsl2z5oh2wrfimp04",
@@ -2017,7 +1941,7 @@
     "side": "H",
     "gap": 8
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1diwr6oz097003bzwk3pd668k",
@@ -2089,7 +2013,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1du3nqlypodvmvq8lk90pwzro",
@@ -2161,7 +2085,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1e5kfapm5stqi9e1txiowxkic",
@@ -2233,7 +2157,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1egvorky8v1j3iv5s9ceka5g4",
@@ -2305,7 +2229,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1es50k2yg44h856g8oo8u60ic",
@@ -2377,7 +2301,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1f3hofven3ngr60awpna5n85w",
@@ -2449,7 +2373,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1fexz7a9f74jc4lssamau0vmc",
@@ -2525,7 +2449,7 @@
     "side": "H",
     "gap": 12.5
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1fqad6j9i103awoglsxdgbor8",
@@ -2601,7 +2525,7 @@
     "side": "A",
     "gap": 9.5
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-1g1oqwu1t32kth02nihp76qdw",
@@ -2673,7 +2597,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-25i7huluylgssj42gxyqyac5w",
@@ -2745,7 +2669,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-25tpveyd7xoudq6q1toolbuvo",
@@ -2817,7 +2741,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-26gpxrjvluwdcbjziv8g5a0ic",
@@ -2889,7 +2813,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-26sbusu1lmbxhfr543k8juhas",
@@ -2961,7 +2885,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-27qw6jktssr72ist3d1dza044",
@@ -3033,7 +2957,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-282fvwqzw6cufcz7wn884dvro",
@@ -3109,7 +3033,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-28dzg79z4rrqw8pbz1r36sahg",
@@ -3185,7 +3109,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-28pkggmkh4hjuxbt7ygn3lzis",
@@ -3257,7 +3181,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-28v8p7u3gz4k0wcxfkztn0rh0",
@@ -3333,7 +3257,7 @@
     "side": "H",
     "gap": 13
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-28voudzdjx49fiyv21lw1fkes",
@@ -3405,7 +3329,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-2913jxtpgt4jhid9g2htt7kt0",
@@ -3477,7 +3401,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-297h4c8a9x3ft76oxvlnlgj6c",
@@ -3549,7 +3473,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-29i8fcgrswwi4fqgokg9agglw",
@@ -3621,7 +3545,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-29wbqa5yfcu2h6iw4dmi7v7dg",
@@ -3693,7 +3617,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-2a67okc78d04mi57z23n9j8d0",
@@ -3765,7 +3689,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-2a87mp3kv6jpoyoxvb2dkz3tg",
@@ -3837,7 +3761,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-2ak8s2objttuen2ba5sxdpxck",
@@ -3913,7 +3837,7 @@
     "side": "A",
     "gap": 9
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-2atf3vts9gy04bv3puw8wuxp0",
@@ -3985,7 +3909,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-2awc7t8d98posuq9247a8p53o",
@@ -4057,7 +3981,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-2b8d7i6qu3p2c30312kq745xw",
@@ -4133,7 +4057,7 @@
     "side": "H",
     "gap": 10
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-2bkanglszac117u7p3eytjuhg",
@@ -4205,7 +4129,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-2brul4jtd56an8wvixqzdsil0",
@@ -4281,7 +4205,7 @@
     "side": "H",
     "gap": 10
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-2bwfa21b93obow1hiy1r935zo",
@@ -4353,7 +4277,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-2c4210odgqrz1wi3l5td7wa38",
@@ -4425,7 +4349,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-2c8ao6xtclnz9q2zeaxp9x250",
@@ -4501,7 +4425,7 @@
     "side": "H",
     "gap": 8.5
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-2cfsvak1w2zzagak8et5m67mc",
@@ -4573,7 +4497,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.191Z"
+   "madeAt": "2026-11-26T22:51:47.691Z"
   },
   {
    "id": "s-2ezzvwrn5cgrj8etmefcno4yc",
@@ -4645,7 +4569,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-2fcj9kb2978q1pf6mlua29t78",
@@ -4717,7 +4641,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-2gdovmtu6nkzf160sexdbclck",
@@ -4789,7 +4713,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-2gq5bbr0y9ipzrm3zzq9ifw2c",
@@ -4861,7 +4785,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-50740jm2kvu0czl8o7kwiw8pg",
@@ -4933,7 +4857,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-50jewe5a2x1vi9xqmjovi63o4",
@@ -5005,7 +4929,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.190Z"
+   "madeAt": "2026-11-26T22:51:47.690Z"
   },
   {
    "id": "s-8yvbbtdkgf18i296aqzs4j5ec",
@@ -5077,7 +5001,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-8z71d60il4i7v5mryin1kj4lw",
@@ -5153,7 +5077,7 @@
     "side": "H",
     "gap": 17.5
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-8zisndfis5niupm0amfoph6vo",
@@ -5225,7 +5149,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-8zuhku3c80s661473wfei972s",
@@ -5297,7 +5221,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-906qsviksmwdb5tdfubf4wydw",
@@ -5369,7 +5293,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-90itlkx3qufr4a2pcg0anurkk",
@@ -5441,7 +5365,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-90ufz5i38caws9kf5prqanq50",
@@ -5513,7 +5437,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-91hzyonaepo29n61u08xh68lw",
@@ -5585,7 +5509,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.192Z"
+   "madeAt": "2026-11-26T22:51:47.692Z"
   },
   {
    "id": "s-870wpf6zi87cxoeqrqhlbqgpg",
@@ -5657,7 +5581,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-47bnziieht4i2hvjqat74wydw",
@@ -5733,7 +5657,7 @@
     "side": "H",
     "gap": 11
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-48l07tijtujsq0csynni1sowk",
@@ -5805,7 +5729,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-7x7dketz4e76t5pk47rg9pvro",
@@ -5877,7 +5801,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-4zurtmi011eq32l7f6zze9mvo",
@@ -5949,7 +5873,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.193Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-5uwc1hmjl00xzgw07e650rnys",
@@ -6021,7 +5945,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-862gtflvz3nj4z7zotu7z1mac",
@@ -6097,7 +6021,7 @@
     "side": "A",
     "gap": 8
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-916aqpgulorz3l9fh6w47li50",
@@ -6169,7 +6093,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-2g1dzt5csgryc8zbhf2rgal90",
@@ -6241,7 +6165,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-470corz9p1v0r8sd392hpw07o",
@@ -6313,7 +6237,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-7vz5px77zw7ha4sh9a7h91t04",
@@ -6385,7 +6309,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-87chbnhy5fke8c9kcv9s5ekus",
@@ -6461,7 +6385,7 @@
     "side": "H",
     "gap": 10.5
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-49j29k7ec3zyy3ju6jj0lhqms",
@@ -6533,7 +6457,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-7xiakneqoovfuzg0gaf124tuc",
@@ -6605,79 +6529,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
-  },
-  {
-   "id": "s-4z662ui6nyfuzjmsmyuwq6dxw",
-   "lg": "premier-league",
-   "ko": "2026-11-29T12:00:00Z",
-   "day": "2026-11-29",
-   "home": {
-    "id": "everton",
-    "name": "Everton",
-    "pts": 8,
-    "br": {
-     "form": 3,
-     "venueForm": 5,
-     "position": 0,
-     "h2h": 0
-    },
-    "form": "DDDWDLLWWL",
-    "venue": "WWLDLWDWLW",
-    "pos": 9,
-    "gf": 1,
-    "ga": 1.4
-   },
-   "away": {
-    "id": "liverpool",
-    "name": "Liverpool",
-    "pts": 19,
-    "br": {
-     "form": 6,
-     "venueForm": 5,
-     "position": 5,
-     "h2h": 3
-    },
-    "form": "DWDWLWWLWW",
-    "venue": "LLWLLDWWWW",
-    "pos": 4,
-    "gf": 1.6,
-    "ga": 0.8
-   },
-   "h2hPlayed": 4,
-   "pick": "A",
-   "margin": 11,
-   "xg": [
-    0.9,
-    1.5
-   ],
-   "goals": 2.4,
-   "over": false,
-   "thin": false,
-   "tuned": {
-    "pick": "A",
-    "margin": 1.5,
-    "pts": [
-     5,
-     6.5
-    ],
-    "br": [
-     {
-      "form": 2,
-      "venueForm": 3,
-      "position": 0,
-      "h2h": 0,
-      "home": 3
-     },
-     {
-      "form": 4,
-      "venueForm": 4,
-      "position": 5,
-      "h2h": 3
-     }
-    ]
-   },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-2bgfv57sdanoohwafzrmc56vo",
@@ -6749,7 +6601,79 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.693Z"
+  },
+  {
+   "id": "s-4z662ui6nyfuzjmsmyuwq6dxw",
+   "lg": "premier-league",
+   "ko": "2026-11-29T12:00:00Z",
+   "day": "2026-11-29",
+   "home": {
+    "id": "everton",
+    "name": "Everton",
+    "pts": 8,
+    "br": {
+     "form": 3,
+     "venueForm": 5,
+     "position": 0,
+     "h2h": 0
+    },
+    "form": "DDDWDLLWWL",
+    "venue": "WWLDLWDWLW",
+    "pos": 9,
+    "gf": 1,
+    "ga": 1.4
+   },
+   "away": {
+    "id": "liverpool",
+    "name": "Liverpool",
+    "pts": 19,
+    "br": {
+     "form": 6,
+     "venueForm": 5,
+     "position": 5,
+     "h2h": 3
+    },
+    "form": "DWDWLWWLWW",
+    "venue": "LLWLLDWWWW",
+    "pos": 4,
+    "gf": 1.6,
+    "ga": 0.8
+   },
+   "h2hPlayed": 4,
+   "pick": "A",
+   "margin": 11,
+   "xg": [
+    0.9,
+    1.5
+   ],
+   "goals": 2.4,
+   "over": false,
+   "thin": false,
+   "tuned": {
+    "pick": "A",
+    "margin": 1.5,
+    "pts": [
+     5,
+     6.5
+    ],
+    "br": [
+     {
+      "form": 2,
+      "venueForm": 3,
+      "position": 0,
+      "h2h": 0,
+      "home": 3
+     },
+     {
+      "form": 4,
+      "venueForm": 4,
+      "position": 5,
+      "h2h": 3
+     }
+    ]
+   },
+   "madeAt": "2026-11-26T22:51:47.693Z"
   },
   {
    "id": "s-87zh6v76e2qi936aoeivfnod0",
@@ -6821,7 +6745,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-7wwdaru2oqup96qd5ozj8he6s",
@@ -6893,7 +6817,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-4yhdm5euzrw8hrcpxudi4ww0k",
@@ -6969,7 +6893,7 @@
     "side": "H",
     "gap": 10.5
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-4ytv1n33103848wg5nyl9kro4",
@@ -7041,7 +6965,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.194Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-4ziiy3aasjo4n1tb3ebo2qmfo",
@@ -7113,7 +7037,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-517yiaqo5ate11vb50dzqjxg4",
@@ -7185,7 +7109,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-5vhumemh762xw41hp9u8qo4d0",
@@ -7257,7 +7181,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-2foz43pp8azp1tpzckjtgmec4",
@@ -7329,7 +7253,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-85r1f21n2z3fl4jjgg6xct3bo",
@@ -7401,7 +7325,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-4y511icl4rh1gdodgh8yfyuj8",
@@ -7473,7 +7397,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-5v73xhm6ojqmwezy25cvz19n8",
@@ -7545,7 +7469,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-7wlcxwc6oa977cs1p6pdpgdn8",
@@ -7621,7 +7545,7 @@
     "side": "H",
     "gap": 12
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-85fnbl36hquwode1zd712eb6c",
@@ -7693,7 +7617,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-47yejonkx20xff2rf7yq8o6c4",
@@ -7769,7 +7693,7 @@
     "side": "H",
     "gap": 11.5
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-5ullru99uf2jsniy3l7fpoxsk",
@@ -7841,7 +7765,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-7vchenc2hzyot3fxw6ni81ses",
@@ -7913,7 +7837,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-87nxaklkl2792bg2dubasrhn8",
@@ -7985,7 +7909,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.195Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   },
   {
    "id": "s-48wbpo38o1fuwlqq3vfimauc4",
@@ -8057,7 +7981,7 @@
      }
     ]
    },
-   "madeAt": "2026-11-26T07:28:36.196Z"
+   "madeAt": "2026-11-26T22:51:47.694Z"
   }
  ],
  "review": {
@@ -11981,27 +11905,27 @@
   ]
  },
  "overall": {
-  "n": 166,
-  "correct": 87,
-  "ouN": 166,
-  "ouCorrect": 87,
-  "pct": 52.4,
-  "ouPct": 52.4
+  "n": 167,
+  "correct": 88,
+  "ouN": 167,
+  "ouCorrect": 88,
+  "pct": 52.7,
+  "ouPct": 52.7
  },
  "overallTuned": {
-  "n": 166,
-  "correct": 95,
-  "ouN": 166,
-  "ouCorrect": 87,
-  "pct": 57.2,
-  "ouPct": 52.4
+  "n": 167,
+  "correct": 96,
+  "ouN": 167,
+  "ouCorrect": 88,
+  "pct": 57.5,
+  "ouPct": 52.7
  },
  "overallBankers": {
-  "n": 44,
-  "correct": 38,
-  "ouN": 44,
-  "ouCorrect": 22,
-  "pct": 86.4,
-  "ouPct": 50
+  "n": 45,
+  "correct": 39,
+  "ouN": 45,
+  "ouCorrect": 23,
+  "pct": 86.7,
+  "ouPct": 51.1
  }
 }

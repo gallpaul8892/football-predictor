@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "generatedAt": "2026-11-26T07:28:36.210Z",
+ "generatedAt": "2026-11-26T22:51:47.705Z",
  "tables": {
   "premier-league": [
    {
@@ -684,14 +684,14 @@
    },
    {
     "team": "huddersfield-town",
-    "P": 15,
-    "W": 8,
+    "P": 16,
+    "W": 9,
     "D": 5,
     "L": 2,
-    "GF": 28,
-    "GA": 13,
-    "GD": 15,
-    "Pts": 29,
+    "GF": 31,
+    "GA": 15,
+    "GD": 16,
+    "Pts": 32,
     "pos": 2,
     "divisionSize": 24,
     "div": 1,
@@ -969,13 +969,13 @@
    },
    {
     "team": "doncaster-rovers",
-    "P": 14,
+    "P": 15,
     "W": 3,
     "D": 4,
-    "L": 7,
-    "GF": 16,
-    "GA": 24,
-    "GD": -8,
+    "L": 8,
+    "GF": 18,
+    "GA": 27,
+    "GD": -9,
     "Pts": 13,
     "pos": 21,
     "divisionSize": 24,

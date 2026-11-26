@@ -1,16 +1,16 @@
 {
  "overall": {
-  "n": 166,
-  "correct": 87,
-  "ouN": 166,
-  "ouCorrect": 87,
-  "pct": 52.4,
-  "ouPct": 52.4
+  "n": 167,
+  "correct": 88,
+  "ouN": 167,
+  "ouCorrect": 88,
+  "pct": 52.7,
+  "ouPct": 52.7
  },
  "actualDist": {
   "H": 78,
   "D": 38,
-  "A": 50
+  "A": 51
  },
  "byLeague": {
   "national-league-ns": {
@@ -46,12 +46,12 @@
    "ouPct": 62.5
   },
   "league-one": {
-   "n": 16,
-   "correct": 7,
-   "ouN": 16,
-   "ouCorrect": 6,
-   "pct": 43.8,
-   "ouPct": 37.5
+   "n": 17,
+   "correct": 8,
+   "ouN": 17,
+   "ouCorrect": 7,
+   "pct": 47.1,
+   "ouPct": 41.2
   },
   "spanish-la-liga": {
    "n": 10,
@@ -136,12 +136,12 @@
    "ouPct": 41.2
   },
   "A": {
-   "n": 67,
-   "correct": 31,
-   "ouN": 67,
-   "ouCorrect": 36,
-   "pct": 46.3,
-   "ouPct": 53.7
+   "n": 68,
+   "correct": 32,
+   "ouN": 68,
+   "ouCorrect": 37,
+   "pct": 47.1,
+   "ouPct": 54.4
   }
  },
  "byMargin": {
@@ -162,12 +162,12 @@
    "ouPct": 41.2
   },
   "11+": {
-   "n": 77,
-   "correct": 48,
-   "ouN": 77,
-   "ouCorrect": 42,
-   "pct": 62.3,
-   "ouPct": 54.5
+   "n": 78,
+   "correct": 49,
+   "ouN": 78,
+   "ouCorrect": 43,
+   "pct": 62.8,
+   "ouPct": 55.1
   },
   "4-6": {
    "n": 30,
@@ -198,12 +198,12 @@
   },
   {
    "week": "2026-11-23",
-   "n": 47,
-   "correct": 22,
-   "ouN": 47,
-   "ouCorrect": 24,
-   "pct": 46.8,
-   "ouPct": 51.1
+   "n": 48,
+   "correct": 23,
+   "ouN": 48,
+   "ouCorrect": 25,
+   "pct": 47.9,
+   "ouPct": 52.1
   }
  ],
  "byTeam": {
@@ -1209,16 +1209,16 @@
    "backedPct": 50
   },
   "doncaster-rovers": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Doncaster Rovers",
    "lg": "league-one",
    "backedN": 0,
    "backedCorrect": 0,
-   "pct": 0,
-   "ouPct": 0,
+   "pct": 50,
+   "ouPct": 50,
    "backedPct": null
   },
   "burton-albion": {
@@ -1300,17 +1300,17 @@
    "backedPct": null
   },
   "huddersfield-town": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Huddersfield Town",
    "lg": "league-one",
-   "backedN": 1,
-   "backedCorrect": 0,
-   "pct": 0,
-   "ouPct": 0,
-   "backedPct": 0
+   "backedN": 2,
+   "backedCorrect": 1,
+   "pct": 50,
+   "ouPct": 50,
+   "backedPct": 50
   },
   "leicester-city": {
    "n": 2,
@@ -3278,17 +3278,17 @@
  },
  "tuned": {
   "overall": {
-   "n": 166,
-   "correct": 95,
-   "ouN": 166,
-   "ouCorrect": 87,
-   "pct": 57.2,
-   "ouPct": 52.4
+   "n": 167,
+   "correct": 96,
+   "ouN": 167,
+   "ouCorrect": 88,
+   "pct": 57.5,
+   "ouPct": 52.7
   },
   "actualDist": {
    "H": 78,
    "D": 38,
-   "A": 50
+   "A": 51
   },
   "byLeague": {
    "national-league-ns": {
@@ -3324,12 +3324,12 @@
     "ouPct": 62.5
    },
    "league-one": {
-    "n": 16,
-    "correct": 6,
-    "ouN": 16,
-    "ouCorrect": 6,
-    "pct": 37.5,
-    "ouPct": 37.5
+    "n": 17,
+    "correct": 7,
+    "ouN": 17,
+    "ouCorrect": 7,
+    "pct": 41.2,
+    "ouPct": 41.2
    },
    "spanish-la-liga": {
     "n": 10,
@@ -3406,12 +3406,12 @@
     "ouPct": 53.7
    },
    "A": {
-    "n": 47,
-    "correct": 24,
-    "ouN": 47,
-    "ouCorrect": 23,
-    "pct": 51.1,
-    "ouPct": 48.9
+    "n": 48,
+    "correct": 25,
+    "ouN": 48,
+    "ouCorrect": 24,
+    "pct": 52.1,
+    "ouPct": 50
    },
    "D": {
     "n": 11,
@@ -3440,12 +3440,12 @@
     "ouPct": 47.2
    },
    "7-10": {
-    "n": 37,
-    "correct": 25,
-    "ouN": 37,
-    "ouCorrect": 21,
-    "pct": 67.6,
-    "ouPct": 56.8
+    "n": 38,
+    "correct": 26,
+    "ouN": 38,
+    "ouCorrect": 22,
+    "pct": 68.4,
+    "ouPct": 57.9
    },
    "11+": {
     "n": 22,
@@ -3476,12 +3476,12 @@
    },
    {
     "week": "2026-11-23",
-    "n": 47,
-    "correct": 31,
-    "ouN": 47,
-    "ouCorrect": 24,
-    "pct": 66,
-    "ouPct": 51.1
+    "n": 48,
+    "correct": 32,
+    "ouN": 48,
+    "ouCorrect": 25,
+    "pct": 66.7,
+    "ouPct": 52.1
    }
   ],
   "byTeam": {
@@ -4487,16 +4487,16 @@
     "backedPct": 50
    },
    "doncaster-rovers": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Doncaster Rovers",
     "lg": "league-one",
     "backedN": 0,
     "backedCorrect": 0,
-    "pct": 0,
-    "ouPct": 0,
+    "pct": 50,
+    "ouPct": 50,
     "backedPct": null
    },
    "burton-albion": {
@@ -4578,17 +4578,17 @@
     "backedPct": null
    },
    "huddersfield-town": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Huddersfield Town",
     "lg": "league-one",
-    "backedN": 1,
-    "backedCorrect": 0,
-    "pct": 0,
-    "ouPct": 0,
-    "backedPct": 0
+    "backedN": 2,
+    "backedCorrect": 1,
+    "pct": 50,
+    "ouPct": 50,
+    "backedPct": 50
    },
    "leicester-city": {
     "n": 2,
@@ -6557,17 +6557,17 @@
  },
  "bankers": {
   "overall": {
-   "n": 44,
-   "correct": 38,
-   "ouN": 44,
-   "ouCorrect": 22,
-   "pct": 86.4,
-   "ouPct": 50
+   "n": 45,
+   "correct": 39,
+   "ouN": 45,
+   "ouCorrect": 23,
+   "pct": 86.7,
+   "ouPct": 51.1
   },
   "actualDist": {
    "H": 28,
    "D": 8,
-   "A": 8
+   "A": 9
   },
   "byLeague": {
    "german-bundesliga": {
@@ -6587,12 +6587,12 @@
     "ouPct": 50
    },
    "league-one": {
-    "n": 6,
-    "correct": 3,
-    "ouN": 6,
-    "ouCorrect": 1,
-    "pct": 50,
-    "ouPct": 16.7
+    "n": 7,
+    "correct": 4,
+    "ouN": 7,
+    "ouCorrect": 2,
+    "pct": 57.1,
+    "ouPct": 28.6
    },
    "premier-league": {
     "n": 4,
@@ -6661,12 +6661,12 @@
     "ouPct": 53.7
    },
    "A": {
-    "n": 3,
-    "correct": 3,
-    "ouN": 3,
-    "ouCorrect": 0,
+    "n": 4,
+    "correct": 4,
+    "ouN": 4,
+    "ouCorrect": 1,
     "pct": 100,
-    "ouPct": 0
+    "ouPct": 25
    }
   },
   "byMargin": {
@@ -6679,12 +6679,12 @@
     "ouPct": 40.9
    },
    "7-10": {
-    "n": 22,
-    "correct": 19,
-    "ouN": 22,
-    "ouCorrect": 13,
-    "pct": 86.4,
-    "ouPct": 59.1
+    "n": 23,
+    "correct": 20,
+    "ouN": 23,
+    "ouCorrect": 14,
+    "pct": 87,
+    "ouPct": 60.9
    }
   },
   "byWeek": [
@@ -6699,12 +6699,12 @@
    },
    {
     "week": "2026-11-23",
-    "n": 13,
-    "correct": 11,
-    "ouN": 13,
-    "ouCorrect": 8,
-    "pct": 84.6,
-    "ouPct": 61.5
+    "n": 14,
+    "correct": 12,
+    "ouN": 14,
+    "ouCorrect": 9,
+    "pct": 85.7,
+    "ouPct": 64.3
    }
   ],
   "byTeam": {
@@ -6982,16 +6982,16 @@
     "backedPct": 100
    },
    "doncaster-rovers": {
-    "n": 1,
-    "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 2,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Doncaster Rovers",
     "lg": "league-one",
     "backedN": 0,
     "backedCorrect": 0,
     "pct": 100,
-    "ouPct": 0,
+    "ouPct": 50,
     "backedPct": null
    },
    "sheffield-united": {
@@ -7021,17 +7021,17 @@
     "backedPct": null
    },
    "huddersfield-town": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Huddersfield Town",
     "lg": "league-one",
-    "backedN": 1,
-    "backedCorrect": 0,
-    "pct": 0,
-    "ouPct": 0,
-    "backedPct": 0
+    "backedN": 2,
+    "backedCorrect": 1,
+    "pct": 50,
+    "ouPct": 50,
+    "backedPct": 50
    },
    "leicester-city": {
     "n": 1,
@@ -7763,5 +7763,5 @@
    }
   }
  },
- "generatedAt": "2026-11-26T07:28:36.204Z"
+ "generatedAt": "2026-11-26T22:51:47.701Z"
 }
