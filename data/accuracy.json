@@ -1,16 +1,16 @@
 {
  "overall": {
-  "n": 167,
-  "correct": 88,
-  "ouN": 167,
-  "ouCorrect": 88,
-  "pct": 52.7,
-  "ouPct": 52.7
+  "n": 174,
+  "correct": 90,
+  "ouN": 174,
+  "ouCorrect": 93,
+  "pct": 51.7,
+  "ouPct": 53.4
  },
  "actualDist": {
-  "H": 78,
-  "D": 38,
-  "A": 51
+  "H": 81,
+  "D": 40,
+  "A": 53
  },
  "byLeague": {
   "national-league-ns": {
@@ -30,20 +30,20 @@
    "ouPct": 50
   },
   "german-bundesliga": {
-   "n": 9,
+   "n": 10,
    "correct": 5,
-   "ouN": 9,
-   "ouCorrect": 4,
-   "pct": 55.6,
-   "ouPct": 44.4
+   "ouN": 10,
+   "ouCorrect": 5,
+   "pct": 50,
+   "ouPct": 50
   },
   "national-league": {
-   "n": 24,
+   "n": 25,
    "correct": 14,
-   "ouN": 24,
-   "ouCorrect": 15,
-   "pct": 58.3,
-   "ouPct": 62.5
+   "ouN": 25,
+   "ouCorrect": 16,
+   "pct": 56,
+   "ouPct": 64
   },
   "league-one": {
    "n": 17,
@@ -54,20 +54,20 @@
    "ouPct": 41.2
   },
   "spanish-la-liga": {
-   "n": 10,
-   "correct": 4,
-   "ouN": 10,
-   "ouCorrect": 4,
-   "pct": 40,
-   "ouPct": 40
+   "n": 11,
+   "correct": 5,
+   "ouN": 11,
+   "ouCorrect": 5,
+   "pct": 45.5,
+   "ouPct": 45.5
   },
   "championship": {
-   "n": 24,
+   "n": 25,
    "correct": 15,
-   "ouN": 24,
+   "ouN": 25,
    "ouCorrect": 11,
-   "pct": 62.5,
-   "ouPct": 45.8
+   "pct": 60,
+   "ouPct": 44
   },
   "league-two": {
    "n": 14,
@@ -78,20 +78,20 @@
    "ouPct": 57.1
   },
   "premier-league": {
-   "n": 10,
+   "n": 11,
    "correct": 4,
-   "ouN": 10,
-   "ouCorrect": 3,
-   "pct": 40,
-   "ouPct": 30
+   "ouN": 11,
+   "ouCorrect": 4,
+   "pct": 36.4,
+   "ouPct": 36.4
   },
   "italian-serie-a": {
-   "n": 10,
+   "n": 11,
    "correct": 7,
-   "ouN": 10,
+   "ouN": 11,
    "ouCorrect": 7,
-   "pct": 70,
-   "ouPct": 70
+   "pct": 63.6,
+   "ouPct": 63.6
   },
   "scottish-premiership": {
    "n": 8,
@@ -116,74 +116,82 @@
    "ouCorrect": 2,
    "pct": 40,
    "ouPct": 40
+  },
+  "portuguese-primeira-liga": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "pct": 100,
+   "ouPct": 100
   }
  },
  "byPick": {
   "H": {
-   "n": 82,
+   "n": 83,
    "correct": 52,
-   "ouN": 82,
-   "ouCorrect": 44,
-   "pct": 63.4,
-   "ouPct": 53.7
+   "ouN": 83,
+   "ouCorrect": 45,
+   "pct": 62.7,
+   "ouPct": 54.2
   },
   "D": {
-   "n": 17,
+   "n": 18,
    "correct": 4,
-   "ouN": 17,
+   "ouN": 18,
    "ouCorrect": 7,
-   "pct": 23.5,
-   "ouPct": 41.2
+   "pct": 22.2,
+   "ouPct": 38.9
   },
   "A": {
-   "n": 68,
-   "correct": 32,
-   "ouN": 68,
-   "ouCorrect": 37,
-   "pct": 47.1,
-   "ouPct": 54.4
+   "n": 73,
+   "correct": 34,
+   "ouN": 73,
+   "ouCorrect": 41,
+   "pct": 46.6,
+   "ouPct": 56.2
   }
  },
  "byMargin": {
   "7-10": {
-   "n": 29,
+   "n": 30,
    "correct": 13,
-   "ouN": 29,
-   "ouCorrect": 15,
-   "pct": 44.8,
-   "ouPct": 51.7
+   "ouN": 30,
+   "ouCorrect": 16,
+   "pct": 43.3,
+   "ouPct": 53.3
   },
   "0-1": {
-   "n": 17,
+   "n": 18,
    "correct": 4,
-   "ouN": 17,
+   "ouN": 18,
    "ouCorrect": 7,
-   "pct": 23.5,
-   "ouPct": 41.2
+   "pct": 22.2,
+   "ouPct": 38.9
   },
   "11+": {
-   "n": 78,
+   "n": 81,
    "correct": 49,
-   "ouN": 78,
-   "ouCorrect": 43,
-   "pct": 62.8,
-   "ouPct": 55.1
+   "ouN": 81,
+   "ouCorrect": 45,
+   "pct": 60.5,
+   "ouPct": 55.6
   },
   "4-6": {
-   "n": 30,
-   "correct": 14,
-   "ouN": 30,
-   "ouCorrect": 20,
-   "pct": 46.7,
-   "ouPct": 66.7
+   "n": 31,
+   "correct": 15,
+   "ouN": 31,
+   "ouCorrect": 21,
+   "pct": 48.4,
+   "ouPct": 67.7
   },
   "2-3": {
-   "n": 13,
-   "correct": 8,
-   "ouN": 13,
-   "ouCorrect": 3,
-   "pct": 61.5,
-   "ouPct": 23.1
+   "n": 14,
+   "correct": 9,
+   "ouN": 14,
+   "ouCorrect": 4,
+   "pct": 64.3,
+   "ouPct": 28.6
   }
  },
  "byWeek": [
@@ -198,12 +206,12 @@
   },
   {
    "week": "2026-11-23",
-   "n": 48,
-   "correct": 23,
-   "ouN": 48,
-   "ouCorrect": 25,
-   "pct": 47.9,
-   "ouPct": 52.1
+   "n": 55,
+   "correct": 25,
+   "ouN": 55,
+   "ouCorrect": 30,
+   "pct": 45.5,
+   "ouPct": 54.5
   }
  ],
  "byTeam": {
@@ -520,15 +528,15 @@
    "backedPct": 0
   },
   "southampton": {
-   "n": 2,
+   "n": 3,
    "correct": 1,
-   "ouN": 2,
+   "ouN": 3,
    "ouCorrect": 0,
    "name": "Southampton",
    "lg": "championship",
    "backedN": 2,
    "backedCorrect": 1,
-   "pct": 50,
+   "pct": 33.3,
    "ouPct": 0,
    "backedPct": 50
   },
@@ -858,16 +866,16 @@
    "backedPct": 100
   },
   "borussia-moenchengladbach": {
-   "n": 1,
+   "n": 2,
    "correct": 1,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Borussia M'gladbach",
    "lg": "german-bundesliga",
    "backedN": 0,
    "backedCorrect": 0,
-   "pct": 100,
-   "ouPct": 0,
+   "pct": 50,
+   "ouPct": 50,
    "backedPct": null
   },
   "borussia-dortmund": {
@@ -1170,16 +1178,16 @@
    "backedPct": 50
   },
   "middlesbrough": {
-   "n": 2,
+   "n": 3,
    "correct": 2,
-   "ouN": 2,
+   "ouN": 3,
    "ouCorrect": 1,
    "name": "Middlesbrough",
    "lg": "championship",
    "backedN": 2,
    "backedCorrect": 2,
-   "pct": 100,
-   "ouPct": 50,
+   "pct": 66.7,
+   "ouPct": 33.3,
    "backedPct": 100
   },
   "bristol-city": {
@@ -2223,16 +2231,16 @@
    "backedPct": 100
   },
   "nottingham-forest": {
-   "n": 1,
+   "n": 2,
    "correct": 1,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Nottingham Forest",
    "lg": "premier-league",
    "backedN": 0,
    "backedCorrect": 0,
-   "pct": 100,
-   "ouPct": 0,
+   "pct": 50,
+   "ouPct": 50,
    "backedPct": null
   },
   "aston-villa": {
@@ -2262,13 +2270,13 @@
    "backedPct": null
   },
   "chelsea": {
-   "n": 1,
+   "n": 2,
    "correct": 0,
-   "ouN": 1,
-   "ouCorrect": 1,
+   "ouN": 2,
+   "ouCorrect": 2,
    "name": "Chelsea",
    "lg": "premier-league",
-   "backedN": 1,
+   "backedN": 2,
    "backedCorrect": 0,
    "pct": 0,
    "ouPct": 100,
@@ -2353,16 +2361,16 @@
    "backedPct": 100
   },
   "scunthorpe-united": {
-   "n": 2,
+   "n": 3,
    "correct": 1,
-   "ouN": 2,
-   "ouCorrect": 1,
+   "ouN": 3,
+   "ouCorrect": 2,
    "name": "Scunthorpe United",
    "lg": "national-league",
    "backedN": 1,
    "backedCorrect": 0,
-   "pct": 50,
-   "ouPct": 50,
+   "pct": 33.3,
+   "ouPct": 66.7,
    "backedPct": 0
   },
   "barrow": {
@@ -2496,17 +2504,17 @@
    "backedPct": null
   },
   "wealdstone": {
-   "n": 2,
+   "n": 3,
    "correct": 1,
-   "ouN": 2,
-   "ouCorrect": 2,
+   "ouN": 3,
+   "ouCorrect": 3,
    "name": "Wealdstone",
    "lg": "national-league",
-   "backedN": 0,
+   "backedN": 1,
    "backedCorrect": 0,
-   "pct": 50,
+   "pct": 33.3,
    "ouPct": 100,
-   "backedPct": null
+   "backedPct": 0
   },
   "hornchurch": {
    "n": 2,
@@ -2847,16 +2855,16 @@
    "backedPct": 100
   },
   "venezia": {
-   "n": 1,
+   "n": 2,
    "correct": 1,
-   "ouN": 1,
+   "ouN": 2,
    "ouCorrect": 1,
    "name": "Venezia",
    "lg": "italian-serie-a",
    "backedN": 0,
    "backedCorrect": 0,
-   "pct": 100,
-   "ouPct": 100,
+   "pct": 50,
+   "ouPct": 50,
    "backedPct": null
   },
   "burnley": {
@@ -2938,13 +2946,13 @@
    "backedPct": 0
   },
   "bologna": {
-   "n": 1,
+   "n": 2,
    "correct": 0,
-   "ouN": 1,
+   "ouN": 2,
    "ouCorrect": 0,
    "name": "Bologna",
    "lg": "italian-serie-a",
-   "backedN": 1,
+   "backedN": 2,
    "backedCorrect": 0,
    "pct": 0,
    "ouPct": 0,
@@ -3016,17 +3024,17 @@
    "backedPct": 0
   },
   "racing-santander": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
-   "ouCorrect": 1,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
+   "ouCorrect": 2,
    "name": "Racing de Santander",
    "lg": "spanish-la-liga",
-   "backedN": 0,
-   "backedCorrect": 0,
-   "pct": 0,
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 50,
    "ouPct": 100,
-   "backedPct": null
+   "backedPct": 100
   },
   "real-sociedad": {
    "n": 1,
@@ -3068,17 +3076,17 @@
    "backedPct": null
   },
   "werder-bremen": {
-   "n": 1,
+   "n": 2,
    "correct": 1,
-   "ouN": 1,
-   "ouCorrect": 1,
+   "ouN": 2,
+   "ouCorrect": 2,
    "name": "Werder Bremen",
    "lg": "german-bundesliga",
-   "backedN": 1,
+   "backedN": 2,
    "backedCorrect": 1,
-   "pct": 100,
+   "pct": 50,
    "ouPct": 100,
-   "backedPct": 100
+   "backedPct": 50
   },
   "hamburg": {
    "n": 1,
@@ -3250,16 +3258,16 @@
    "backedPct": null
   },
   "levante": {
-   "n": 1,
-   "correct": 0,
-   "ouN": 1,
-   "ouCorrect": 0,
+   "n": 2,
+   "correct": 1,
+   "ouN": 2,
+   "ouCorrect": 1,
    "name": "Levante",
    "lg": "spanish-la-liga",
    "backedN": 1,
    "backedCorrect": 0,
-   "pct": 0,
-   "ouPct": 0,
+   "pct": 50,
+   "ouPct": 50,
    "backedPct": 0
   },
   "elche": {
@@ -3274,21 +3282,47 @@
    "pct": 0,
    "ouPct": 0,
    "backedPct": null
+  },
+  "7kfx3xpj2c2wxinsyi16i9gaz": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Marítimo",
+   "lg": "portuguese-primeira-liga",
+   "backedN": 0,
+   "backedCorrect": 0,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": null
+  },
+  "99xu9ofwhlbp0lg1j4eiplgrg": {
+   "n": 1,
+   "correct": 1,
+   "ouN": 1,
+   "ouCorrect": 1,
+   "name": "Nacional",
+   "lg": "portuguese-primeira-liga",
+   "backedN": 1,
+   "backedCorrect": 1,
+   "pct": 100,
+   "ouPct": 100,
+   "backedPct": 100
   }
  },
  "tuned": {
   "overall": {
-   "n": 167,
-   "correct": 96,
-   "ouN": 167,
-   "ouCorrect": 88,
-   "pct": 57.5,
-   "ouPct": 52.7
+   "n": 174,
+   "correct": 98,
+   "ouN": 174,
+   "ouCorrect": 93,
+   "pct": 56.3,
+   "ouPct": 53.4
   },
   "actualDist": {
-   "H": 78,
-   "D": 38,
-   "A": 51
+   "H": 81,
+   "D": 40,
+   "A": 53
   },
   "byLeague": {
    "national-league-ns": {
@@ -3308,20 +3342,20 @@
     "ouPct": 50
    },
    "german-bundesliga": {
-    "n": 9,
+    "n": 10,
     "correct": 6,
-    "ouN": 9,
-    "ouCorrect": 4,
-    "pct": 66.7,
-    "ouPct": 44.4
+    "ouN": 10,
+    "ouCorrect": 5,
+    "pct": 60,
+    "ouPct": 50
    },
    "national-league": {
-    "n": 24,
+    "n": 25,
     "correct": 14,
-    "ouN": 24,
-    "ouCorrect": 15,
-    "pct": 58.3,
-    "ouPct": 62.5
+    "ouN": 25,
+    "ouCorrect": 16,
+    "pct": 56,
+    "ouPct": 64
    },
    "league-one": {
     "n": 17,
@@ -3332,20 +3366,20 @@
     "ouPct": 41.2
    },
    "spanish-la-liga": {
-    "n": 10,
-    "correct": 5,
-    "ouN": 10,
-    "ouCorrect": 4,
-    "pct": 50,
-    "ouPct": 40
+    "n": 11,
+    "correct": 6,
+    "ouN": 11,
+    "ouCorrect": 5,
+    "pct": 54.5,
+    "ouPct": 45.5
    },
    "championship": {
-    "n": 24,
-    "correct": 18,
-    "ouN": 24,
+    "n": 25,
+    "correct": 19,
+    "ouN": 25,
     "ouCorrect": 11,
-    "pct": 75,
-    "ouPct": 45.8
+    "pct": 76,
+    "ouPct": 44
    },
    "league-two": {
     "n": 14,
@@ -3356,20 +3390,20 @@
     "ouPct": 57.1
    },
    "premier-league": {
-    "n": 10,
+    "n": 11,
     "correct": 5,
-    "ouN": 10,
-    "ouCorrect": 3,
-    "pct": 50,
-    "ouPct": 30
+    "ouN": 11,
+    "ouCorrect": 4,
+    "pct": 45.5,
+    "ouPct": 36.4
    },
    "italian-serie-a": {
-    "n": 10,
+    "n": 11,
     "correct": 8,
-    "ouN": 10,
+    "ouN": 11,
     "ouCorrect": 7,
-    "pct": 80,
-    "ouPct": 70
+    "pct": 72.7,
+    "ouPct": 63.6
    },
    "scottish-premiership": {
     "n": 8,
@@ -3394,50 +3428,58 @@
     "ouCorrect": 2,
     "pct": 60,
     "ouPct": 40
+   },
+   "portuguese-primeira-liga": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "pct": 0,
+    "ouPct": 100
    }
   },
   "byPick": {
    "H": {
-    "n": 108,
-    "correct": 67,
-    "ouN": 108,
-    "ouCorrect": 58,
-    "pct": 62,
-    "ouPct": 53.7
+    "n": 110,
+    "correct": 68,
+    "ouN": 110,
+    "ouCorrect": 59,
+    "pct": 61.8,
+    "ouPct": 53.6
    },
    "A": {
-    "n": 48,
-    "correct": 25,
-    "ouN": 48,
-    "ouCorrect": 24,
-    "pct": 52.1,
-    "ouPct": 50
+    "n": 52,
+    "correct": 26,
+    "ouN": 52,
+    "ouCorrect": 27,
+    "pct": 50,
+    "ouPct": 51.9
    },
    "D": {
-    "n": 11,
+    "n": 12,
     "correct": 4,
-    "ouN": 11,
-    "ouCorrect": 6,
-    "pct": 36.4,
-    "ouPct": 54.5
+    "ouN": 12,
+    "ouCorrect": 7,
+    "pct": 33.3,
+    "ouPct": 58.3
    }
   },
   "byMargin": {
    "4-6": {
-    "n": 44,
+    "n": 45,
     "correct": 24,
-    "ouN": 44,
+    "ouN": 45,
     "ouCorrect": 23,
-    "pct": 54.5,
-    "ouPct": 52.3
+    "pct": 53.3,
+    "ouPct": 51.1
    },
    "2-3": {
-    "n": 36,
-    "correct": 18,
-    "ouN": 36,
-    "ouCorrect": 17,
-    "pct": 50,
-    "ouPct": 47.2
+    "n": 39,
+    "correct": 19,
+    "ouN": 39,
+    "ouCorrect": 20,
+    "pct": 48.7,
+    "ouPct": 51.3
    },
    "7-10": {
     "n": 38,
@@ -3448,20 +3490,20 @@
     "ouPct": 57.9
    },
    "11+": {
-    "n": 22,
+    "n": 23,
     "correct": 15,
-    "ouN": 22,
-    "ouCorrect": 9,
-    "pct": 68.2,
-    "ouPct": 40.9
+    "ouN": 23,
+    "ouCorrect": 10,
+    "pct": 65.2,
+    "ouPct": 43.5
    },
    "0-1": {
-    "n": 27,
-    "correct": 13,
-    "ouN": 27,
-    "ouCorrect": 17,
-    "pct": 48.1,
-    "ouPct": 63
+    "n": 29,
+    "correct": 14,
+    "ouN": 29,
+    "ouCorrect": 18,
+    "pct": 48.3,
+    "ouPct": 62.1
    }
   },
   "byWeek": [
@@ -3476,12 +3518,12 @@
    },
    {
     "week": "2026-11-23",
-    "n": 48,
-    "correct": 32,
-    "ouN": 48,
-    "ouCorrect": 25,
-    "pct": 66.7,
-    "ouPct": 52.1
+    "n": 55,
+    "correct": 34,
+    "ouN": 55,
+    "ouCorrect": 30,
+    "pct": 61.8,
+    "ouPct": 54.5
    }
   ],
   "byTeam": {
@@ -3798,14 +3840,14 @@
     "backedPct": 0
    },
    "southampton": {
-    "n": 2,
-    "correct": 2,
-    "ouN": 2,
+    "n": 3,
+    "correct": 3,
+    "ouN": 3,
     "ouCorrect": 0,
     "name": "Southampton",
     "lg": "championship",
-    "backedN": 1,
-    "backedCorrect": 1,
+    "backedN": 2,
+    "backedCorrect": 2,
     "pct": 100,
     "ouPct": 0,
     "backedPct": 100
@@ -4136,16 +4178,16 @@
     "backedPct": 100
    },
    "borussia-moenchengladbach": {
-    "n": 1,
+    "n": 2,
     "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Borussia M'gladbach",
     "lg": "german-bundesliga",
     "backedN": 0,
     "backedCorrect": 0,
-    "pct": 100,
-    "ouPct": 0,
+    "pct": 50,
+    "ouPct": 50,
     "backedPct": null
    },
    "borussia-dortmund": {
@@ -4448,16 +4490,16 @@
     "backedPct": 100
    },
    "middlesbrough": {
-    "n": 2,
-    "correct": 2,
-    "ouN": 2,
+    "n": 3,
+    "correct": 3,
+    "ouN": 3,
     "ouCorrect": 1,
     "name": "Middlesbrough",
     "lg": "championship",
     "backedN": 2,
     "backedCorrect": 2,
     "pct": 100,
-    "ouPct": 50,
+    "ouPct": 33.3,
     "backedPct": 100
    },
    "bristol-city": {
@@ -5501,16 +5543,16 @@
     "backedPct": 100
    },
    "nottingham-forest": {
-    "n": 1,
+    "n": 2,
     "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Nottingham Forest",
     "lg": "premier-league",
     "backedN": 0,
     "backedCorrect": 0,
-    "pct": 100,
-    "ouPct": 0,
+    "pct": 50,
+    "ouPct": 50,
     "backedPct": null
    },
    "aston-villa": {
@@ -5540,13 +5582,13 @@
     "backedPct": null
    },
    "chelsea": {
-    "n": 1,
+    "n": 2,
     "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 1,
+    "ouN": 2,
+    "ouCorrect": 2,
     "name": "Chelsea",
     "lg": "premier-league",
-    "backedN": 1,
+    "backedN": 2,
     "backedCorrect": 0,
     "pct": 0,
     "ouPct": 100,
@@ -5631,16 +5673,16 @@
     "backedPct": 100
    },
    "scunthorpe-united": {
-    "n": 2,
+    "n": 3,
     "correct": 1,
-    "ouN": 2,
-    "ouCorrect": 1,
+    "ouN": 3,
+    "ouCorrect": 2,
     "name": "Scunthorpe United",
     "lg": "national-league",
     "backedN": 1,
     "backedCorrect": 0,
-    "pct": 50,
-    "ouPct": 50,
+    "pct": 33.3,
+    "ouPct": 66.7,
     "backedPct": 0
    },
    "barrow": {
@@ -5774,17 +5816,17 @@
     "backedPct": null
    },
    "wealdstone": {
-    "n": 2,
+    "n": 3,
     "correct": 2,
-    "ouN": 2,
-    "ouCorrect": 2,
+    "ouN": 3,
+    "ouCorrect": 3,
     "name": "Wealdstone",
     "lg": "national-league",
-    "backedN": 1,
+    "backedN": 2,
     "backedCorrect": 1,
-    "pct": 100,
+    "pct": 66.7,
     "ouPct": 100,
-    "backedPct": 100
+    "backedPct": 50
    },
    "hornchurch": {
     "n": 2,
@@ -6125,16 +6167,16 @@
     "backedPct": 100
    },
    "venezia": {
-    "n": 1,
+    "n": 2,
     "correct": 1,
-    "ouN": 1,
+    "ouN": 2,
     "ouCorrect": 1,
     "name": "Venezia",
     "lg": "italian-serie-a",
     "backedN": 0,
     "backedCorrect": 0,
-    "pct": 100,
-    "ouPct": 100,
+    "pct": 50,
+    "ouPct": 50,
     "backedPct": null
    },
    "burnley": {
@@ -6216,13 +6258,13 @@
     "backedPct": 0
    },
    "bologna": {
-    "n": 1,
+    "n": 2,
     "correct": 0,
-    "ouN": 1,
+    "ouN": 2,
     "ouCorrect": 0,
     "name": "Bologna",
     "lg": "italian-serie-a",
-    "backedN": 1,
+    "backedN": 2,
     "backedCorrect": 0,
     "pct": 0,
     "ouPct": 0,
@@ -6294,17 +6336,17 @@
     "backedPct": null
    },
    "racing-santander": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 1,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 2,
     "name": "Racing de Santander",
     "lg": "spanish-la-liga",
-    "backedN": 0,
-    "backedCorrect": 0,
-    "pct": 0,
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 50,
     "ouPct": 100,
-    "backedPct": null
+    "backedPct": 100
    },
    "real-sociedad": {
     "n": 1,
@@ -6346,17 +6388,17 @@
     "backedPct": null
    },
    "werder-bremen": {
-    "n": 1,
+    "n": 2,
     "correct": 1,
-    "ouN": 1,
-    "ouCorrect": 1,
+    "ouN": 2,
+    "ouCorrect": 2,
     "name": "Werder Bremen",
     "lg": "german-bundesliga",
-    "backedN": 1,
+    "backedN": 2,
     "backedCorrect": 1,
-    "pct": 100,
+    "pct": 50,
     "ouPct": 100,
-    "backedPct": 100
+    "backedPct": 50
    },
    "hamburg": {
     "n": 1,
@@ -6528,16 +6570,16 @@
     "backedPct": null
    },
    "levante": {
-    "n": 1,
-    "correct": 0,
-    "ouN": 1,
-    "ouCorrect": 0,
+    "n": 2,
+    "correct": 1,
+    "ouN": 2,
+    "ouCorrect": 1,
     "name": "Levante",
     "lg": "spanish-la-liga",
     "backedN": 1,
     "backedCorrect": 0,
-    "pct": 0,
-    "ouPct": 0,
+    "pct": 50,
+    "ouPct": 50,
     "backedPct": 0
    },
    "elche": {
@@ -6552,31 +6594,57 @@
     "pct": 0,
     "ouPct": 0,
     "backedPct": null
+   },
+   "7kfx3xpj2c2wxinsyi16i9gaz": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Marítimo",
+    "lg": "portuguese-primeira-liga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
+   },
+   "99xu9ofwhlbp0lg1j4eiplgrg": {
+    "n": 1,
+    "correct": 0,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Nacional",
+    "lg": "portuguese-primeira-liga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 0,
+    "ouPct": 100,
+    "backedPct": null
    }
   }
  },
  "bankers": {
   "overall": {
-   "n": 45,
-   "correct": 39,
-   "ouN": 45,
-   "ouCorrect": 23,
-   "pct": 86.7,
-   "ouPct": 51.1
+   "n": 46,
+   "correct": 40,
+   "ouN": 46,
+   "ouCorrect": 24,
+   "pct": 87,
+   "ouPct": 52.2
   },
   "actualDist": {
    "H": 28,
-   "D": 8,
+   "D": 9,
    "A": 9
   },
   "byLeague": {
    "german-bundesliga": {
-    "n": 2,
-    "correct": 2,
-    "ouN": 2,
-    "ouCorrect": 1,
+    "n": 3,
+    "correct": 3,
+    "ouN": 3,
+    "ouCorrect": 2,
     "pct": 100,
-    "ouPct": 50
+    "ouPct": 66.7
    },
    "championship": {
     "n": 10,
@@ -6653,12 +6721,12 @@
   },
   "byPick": {
    "H": {
-    "n": 41,
-    "correct": 35,
-    "ouN": 41,
-    "ouCorrect": 22,
-    "pct": 85.4,
-    "ouPct": 53.7
+    "n": 42,
+    "correct": 36,
+    "ouN": 42,
+    "ouCorrect": 23,
+    "pct": 85.7,
+    "ouPct": 54.8
    },
    "A": {
     "n": 4,
@@ -6671,12 +6739,12 @@
   },
   "byMargin": {
    "11+": {
-    "n": 22,
-    "correct": 19,
-    "ouN": 22,
-    "ouCorrect": 9,
-    "pct": 86.4,
-    "ouPct": 40.9
+    "n": 23,
+    "correct": 20,
+    "ouN": 23,
+    "ouCorrect": 10,
+    "pct": 87,
+    "ouPct": 43.5
    },
    "7-10": {
     "n": 23,
@@ -6699,12 +6767,12 @@
    },
    {
     "week": "2026-11-23",
-    "n": 14,
-    "correct": 12,
-    "ouN": 14,
-    "ouCorrect": 9,
-    "pct": 85.7,
-    "ouPct": 64.3
+    "n": 15,
+    "correct": 13,
+    "ouN": 15,
+    "ouCorrect": 10,
+    "pct": 86.7,
+    "ouPct": 66.7
    }
   ],
   "byTeam": {
@@ -7760,8 +7828,34 @@
     "pct": 100,
     "ouPct": 100,
     "backedPct": null
+   },
+   "werder-bremen": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Werder Bremen",
+    "lg": "german-bundesliga",
+    "backedN": 1,
+    "backedCorrect": 1,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": 100
+   },
+   "borussia-moenchengladbach": {
+    "n": 1,
+    "correct": 1,
+    "ouN": 1,
+    "ouCorrect": 1,
+    "name": "Borussia M'gladbach",
+    "lg": "german-bundesliga",
+    "backedN": 0,
+    "backedCorrect": 0,
+    "pct": 100,
+    "ouPct": 100,
+    "backedPct": null
    }
   }
  },
- "generatedAt": "2026-11-27T07:28:22.571Z"
+ "generatedAt": "2026-11-27T22:51:55.543Z"
 }
